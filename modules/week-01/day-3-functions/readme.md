@@ -2,7 +2,7 @@
 
 ![Ice Cream Sandwich Machine](./function.gif)
 
-*A **function** is similar to a machine that in that it receives an input (ice cream and cookies), processes the input (smash!), and creates a resulting output in a consistent manner (tasty ice cream sandwiches).*
+A **function** is similar to a machine that in that it receives an input (ice cream and cookies), processes the input (smash!), and creates a resulting output in a consistent manner (tasty ice cream sandwiches).
 
 ##Goals
 
