@@ -11,7 +11,7 @@
 
 * Only use conditional statements; no iterators or functions
 
-##Setup
+##Tips
 
 * Create a new javascript file and run it with node.
 * Inspect `process.arv` to see an array of arguments passed into the file.
@@ -21,12 +21,12 @@
 
 
 
-##Temperature calculator
+###1. Temperature calculator
 User should be able to...
 
 * Pass a temperature into the program
 
-* Receive an output based on the temperature provided. Between 60-80 is a nice day; otherwise, it's too hot or too cold. 
+* Receive an output based on the temperature provided. Anything between 60 to 80 degrees is a nice day; otherwise, it's too hot or too cold. 
 
 ```
 node tempCalc.js 78
@@ -43,8 +43,10 @@ node tempCalc.js 48
 => Brrrr... no, get back inside!
 ```
 
+Hint: You may have to recast your temperature's datatype to be an integer.
 
-##The Bridge of Death
+
+###2. The Bridge of Death
 Grail-seeker should be able to...
 
 * Give answers the questions:
@@ -78,7 +80,7 @@ Grail-seeker should be able to...
 
 
 
-##Rock Paper Scissors
+###3. Rock Paper Scissors
 Player should be able to...
 
 * Choose rock, paper, or scissors
