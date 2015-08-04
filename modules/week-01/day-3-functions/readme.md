@@ -286,10 +286,11 @@ Functions can access and modify global variables at will.  A program cannot acce
 
 
 #Miscellaneous Function Fun
-It is good practice to test your functions to ensure consistent results.  One way to ensure consistency is to compare function output with expected output.  
+It is good practice to test your functions and parameters to ensure consistent results.  One way to ensure consistency is to compare function output with expected output.  This allows a function to take actions necesary to inform the user of relevant information if tests are not passed.  These checks are known as *assertions*. 
+
 
 ```
-	Insert Awesome function and use an assertion with th function
+	Insert Awesome function and use an assertion with said awesome function
 	
 ```
   
@@ -301,4 +302,66 @@ It is good practice to test your functions to ensure consistent results.  One wa
 	as well as some common math algorithms and maybe a few tricky
 	String manipulation examples.
 ```
+
+#Code Challenges
+	
+
+##1.  You're a Thermometer, Harry!
+Create two functions that convert temperatures from Celsius to Fahrenheit, and Fahrenheit to Celsius.  The functions should output the converted result to the console using the `console.log()` method.  The below formulae will convert the temperatures, respectively.
+
+**Converting Celsius to Fahrenheit**
+
+`°Fahrenheit = °Celsius × 9/5 + 32`
+
+**Converting Fahrenheit to Celsius**
+
+`°Celsius = (Farenheit - 32) × 5/9`
+
+Here are the expected function prototypes: 
+
+`function convertToCelsius(temp);`
+
+`function convertToFahrenheit(temp);`
+##Thermometer Stretch Challenge
+Combine both functions above into one function.  Manipulate the functions to take a second parameter which would inform the function the temperature *type* it is receiving.  
+
+Also implement the Kelvin temperature scale in your function as a choice.  A third parameter might be needed to inform the function  what output temperature type is desired.
+
+**Converting Celsius to Kelvin**
+
+`Kelvin = Celsius + 273.15`
+
+**Converting Fahrenheit to Kelvin**
+
+`Kelvin = (Fahrenheit + 459.67) × 5/9`
+
+**Converting Kelvin to Celsius **
+
+`Celsius = Kelvin - 273.15`
+
+**Converting Kelvin to Farenheit **
+
+`Fahrenheit = Kelvin × 9/5 - 459.67`
+
+##The Great Comparator
+Create a function that compares two integers, a and b, and returns a numerical value indicating if a is greater, less than, or equal to b.
+
+Specs:
+
+* Use assertions to validate that the parameters passed into the function are integers
+* If a is grater than b, return a positive number
+* If a is less than b, return a negative number
+* If a and b are equal, return a zero 
+
+Here's an expected function prototype:
+ 
+`function compare(a, b);`
+
+##Comparator Stretch Goal
+Extend your function to accept Strings as well as Integers.  The function will need to detect the type of parameter passed in and determine what logic will need to be performed. Assume that a and b will be both Strings or both Integers. Use the above Specs as a guideline for your implementation.  The same function prototype will apply.
+
+
+
+
+
 
