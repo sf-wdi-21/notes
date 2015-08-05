@@ -39,7 +39,46 @@ Run `brew install node` in your terminal. Wait for the download to finish and ty
 
 ---
 
-###For Linux Users
+###Google Chrome
+
+**Why?**
+The Chrome Browser has built-in web-developer features that we will use throughout the cohort.
+
+**How?** 1. [Download](https://www.google.com/chrome/browser/desktop/index.html) the latest version of Google Chrome here.  
+2.  Accept the Terms and Conditions, and open the downloaded googlechrome.dmg file.  
+3.  A window will open showing the Chrome icon and your Applications folder.  Drag the Chrome icon to the Applications folder.  
+4.  Launch the Chrome app from the Applications folder.  
+5.  Right click the open Chrome icon on your dock, mouseover Options, and choose Keep In Dock.  You'll be using this app a lot!
+
+###Slack
+
+**Why?**
+Slack is a great communication tool to ask questions to the whole class, keep in contact with your team mates, and share documents.  
+
+**How?** You can download the Slack OSX app from the itunes store OR you can [Download it here.](https://slack.com/ssb/download-osx)
+
+*If you downloaded the file instead of installing via the itunes store, follow the instructions below.*
+
+1.  Unzip the slack_1.1.3.zip file.
+2.  Move the Slack app that has appeared into your Applications folder.  
+3.  Launch the Slack app from the Applications folder.
+4.  Right click the open Slack icon on your dock, mousover Options, and choose Keep in Dock.
+5.  Follow the instructions within the Slack app to get connected to the right channels for WDI-21.
+
+###Spectacle
+***Why?*** Spectacle manages your desktop layout.  A developer has multiple windows and multiple instances of the same applications running at any given time, and this app allows you to focus on productivity rather than managing your screen real estate.
+
+***How?*** [Download the app here](https://s3.amazonaws.com/spectacle/downloads/Spectacle+0.8.10.zip) or go to [spectacleapp.com](spectacleapp.com)
+
+The install instructions are identical to install Slack, minus the channel joining bits.
+
+1.  Unzip the Spectacle+08.01.zip file.
+2.  Move the Spectacle app that has appeared into your Applications folder.  
+3.  Launch the Spectacle app from the Applications folder.
+4.  You'll see a pair of glasses up above in your Desktop Bar next to your time, battery, etc.  
+5.  Slack works in the background automagically to save you dock space!
+
+##For Linux Users
 
 You may use Linux in WDI as it is similar to Mac OSX (they are both UNIX-based). You may have to be more resourceful in terms of installing your tools at times as our resources are written with OSX. Don't worry OSX & Linux have more similarities than differences. DO NOT use the Windows operating system, it is not UNIX based and therefore will be much more different.
 
@@ -63,11 +102,10 @@ Create a alias/symbolic link that shortens nodejs to node
 sudo ln -s /usr/bin/nodejs /usr/bin/node
 ```
 
-Check to make sure everything is working run the commands `node -v` and `npm -v`, ensuring they do not throw an error.
+Check to make sure everything is working by running the commands `node -v` and `npm -v`.  This will give you their software versions and lets you know there are no errors.
 
 
 ```
-
 node -v
 => [the version number you have just installed]
 npm -v
@@ -75,3 +113,20 @@ npm -v
 
 ```
 
+**Install Chrome (for linux)**<br>
+Navigate the the [Chrome Desktop version](https://www.google.com/chrome/browser/desktop/) and choose the linux flavor of Chrome that applies to you.
+
+**Install Slack (aka PlaidChat for Linux)**
+
+Run the following from the terminal:
+```
+npm install plaidchat -g
+```
+Run ```plaidchat``` in the terminal.  This command will install the package on your path.
+
+You can then run your client from your terminal. 
+
+(plaidchat is not created by, affiliated with, or supported by Slack Technologies, Inc.)
+
+**Spectacle (linux alternatives)**<br>
+Ubuntu-based linux systems come with powerful window management baked in, however [i3](http://i3wm.org/downloads/) has received high praise by developers.  Installation is at your discretion
