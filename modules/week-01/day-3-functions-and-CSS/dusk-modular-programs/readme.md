@@ -114,10 +114,26 @@ At this point, modern web design convention would dictate that this usage of the
 	}
 
 
+Our externalized CSS now has plenty of room to expand without making the html file referring to it crowded and unreadable.
 
-##CSS & Javascript
+What if we wanted to alter the appearance of just one paragraph or link tag?  The above `style.css` currently affects ALL `p` and `a` tags with the same property / value pair.  This limits us to one style per html tag type.  To increase our flexibity with assigning styles to tags, we assign certain html tags classes.  Below is an example of a `p` tag with a `class` attribute.
 
-##CSS, HTML, Javascript, & JQuery
+***in index.html:***
 
+```
+	<p class = "highlighted">
+```  
+
+The class attribute and its associated value in quotes lets the html document know that it must assign the CSS property of `.highlighted` to the html tag it is placed in.  Here is a sample of code showing the implementation of the `.highlighted` class.
+
+**in style.css:**
+
+```
+	.highlighted {
+		background-color: yellow;
+	}
+```
+
+You can immediately see the similarities between standard CSS implementation and the new class implementation.  Unlike the previous implementation, the class selector CSS only affects html tags with the class attribute that matches. I the case above, any html tag with the class "highlighted" will have a yellow background.  Notice the period before the word `highlighted` in style.css.  This associates the CSS property 'highlighted' with the html tag class 'highlighted.'
 
 
