@@ -87,7 +87,7 @@ Exercise: No shirt, no shoes, no business! Using logical operators, create a sta
 To make assertions we commonly use a logical "comparator":
 
 | strict equality | loose equality | not equal | greater than | less than | greater than or equal to | less than or equal to |
-| ------------- |:-------------|:-------------|:-------------|:-------------|:-------------|
+| ------------- |:-------------|:-------------|:-------------|:-------------|:-------------|:-------------|
 | `===` | `==` | `!==` | `>` | `<` | `>=` | `<=` |
 
 These can be combined to make longer assertions that evaluate to either `true` or `false`.
