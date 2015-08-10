@@ -1,6 +1,6 @@
 #Modular Programs
 
-##Goals
+##Learning Objectives
 
 * Master conditional statements & control flow
 * Pass arguments into your program
@@ -19,7 +19,7 @@
 * Given this it could be useful to remove or "slice" the first two arguments with `process.argv.slice(2)` and keep the remaining values of whatever we pass in.
 * Try setting the value of `process.argv.slice(2)` to a variable called `arguments` which you can use inside your program.
 
-
+##Exercises
 
 ###1. Temperature calculator
 User should be able to...
@@ -79,7 +79,6 @@ Grail-seeker should be able to...
 	```
 
 
-
 ###3. Rock Paper Scissors
 Player should be able to...
 
@@ -96,6 +95,4 @@ node rps.js paper
 => Computer chose scissors, you win!
 ```
 
-
-
-Tip: Rock beats scissors, scissors beats paper, and paper beats rock
+Hint: Rock beats scissors, scissors beats paper, and paper beats rock
