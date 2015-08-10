@@ -44,7 +44,7 @@
   <tr>
     <td>Module2</td>
     <td>Assessment (Team)</td>
-    <td>Modular Programs (Ilias / Justin)</td>
+    <td>[Modular Programs](https://github.com/sf-wdi-21/notes/tree/master/week-01/day-2-control-flow/dusk-modular-programs) (Ilias / Justin)</td>
     <td>Class-based CSS (Ilias / Justin)</td>
     <td>DOM Context & Event Binding (Nathan / Ilias)</td>
     <td>Racing Game (Team)</td>
