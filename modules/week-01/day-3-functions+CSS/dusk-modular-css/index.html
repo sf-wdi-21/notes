@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Modular CSS</title>
+  <meta charset="utf-8" />
+  <style>
+  .shape {
+    height: 3em;
+    width: 3em;
+    border: .2em solid black;
+  }
+  .block-children > * { display: block;}
+  .inline-block-children > * { display: inline-block; }
+  /**/
+  .operator {
+    margin-bottom: 1.5em;
+    font-size: 1em;
+  }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Modular CSS</h1>
+  </header>
+  <main>
+    <section class="block-children">
+      <a href="#">Link</a>
+      <img src="https://s-media-cache-ak0.pinimg.com/236x/28/b6/2a/28b62afea6ef7d1765cf4083f8756791.jpg" alt="old-lady">
+    </section>
+    <section class="inline-block-children">
+      <div class="shape blue-background narrow"></div>
+      <span class="operator"> + </span>
+      <div class="shape red-background narrow"></div>
+      <span class="operator"> = </span>
+      <div class="shape purple-background wide">
+    </section>
+  </main>
+</body>
+</html>
