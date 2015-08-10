@@ -1,5 +1,20 @@
 #WDI SF 21
 
+<!-- ##Week 12 -->
+<!-- ##Week 11 -->
+<!-- ##Week 10 -->
+<!-- ##Week 9 -->
+<!-- ##Week 8 -->
+<!-- ##Week 7 -->
+<!-- ##Week 6 -->
+<!-- ##Week 5 -->
+<!-- ##Week 4 -->
+<!-- ##Week 3 -->
+<!-- ##Week 2 -->
+
+
+
+
 ##Week 1
 <table>
   <tr>
@@ -13,9 +28,9 @@
   <tr>
     <td>Drills</td>
     <td>Course Overview (Ali / Team)</td>
-    <td>Kyrel (Nathan)</td>
-    <td>Variable Swap (Justin)</td>
-    <td>isPrime? (Ilias)</td>
+    <td>Kyrel basics (Nathan)</td>
+    <td>Kyrel loops (Nathan)</td>
+    <td>Kyrel advanced (Nathan)</td>
     <td>Assessment (Team)</td>
   </tr>
   <tr>
