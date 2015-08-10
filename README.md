@@ -12,34 +12,34 @@
   </tr>
   <tr>
     <td>Drills</td>
-    <td><a href="#">Course Overview</a> (Ali / Team)</td>
-    <td><a href="#">Kyrel</a> (Nathan)</td>
-    <td><a href="#">Variable Swap</a> (Justin)</td>
-    <td><a href="#">isPrime?</a> (Ilias)</td>
-    <td><a href="#">Assessment</a> (Team)</td>
+    <td>Course Overview (Ali / Team)</td>
+    <td>Kyrel (Nathan)</td>
+    <td>Variable Swap (Justin)</td>
+    <td>isPrime? (Ilias)</td>
+    <td>Assessment (Team)</td>
   </tr>
   <tr>
     <td>Module1</td>
-    <td><a href="#">Culture Setting</a> (Team)</td>
-    <td><a href="#">Control Flow</a> (Nathan / Ilias)</td>
-    <td><a href="#">Functions & Arguments</a> (Justin / Ilias)</td>
-    <td><a href="#">Intro Console & DOM</a> (Nathan / Justin)</td>
-    <td><a href="#">Review</a> (Team)</td>
+    <td>Culture Setting (Team)</td>
+    <td>Control Flow (Nathan / Ilias)</td>
+    <td>Functions & Arguments (Justin / Ilias)</td>
+    <td>Intro Console & DOM (Nathan / Justin)</td>
+    <td>Review (Team)</td>
   </tr>
   <tr>
     <td>Module2</td>
-    <td><a href="#">Assessment</a> (Team)</td>
-    <td><a href="#">Modular Programs</a> (Ilias / Justin)</td>
-    <td><a href="#">Class-based CSS</a> (Ilias / Justin)</td>
-    <td><a href="#">DOM Context & Event Binding</a> (Nathan / Ilias)</td>
-    <td><a href="#">Racing Game</a> (Team)</td>
+    <td>Assessment (Team)</td>
+    <td>Modular Programs (Ilias / Justin)</td>
+    <td>Class-based CSS (Ilias / Justin)</td>
+    <td>DOM Context & Event Binding (Nathan / Ilias)</td>
+    <td>Racing Game (Team)</td>
   </tr>
   <tr>
     <td>HW</td>
     <td><a href="/week-01/day-1-intro/reading/1_javascript_primitives.md">JS Primitives</a> & <a href="/week-01/day-1-intro/reading/2_javascript_control_flow.md">Control Flow</a></td>
-    <td><a href="#">Functions</a> & <a href="#">CSS</a></td>
-    <td><a href="#">jQuery Manipulation</a></td>
-    <td><a href="#">TBD: More jQuery or Iterators</a></td>
+    <td>Functions & CSS</td>
+    <td>jQuery Manipulation</td>
+    <td>TBD: More jQuery or Iterators</a></td>
     <td></td>
   </tr>
 </table>
