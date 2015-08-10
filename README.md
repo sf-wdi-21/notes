@@ -36,7 +36,7 @@
   </tr>
   <tr>
     <td>HW</td>
-    <td><a href="#">JS Primitives</a> & <a href="#">Control Flow</a></td>
+    <td><a href="/week-01/day-1-intro/reading/1_javascript_primitives.md">JS Primitives</a> & <a href="/week-01/day-1-intro/reading/2_javascript_control_flow.md">Control Flow</a></td>
     <td><a href="#">Functions</a> & <a href="#">CSS</a></td>
     <td><a href="#">jQuery Manipulation</a></td>
     <td><a href="#">TBD: More jQuery or Iterators</a></td>
