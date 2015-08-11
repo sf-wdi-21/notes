@@ -15,7 +15,7 @@ This means that all anchor, `a`, html tags will be affected with whatever is ins
 
 **The Best Way** - External (css lives in a separate file).
 
-```
+```html
 <html>
 <head>
     <title>I like clean code</title>
@@ -29,7 +29,7 @@ This means that all anchor, `a`, html tags will be affected with whatever is ins
 ```
 
 
-```
+```html
 p {
     font-size: 14px;
 }
@@ -37,7 +37,7 @@ p {
 
 **The Lazy Way** - Internal
 
-```
+```html
 <html>
 <head>
     <title>I feel lazy</title>
@@ -58,7 +58,7 @@ p {
 
 Note: this is what chrome does when you add styles from the elements tab in your console. This is also how javascript applies css to elements.
 
-```
+```html
 <html>
 <head>
     <title>I am a terrible person</title>
@@ -82,13 +82,13 @@ Note: this is what chrome does when you add styles from the elements tab in your
 
 Given the following html:
 
-```
+```html
   <p class="pick-me" id="pick-me">What color am I?</p>
 ```
 
 Which color wins? Round 1.
 
-```
+```html
   p {
      color: red;
      color: green;
@@ -101,7 +101,7 @@ Which color wins? Round 1.
 
 Which color wins? Round 2.
 
-```
+```html
   html body p {
      color: orange;
   }
@@ -125,7 +125,7 @@ Which color wins? Round 2.
 
 Which color wins? Round 3.
 
-```
+```html
   #pick-me {
      color: blue;
   }
@@ -161,7 +161,7 @@ Solutions:
 ## Inheritance of Styles
 
 
-```
+```html
     <h1>Cheese Sale! <button>Buy Now!</button></h1>
     <p>We are selling cheese.</p>
     <div class="info-box">
@@ -171,7 +171,7 @@ Solutions:
     </div>
 ```
 
-```
+```html
   h1 {
     color: blue;
   }
@@ -271,7 +271,7 @@ Content can be text, other elments, or nothing at all. The dimensions of your bo
 
 These are equivalent:
 
-```
+```html
 p {
     padding: 2em;
     /*padding-top: 2em;*/
