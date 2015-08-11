@@ -6,13 +6,13 @@
 
 
 #### Superman?
-We need a quick way to determine if that blip on the radar is superman or not. Sometimes it's just a bird. Sometimes it's just a plane. But we definitely want to know if its superman. Write some code which will alert: "It's superman!" when the following are true:  
-    * isBirdlike // boolean
-    * isPlanelike // boolean
+We need a quick way to determine if that blip on the radar is superman or not. Sometimes it's just a bird. Sometimes it's just a plane. But we definitely want to know if its superman. Write some code which will alert: "It's superman!" when the following are true:
+* isBirdlike // boolean
+* isPlanelike // boolean
 
-Let's tighten things up a bit by adding some additional criteria (too many false positives!):  
-    * hasFeathers // boolean
-    * isMadeOfMetal // boolean
+Let's tighten things up a bit by adding some additional criteria (too many false positives!):
+* hasFeathers // boolean
+* isMadeOfMetal // boolean
 
 
 #### Alert the Guards!
@@ -72,12 +72,12 @@ console.log( quotient === dividend ) // simple test
 
 
 #### For Here
-Sales tax can be tricky for restaurants to calculate. For example, sales tax is not charged on hot beverages, hot bakery goods, and cold prepared foods when ordered "to go." Otherwise the sale is taxed 7.75%. Use the following variables, and write some tests to check for the correct total:  
-    * isHotBeverage // boolean
-    * isHotBakedGood // boolean
-    * isColdPreparedFood // boolean
-    * forHere // boolean
-    * total // floating point number
+Sales tax can be tricky for restaurants to calculate. For example, sales tax is not charged on hot beverages, hot bakery goods, and cold prepared foods when ordered "to go." Otherwise the sale is taxed 7.75%. Use the following variables, and write some tests to check for the correct total:
+* isHotBeverage // boolean
+* isHotBakedGood // boolean
+* isColdPreparedFood // boolean
+* forHere // boolean
+* total // floating point number
 
 
 
@@ -97,19 +97,19 @@ Sales tax can be tricky for restaurants to calculate. For example, sales tax is 
 
 #### Can I ride?
 An amusement park has the following requirements for a roller coaster ride:  
-  - Must have 5 tokens                              ("Sorry, too poor!")
-  - Must be at least 4ft tall                       ("Sorry, too short!")
-  - Must be at least 12 years old                   ("Sorry, too young!")
-  - Riders under 12 must be accompanied by an adult ("Sorry, must be accompanied!")
-  - (If the boss isn't looking, you can sneak in!)
+- Must have 5 tokens                              ("Sorry, too poor!")
+- Must be at least 4ft tall                       ("Sorry, too short!")
+- Must be at least 12 years old                   ("Sorry, too young!")
+- Riders under 12 must be accompanied by an adult ("Sorry, must be accompanied!")
+- (If the boss isn't looking, you can sneak in!)
 
 Your job is to figure out if a customer is allowed on the ride or not. If they're not, tell them why. If they are, tell them "Step Right Up!" (and don't forget to take their tokens!).
 
 Customers:  
-    - Jimmy, 13 years old, 100 tokens, 56 inches tall, unaccompanied
-    - Chris, 12 years old, 4 tokens, 48 inches tall, accompanied
-    - Jessie, 9, 10 tokens, 49 inches tall, accompanied
-    - Chadwick, 11, 10 tokens, 48 inches tall, unaccompanied, boss-not-looking
+- Jimmy, 13 years old, 100 tokens, 56 inches tall, unaccompanied
+- Chris, 12 years old, 4 tokens, 48 inches tall, accompanied
+- Jessie, 9, 10 tokens, 49 inches tall, accompanied
+- Chadwick, 11, 10 tokens, 48 inches tall, unaccompanied, boss-not-looking
 
 
 #### Bottles Of Beer
