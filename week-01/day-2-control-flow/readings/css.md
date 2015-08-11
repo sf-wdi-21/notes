@@ -1,6 +1,12 @@
 # Intro CSS
 
-## Stylesheets - Where do styles live?
+## Breakdown of Syntax
+
+![CSS prototype](https://en-support.files.wordpress.com/2011/09/css-selectors-lrg.png)
+
+The `selector` labelled `a` is the target html tag that will be altered with the property and value.  This means that all `a` html tags will have the property and value pair `background-color: yellow`.  As you can probably deduce, the background color of the `a` tags will become the color `yellow`.  Within the `{` and `}` declaration brackets we can list the various formatting changes we want to make on the `selector`.  There can be one attribute like above, or many more as you will see.  
+
+## Requiring Stylesheets
 
 **The Best Way** - External (css lives in a separate file).
 
@@ -67,7 +73,7 @@ Note: this is what chrome does when you add styles from the elements tab in your
 * Less code repetition
 * Easier to read / organize / refactor
 
-## Specificity - Which style wins?
+## Specificity of Styles
 
 Given the following html:
 
@@ -147,7 +153,7 @@ Solutions:
 * `!important` trumps all of the above.
 
 
-## Inheritance - How can we reuse styles?
+## Inheritance of Styles
 
 
 ```
@@ -190,7 +196,7 @@ When you've made your guesses, you can play with the code here:
 
 Which Properties are Inheritied? [See here.](http://www.w3.org/TR/CSS/#indices)
 
-## Display: Inline vs. Block
+## Arranging elements to display properly
 
 `span` and `div` are our bread and butter. They are the HTML equivalent of hydrogen and oxygen.
 
