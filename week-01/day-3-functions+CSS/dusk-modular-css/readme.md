@@ -1,7 +1,5 @@
 #Modular CSS
 
-Design an UNDERWATER LANDSCAPE to practice modular CSS
-
 ##Learning Objectives
 
 * Abstract your styles with classes
@@ -11,7 +9,6 @@ Design an UNDERWATER LANDSCAPE to practice modular CSS
 ###Steps
 
 Refer to the `index.html`. 
-
 
 ##Exercises
 
@@ -66,14 +63,11 @@ Create a class `.half` that will cut an element's size by 50%.
 
 Create a class `.invert	` that flips the photo of the old woman upside down.
 
-<!--Figure something out-->
+<!--todo-->
 
 ###Circle
 
 Create a class called `.circle` and add it to the three boxes to make them circles.
-
-
-
 
 ###Technically Speaking
 
