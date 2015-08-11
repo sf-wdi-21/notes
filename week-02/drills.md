@@ -1,4 +1,4 @@
-# Week 1 Drills
+# Week 2 Drills
 
 These problems require you to build functions using your knowledge of looping and conditionals.
 
