@@ -10,7 +10,7 @@
 ##Tips
 
 * Create a new javascript file and run it with node.
-* Inspect `process.argv` to see an array of arguments passed into the file.
+* Console `process.argv` to the log and see an array of arguments passed into the file.
 * By default the first two arguments will be `node` and the path to the file, i.e. `~/dev/someFolder/app.js`.
 * Given this it could be useful to remove or "slice" the first two arguments with `process.argv.slice(2)` and keep the remaining values of whatever we pass in.
 * Try setting the value of `process.argv.slice(2)` to a variable called `arguments` which you can use inside your program.
@@ -127,5 +127,3 @@ node modulo.js 20 5
 node modulo.js 100 6
 => [ 6, 12, 18, 24, 30, 36, 42, 48, 54, 60, 66, 72, 78, 84, 90, 96 ]
 ```
-
-
