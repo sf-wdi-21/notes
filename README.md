@@ -28,7 +28,7 @@
   <tr>
     <td>Drills</td>
     <td>Course Overview (Ali / Team)</td>
-    <td>Kyrel basics (Nathan)</td>
+    <td><a href="/week-01/drills.md">Kyrel basics</a> (Nathan)</td>
     <td>Kyrel loops (Nathan)</td>
     <td>Kyrel advanced (Nathan)</td>
     <td>Assessment (Team)</td>
@@ -36,7 +36,7 @@
   <tr>
     <td>Module1</td>
     <td>Culture Setting (Team)</td>
-    <td>Control Flow (Nathan / Ilias)</td>
+    <td><a href="/week-01/day-2-control-flow/dawn-control-flow/">Control Flow</a> (Nathan / Ilias)</td>
     <td>Functions & Arguments (Justin / Ilias)</td>
     <td>Intro Console & DOM (Nathan / Justin)</td>
     <td>Review (Team)</td>
