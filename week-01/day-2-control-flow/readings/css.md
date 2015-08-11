@@ -29,7 +29,7 @@ This means that all anchor, `a`, html tags will be affected with whatever is ins
 ```
 
 
-```html
+```css
 p {
     font-size: 14px;
 }
@@ -88,7 +88,7 @@ Given the following html:
 
 Which color wins? Round 1.
 
-```html
+```css
   p {
      color: red;
      color: green;
@@ -101,7 +101,7 @@ Which color wins? Round 1.
 
 Which color wins? Round 2.
 
-```html
+```css
   html body p {
      color: orange;
   }
@@ -125,7 +125,7 @@ Which color wins? Round 2.
 
 Which color wins? Round 3.
 
-```html
+```css
   #pick-me {
      color: blue;
   }
@@ -171,7 +171,7 @@ Solutions:
     </div>
 ```
 
-```html
+```css
   h1 {
     color: blue;
   }
@@ -271,7 +271,7 @@ Content can be text, other elments, or nothing at all. The dimensions of your bo
 
 These are equivalent:
 
-```html
+```css
 p {
     padding: 2em;
     /*padding-top: 2em;*/
