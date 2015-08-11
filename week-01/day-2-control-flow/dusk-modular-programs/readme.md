@@ -7,14 +7,10 @@
 * Define well-named variables
 * Comment your code to clarify your thought process
 
-##Requirements
-
-* Only use conditional statements; no iterators or functions
-
 ##Tips
 
 * Create a new javascript file and run it with node.
-* Inspect `process.argv` to see an array of arguments passed into the file.
+* Log `process.argv` to the console in order to see an array of arguments passed into the file.
 * By default the first two arguments will be `node` and the path to the file, i.e. `~/dev/someFolder/app.js`.
 * Given this it could be useful to remove or "slice" the first two arguments with `process.argv.slice(2)` and keep the remaining values of whatever we pass in.
 * Try setting the value of `process.argv.slice(2)` to a variable called `arguments` which you can use inside your program.
@@ -96,3 +92,24 @@ node rps.js paper
 ```
 
 Hint: Rock beats scissors, scissors beats paper, and paper beats rock
+
+###4. Hello Everybody!
+Greeter should be able to
+
+* Pass in a variable-size list of names
+* Have a greeting logged for each name
+
+```
+node helloEverybody.js Ilias Nathan Justin
+=> Hello Ilias!
+=> Hello Nathan!
+=> Hello Justin!
+``` 
+
+```
+node helloEverybody.js Vikash Camilo
+=> Hello Vikash!
+=> Hello Camilo!
+```
+
+
