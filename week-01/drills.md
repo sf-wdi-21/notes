@@ -39,6 +39,7 @@ This would result in the following transformation:
 
 ## Rules
 * You must always begin in the left-most cell. This is your default starting position.
+* You cannot fall off the board / row. If you try to move past the last cell, you just remain in the same cell.
 * You must choose a color before you can draw.
 * You do not need to erase before drawing -- you can overwrite a cell's color.
 
