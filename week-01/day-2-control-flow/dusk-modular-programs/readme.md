@@ -26,17 +26,17 @@ User should be able to...
 
 ```bash
 node tempCalc.js 78
-=> Enjoy the day! Let's have a picnic :)
+=> "Enjoy the day! Let's have a picnic :)"
 ```
 
 ```bash
 node tempCalc.js 105
-=> Too darn hot! I'm shvitzing over here.
+=> "Too darn hot! I'm shvitzing over here."
 ```
 
 ```bash
 node tempCalc.js 48
-=> Brrrr... no, get back inside!
+=> "Brrrr... no, get back inside!"
 ```
 
 Hint: You may have to recast your temperature's datatype to be an integer.
@@ -83,12 +83,12 @@ Player should be able to...
 
 ```bash
 node rps.js rock
-=> Computer chose paper, you loose.
+=> "Computer chose paper, you loose."
 ```
 
 ```bash
 node rps.js paper
-=> Computer chose scissors, you win!
+=> "Computer chose scissors, you win!"
 ```
 
 Hint: Rock beats scissors, scissors beats paper, and paper beats rock
@@ -101,13 +101,13 @@ Greeter should be able to...
 
 ```bash
 node helloEverybody.js Ilias Justin
-=> Hello Ilias
-=> Hello Justin
+=> "Hello Ilias"
+=> "Hello Justin"
 ```
 
 ```bash
 node helloEverybody.js Nathan
-=> Hello Nathan
+=> "Hello Nathan"
 ```
 
 ###5. Common Divisor
