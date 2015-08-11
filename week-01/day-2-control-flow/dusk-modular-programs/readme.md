@@ -17,7 +17,9 @@
 
 ##Exercises
 
-###1. Temperature calculator
+###Control Flow
+
+####1. Temperature calculator
 User should be able to...
 
 * Pass a temperature into the program
@@ -42,7 +44,7 @@ node tempCalc.js 48
 Hint: You may have to recast your temperature's datatype to be an integer.
 
 
-###2. The Bridge of Death
+####2. The Bridge of Death
 Grail-seeker should be able to...
 
 * Give answers the questions:
@@ -75,7 +77,7 @@ Grail-seeker should be able to...
 	```
 
 
-###3. Rock Paper Scissors
+####3. Rock Paper Scissors
 Player should be able to...
 
 * Choose rock, paper, or scissors
@@ -93,7 +95,9 @@ node rps.js paper
 
 Hint: Rock beats scissors, scissors beats paper, and paper beats rock
 
-###4. Hello Everybody
+###Iterators
+
+####4. Hello Everybody
 Greeter should be able to...
 
 * Pass in a list of names that is an indeterminate size
@@ -110,7 +114,7 @@ node helloEverybody.js Nathan
 => "Hello Nathan"
 ```
 
-###5. Common Divisor
+####5. Common Divisor
 Mathematician should be able to...
 
 * Pass in two numbers, n1 & n2
