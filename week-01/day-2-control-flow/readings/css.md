@@ -291,5 +291,5 @@ p {
 
 * CSS Reference - https://developer.mozilla.org/en-US/docs/Web/CSS/Reference
 * CSS Properties List - https://css-tricks.com/almanac/properties/
-* What are the Default CSS Values? - http://www.w3.org/TR/CSS2/sample.html
-* Which Properties can be Inherited? - http://www.w3.org/TR/CSS/#indices
+* What are the Default CSS Values for each element as specified by the World Wide Web Consortium (W3C)? - http://www.w3.org/TR/CSS2/sample.html
+* Where can I find the main CSS3 specs? - http://www.w3.org/TR/css-2010/
