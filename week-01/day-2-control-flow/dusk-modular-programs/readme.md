@@ -7,46 +7,44 @@
 * Define well-named variables
 * Comment your code to clarify your thought process
 
-##Requirements
-
-* Only use conditional statements; no iterators or functions
-
 ##Tips
 
 * Create a new javascript file and run it with node.
-* Inspect `process.argv` to see an array of arguments passed into the file.
+* Console `process.argv` to the log and see an array of arguments passed into the file.
 * By default the first two arguments will be `node` and the path to the file, i.e. `~/dev/someFolder/app.js`.
 * Given this it could be useful to remove or "slice" the first two arguments with `process.argv.slice(2)` and keep the remaining values of whatever we pass in.
 * Try setting the value of `process.argv.slice(2)` to a variable called `arguments` which you can use inside your program.
 
 ##Exercises
 
-###1. Temperature calculator
+###Control Flow
+
+####1. Temperature calculator
 User should be able to...
 
 * Pass a temperature into the program
 
 * Receive an output based on the temperature provided. Anything between 60 to 80 degrees is a nice day; otherwise, it's too hot or too cold. 
 
-```
+```bash
 node tempCalc.js 78
-=> Enjoy the day! Let's have a picnic :)
+=> "Enjoy the day! Let's have a picnic :)"
 ```
 
-```
+```bash
 node tempCalc.js 105
-=> Too darn hot! I'm shvitzing over here.
+=> "Too darn hot! I'm shvitzing over here."
 ```
 
-```
+```bash
 node tempCalc.js 48
-=> Brrrr... no, get back inside!
+=> "Brrrr... no, get back inside!"
 ```
 
 Hint: You may have to recast your temperature's datatype to be an integer.
 
 
-###2. The Bridge of Death
+####2. The Bridge of Death
 Grail-seeker should be able to...
 
 * Give answers the questions:
@@ -67,32 +65,69 @@ Grail-seeker should be able to...
 	
 * Be allowed to pass for a correct answer
 
-	```
+	```bash
 	node bridgeOfDeath.js blue Assur 24mph
 	=> "You may pass"
 	```
 * Be cast into the gorge of eternal peril for an incorrect answer
 	
-	```
+	```bash
 	node bridgeOfDeath.js grey Constantinople 10kph
 	=> "You have been cast into the gorge of eternal peril!"
 	```
 
 
-###3. Rock Paper Scissors
+####3. Rock Paper Scissors
 Player should be able to...
 
 * Choose rock, paper, or scissors
 * Win or loose
 
-```
+```bash
 node rps.js rock
-=> Computer chose paper, you loose.
+=> "Computer chose paper, you loose."
 ```
 
-```
+```bash
 node rps.js paper
-=> Computer chose scissors, you win!
+=> "Computer chose scissors, you win!"
 ```
 
 Hint: Rock beats scissors, scissors beats paper, and paper beats rock
+
+###Iterators
+
+####4. Hello Everybody
+Greeter should be able to...
+
+* Pass in a list of names that is an indeterminate size
+* Say hello to each person in the list
+
+```bash
+node helloEverybody.js Ilias Justin
+=> "Hello Ilias"
+=> "Hello Justin"
+```
+
+```bash
+node helloEverybody.js Nathan
+=> "Hello Nathan"
+```
+
+####5. Common Divisor
+Mathematician should be able to...
+
+* Pass in two numbers, n1 & n2
+* Have n1 represent the an upper limit
+* Have n2 represent a divisor
+* See the output as all the numbers between 0 and n1 that are perfectly divisible by n2
+
+```bash
+node modulo.js 20 5
+=> [5, 10, 15, 20]
+```
+
+```bash
+node modulo.js 100 6
+=> [ 6, 12, 18, 24, 30, 36, 42, 48, 54, 60, 66, 72, 78, 84, 90, 96 ]
+```

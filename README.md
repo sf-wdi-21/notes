@@ -28,7 +28,7 @@
   <tr>
     <td>Drills</td>
     <td>Course Overview (Ali / Team)</td>
-    <td><a href="/week-01/drills.md">Kyrel basics</a> (Nathan)</td>
+    <td><a href="#">Kyrel basics</a> (Nathan)</td>
     <td>Kyrel loops (Nathan)</td>
     <td>Kyrel advanced (Nathan)</td>
     <td>Assessment (Team)</td>
