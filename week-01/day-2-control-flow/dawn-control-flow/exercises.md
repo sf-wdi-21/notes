@@ -1,16 +1,16 @@
 # Exercises
-* Work in your Chrome Developer Console.
+* Work in your Chrome Developer Console.  
     - Pro-Tip: use the "up" arrow key to save yourself some typing: it will pull up previously entered code.
 * See `solutions.md` for solutions. No Peeking!
 
 
 
 #### Superman?
-We need a quick way to determine if that blip on the radar is superman or not. Sometimes it's just a bird. Sometimes it's just a plane. But we definitely want to know if its superman. Write some code which will alert: "It's superman!" when the following are true:
+We need a quick way to determine if that blip on the radar is superman or not. Sometimes it's just a bird. Sometimes it's just a plane. But we definitely want to know if its superman. Write some code which will alert: "It's superman!" when the following are true:  
     * isBirdlike // boolean
     * isPlanelike // boolean
 
-Let's tighten things up a bit by adding some additional criteria (too many false positives!):
+Let's tighten things up a bit by adding some additional criteria (too many false positives!):  
     * hasFeathers // boolean
     * isMadeOfMetal // boolean
 
@@ -72,7 +72,7 @@ console.log( quotient === dividend ) // simple test
 
 
 #### For Here
-Sales tax can be tricky for restaurants to calculate. For example, sales tax is not charged on hot beverages, hot bakery goods, and cold prepared foods when ordered "to go." Otherwise the sale is taxed 7.75%. Use the following variables, and write some tests to check for the correct total:
+Sales tax can be tricky for restaurants to calculate. For example, sales tax is not charged on hot beverages, hot bakery goods, and cold prepared foods when ordered "to go." Otherwise the sale is taxed 7.75%. Use the following variables, and write some tests to check for the correct total:  
     * isHotBeverage // boolean
     * isHotBakedGood // boolean
     * isColdPreparedFood // boolean
@@ -86,7 +86,7 @@ Sales tax can be tricky for restaurants to calculate. For example, sales tax is 
 - Otherwise I'm happy to take the bart. It takes 20-40 minutes.
 - However, if my roommate is driving into work, I'll catch a ride with her. It takes 30-45 minutes.
 - Assuming I always leave at 8am. What time will I get to work?
-- Variable Names:
+- Variable Names:  
     + temperature
     + isRaining
     + canCatchRide
@@ -96,7 +96,7 @@ Sales tax can be tricky for restaurants to calculate. For example, sales tax is 
 
 
 #### Can I ride?
-An amusement park has the following requirements for a roller coaster ride:
+An amusement park has the following requirements for a roller coaster ride:  
   - Must have 5 tokens                              ("Sorry, too poor!")
   - Must be at least 4ft tall                       ("Sorry, too short!")
   - Must be at least 12 years old                   ("Sorry, too young!")
@@ -105,7 +105,7 @@ An amusement park has the following requirements for a roller coaster ride:
 
 Your job is to figure out if a customer is allowed on the ride or not. If they're not, tell them why. If they are, tell them "Step Right Up!" (and don't forget to take their tokens!).
 
-Customers:
+Customers:  
     - Jimmy, 13 years old, 100 tokens, 56 inches tall, unaccompanied
     - Chris, 12 years old, 4 tokens, 48 inches tall, accompanied
     - Jessie, 9, 10 tokens, 49 inches tall, accompanied
