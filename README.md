@@ -52,7 +52,7 @@
   <tr>
     <td>HW</td>
     <td><a href="/week-01/day-1-intro/reading/1_javascript_primitives.md">JS Primitives</a> & <a href="/week-01/day-2-control-flow/dawn-control-flow/README.md">Control Flow</a></td>
-    <td>Functions & CSS</td>
+    <td>Functions & <a href="https://github.com/sf-wdi-21/notes/blob/master/week-01/day-2-control-flow/readings/css.md">CSS</a></td>
     <td>jQuery Manipulation</td>
     <td>TBD: More jQuery or Iterators</a></td>
     <td></td>
