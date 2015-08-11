@@ -1,42 +1,105 @@
 # Week 1 Drills
 
-These problems require you to build functions using your knowledge of looping and conditionals.
+For this week's drills we will be playing a game called "Kyrel".
 
-## merge(arr1, arr2)
+In this game, you will be given a row and asked to transform it into a different row. For instance, you might be given a row with five empty cells and asked to draw a blue dot in the right-most cell. Since you always start in the left-most cell (the default starting position), you'll need to move before you can draw.
 
-Write a function that takes two sorted arrays of numbers and returns a merged array of the sorted numbers. For example, if the input arrays were `var arr1 = [3,6,11]` and `var arr2 = [2,4,5,8,9]`, the returned array would be: `[2,3,4,5,6,8,9,11]`.
+### Methods
+The following special methods are available for traversing/transforming the row:
+* `moveRight();`
+* `moveLeft();`
+* `useGreen();`
+* `useBlue();`
+* `draw();`
+* `erase();`
+* `onGreen();`
+* `onBlue();`
 
-## letterCount(word)
+### Example Problem
+Write a program which draws a green circle at the end of the row.
 
-Write a function that counts the number of times each letter occurs in a given string. It should return an object containing the count for each letter. For example, the string "apple" would return the following:
-
-```js
-{
-  a: 1,
-  p: 2,
-  l: 1,
-  e: 1
-}
+``` javascript
+    moveRight();
+    moveRight();
+    moveRight();
+    moveRight();
+    useGreen();
+    draw();
 ```
 
-**Bonus**: Make sure that lower case letters and upper case letters count for the same character. Also, ignore spaces and punctuation.
-
-## sillySum(arr)
-
-Write a function that takes an array of numbers and returns the sum of each number multiplied by its index.
-
-```js
-count += (number * index)
+This would result in the following transformation:
+```
+ ['.', '.', '.', '.', '.'] // start row (initial state)
+ ['.', '.', '.', '.', 'g'] // end row (end state)
 ```
 
-## numSquare(max)
+- 'b' means a "blue" dot
+- 'g' means a "green" dot
+- '.' means an empty cell
 
-Create a function called `numSquare` that will return an array of all perfect square numbers up to, but not exceeding a max number.
+## Rules
+* You must always begin in the left-most cell. This is your default starting position.
+* You cannot fall off the board / row. If you try to move past the last cell, you just remain in the same cell.
+* You must choose a color before you can draw.
+* You do not need to erase before drawing -- you can overwrite a cell's color.
 
-## isPrime(num)
+## Goals
+* Abstract the problem. Does your solution work for only a specific case, or does it work for all cases?
+* "Don't repeat yourself" -- See a lot of repetition in your code? Maybe it's time to refactor.
+* Be efficient. How many steps do your instructions take? How does the number of steps compare to the number of cells in the row? (What if the row got longer!?)
 
-Create a function that returns `true` if the number passed in is a prime number and `false` if not.
+## Kyrel Challenges
 
-## primes(max)
+### Day 1 Challenges -- intro to commands
 
-Using your `isPrime` function, create a function `primes` that will return an array of all prime numbers up to, but not exceeding a max number.
+0. turn_3rd_cell_blue
+
+    start:  ['.', '.', '.', '.', '.']   
+    finish: ['.', .', 'b', '.', '.']  
+
+1. erase_3rd_cell
+
+  start:  ['b', 'b', 'b', 'b', 'b']  
+  finish: ['b', 'b', '.', 'b', 'b']  
+
+2. every_other_erase
+
+  start:  ['b', 'b', 'b', 'b', 'b']  
+  finish: ['b', '.', 'b', '.', 'b']  
+
+3. every_other_blue
+
+  start:  ['g', 'g', 'g', '.', '.']  
+  finish: ['g', 'b', 'g', 'b', '.']  
+
+4. move_start_to_finish
+
+  start:  ['b', '.', '.', '.', '.']  
+  finish: ['.', '.', '.', '.', 'b']  
+
+  start:  ['g', '.', '.', '.', '.']  
+  finish: ['.', '.', '.', '.', 'g']  
+
+  start:  ['.', '.', '.', '.', '.']  
+  finish: ['.', '.', '.', '.', '.']  
+
+### Day 2 Challenges -- basic for loops & conditionals
+
+0. all_blue
+
+  start:  ['.', '.', '.', '.', '.']  
+  finish: ['b', 'b', 'b', 'b', 'b']  
+
+1. all_first_color
+
+  start:  ['b', '.', '.', '.', '.']  
+  finish: ['b', 'b', 'b', 'b', 'b']  
+
+  start:  ['g', '.', '.', '.', '.']  
+  finish: ['g', 'g', 'g', 'g', 'g']  
+
+...
+
+### Day 3 Challenges -- advanced loops & conditionals
+
+...
