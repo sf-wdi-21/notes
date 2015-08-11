@@ -2,9 +2,14 @@
 
 ## Breakdown of Syntax
 
+Every CSS statement will always include a `selector` and a `declaration`, which together is known as a rule-set or simply a `rule`. Phrased another way, a rule equals the combination of a selector and a declaration.
+
+**Example CSS Rule:**
 ![CSS prototype](https://en-support.files.wordpress.com/2011/09/css-selectors-lrg.png)
 
-The `selector` labelled `a` is the target html tag that will be altered with the property and value.  This means that all `a` html tags will have the property and value pair `background-color: yellow`.  As you can probably deduce, the background color of the `a` tags will become the color `yellow`.  Within the `{` and `}` declaration brackets we can list the various formatting changes we want to make on the `selector`.  There can be one attribute like above, or many more as you will see.  
+The `selector` labelled `a` is the targeted html tag that will be altered with the property and value.
+
+This means that all anchor, `a`, html tags will be affected with whatever is inside the declartion brackets: `{` and `}`. As you can probably deduce, the background color of the `a` tags will become the color `yellow` since in the declaration, the property and value are respectively `background-color` and  `yellow`.
 
 ## Requiring Stylesheets
 
