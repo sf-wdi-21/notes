@@ -7,10 +7,6 @@
 * Define well-named variables
 * Comment your code to clarify your thought process
 
-##Requirements
-
-* Only use conditional statements; no iterators or functions
-
 ##Tips
 
 * Create a new javascript file and run it with node.
