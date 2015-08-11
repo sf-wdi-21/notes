@@ -29,8 +29,8 @@
     <td>Drills</td>
     <td>Course Overview (Ali / Team)</td>
     <td><a href="/week-01/drills.md">Kyrel basics</a> (Nathan)</td>
-    <td><a href="/week-01/drills.md">Kyrel loops</a> (Nathan)</td>
-    <td><a href="/week-01/drills.md">Kyrel advanced</a> (Nathan)</td>
+    <td>Kyrel loops (Nathan)</td>
+    <td>Kyrel advanced (Nathan)</td>
     <td>Assessment (Team)</td>
   </tr>
   <tr>
@@ -52,7 +52,7 @@
   <tr>
     <td>HW</td>
     <td><a href="/week-01/day-1-intro/reading/1_javascript_primitives.md">JS Primitives</a> & <a href="/week-01/day-2-control-flow/dawn-control-flow/README.md">Control Flow</a></td>
-    <td>Functions & <a href="https://github.com/sf-wdi-21/notes/blob/master/week-01/day-2-control-flow/readings/css.md">CSS</a></td>
+    <td><a href="https://github.com/sf-wdi-21/notes/blob/master/week-01/day-3-functions%2BCSS/dawn-functions/readme.md">Functions & <a href="https://github.com/sf-wdi-21/notes/blob/master/week-01/day-2-control-flow/readings/css.md">CSS</a></td>
     <td>jQuery Manipulation</td>
     <td>TBD: More jQuery or Iterators</a></td>
     <td></td>
