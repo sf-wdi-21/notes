@@ -2,7 +2,7 @@
 
 For this week's drills we will be playing a game called "Kyrel".
 
-In this game, you will be given a row and asked to transform it into a different row. For instance, you might be given a row with five empty cells and asked to draw a blue dot in the right-most cell. Since you always start in the right-most cell (the default starting position), you'll need to move before you can draw.
+In this game, you will be given a row and asked to transform it into a different row. For instance, you might be given a row with five empty cells and asked to draw a blue dot in the right-most cell. Since you always start in the left-most cell (the default starting position), you'll need to move before you can draw.
 
 ### Methods
 The following special methods are available for traversing/transforming the row:
