@@ -20,7 +20,7 @@
 ###Control Flow
 
 ####1. Temperature calculator
-User should be able to...
+User should be able to:
 
 * Pass a temperature into the program
 
@@ -45,7 +45,7 @@ Hint: You may have to recast your temperature's datatype to be an integer.
 
 
 ####2. The Bridge of Death
-Grail-seeker should be able to...
+Grail-seeker should be able to:
 
 * Give answers the questions:
 
@@ -78,7 +78,7 @@ Grail-seeker should be able to...
 
 
 ####3. Rock Paper Scissors
-Player should be able to...
+Player should be able to:
 
 * Choose rock, paper, or scissors
 * Win or loose
@@ -98,7 +98,7 @@ Hint: Rock beats scissors, scissors beats paper, and paper beats rock
 ###Iterators
 
 ####4. Hello Everybody
-Greeter should be able to...
+Greeter should be able to:
 
 * Pass in a list of names that is an indeterminate size
 * Say hello to each person in the list
@@ -115,7 +115,7 @@ node helloEverybody.js Nathan
 ```
 
 ####5. Common Divisor
-Mathematician should be able to...
+Mathematician should be able to:
 
 * Pass in two numbers, n1 & n2
 * Have n1 represent the an upper limit
@@ -130,4 +130,21 @@ node modulo.js 20 5
 ```bash
 node modulo.js 100 6
 => [ 6, 12, 18, 24, 30, 36, 42, 48, 54, 60, 66, 72, 78, 84, 90, 96 ]
+```
+
+####Bonus: Reverse <-> esreveR
+*Without using the `Array`'s `reverse` method...*
+
+User should be able to:
+
+* Pass in a one word and have it reversed
+
+```bash
+node reverseMe.js yabbadabbadoo!
+=> !oodabbadabbay
+```
+
+```bash
+node reverseMe.js racecar
+=> racecar
 ```
