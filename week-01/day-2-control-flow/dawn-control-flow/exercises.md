@@ -4,45 +4,54 @@
 * See `solutions.md` for solutions. No Peeking!
 
 
+#### Login
+When a user trys to login to our website we want to check that they actually input a value for username and a value for password. If they typed both in, give them an "All Good". But if either the username or the password are missing, give them an error: "Missing Username" / "Missing Password".
+* username // string
+* password // string
+
 
 #### Superman?
-We need a quick way to determine if that blip on the radar is superman or not. Sometimes it's just a bird. Sometimes it's just a plane. But we definitely want to know if its superman. Write some code which will alert: "It's superman!" when the following are true:
+We need a quick way to determine if that blip on the radar is superman or not. Sometimes it's just a bird. Sometimes it's just a plane. But we definitely want to know if its superman. Write some code which will alert: "It's superman!" when the following are true (it's up to you to decide what makes the most sense):
 * isBirdlike // boolean
 * isPlanelike // boolean
-
-Let's tighten things up a bit by adding some additional criteria (too many false positives!):
 * hasFeathers // boolean
 * isMadeOfMetal // boolean
 
 
 #### Alert the Guards!
-Alert the guards! A bad thing is happening.
+Alert the guards! Can you modify this code to only alert when a Bad Thing (TM) is happening?
 ```
 var badThingHappening = true;
-//your code here
+alert("Guards!") // this always alerts!
 ```
 
-Bonus: Can you do it without using "if"?
+Bonus: Can you trigger the alert without using "if"?
 
 
 #### Four Letter Word
-No more four letter words! If a word has four letters replace it with "****", otherwise print it out.
+No more four letter words! If a word has four letters replace it with "\*\*\*\*" and output "You said: \*\*\*\*". Otherwise print out what I said, e.g. "You said: pajamas".
 
 ```
-var word = "okay"; // uh oh
+var word = "okay"; // uh oh!
 // your code here...
-console.log( output === "You said: ****" ) // simple test
+
+// simple test
+console.log( output === "You said: ****" ) 
 ```
 
 
 #### Make it a SloppyBurger.
-The lovely cashier at SloppyBurger will assume you want a SloppyBurger unless you say otherwise. Better speak up.
+The lovely cashier at SloppyBurger will assume you want a SloppyBurger unless you say otherwise. Better speak up!
 
-| what you said | what you got |
+On the left is what you said when you ordered. The output, on the right, is what you actually got. Can you transform the input (the order) into the output?
+
+| order | output |
 |--------------:|--------------:|
 | "" | "One SloppyBurger" |
 "Burger" | "One SloppyBurger" |
 "DoubleBurger" | "One SloppyDoubleBurger" |
+"Fries" | "One SloppyFries" |
+"SloppyJoe" | "One SloppySloppyJoe" |
 
 Bonus: Can you do it without using "if"?
 

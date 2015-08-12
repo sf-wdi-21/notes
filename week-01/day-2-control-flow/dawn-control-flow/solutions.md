@@ -1,5 +1,28 @@
 #Solutions
 
+### Login
+Good:
+``` javascript
+if (password & username) {
+    console.log("All good")
+} else if ( username === "" ) {
+    console.log("Missing Username")
+} else if ( password.length === 0 ) {
+    console.log("Missing Password")
+}
+```
+
+Best:
+``` javascript
+if (password & username) {
+    console.log("All good")
+} else if ( !username ) {
+    console.log("Missing Username")
+} else {
+    console.log("Missing Password")
+}
+```
+
 ### Superman?
 ``` javascript
 if (isBirdlike && !hasFeathers || isPlanelike && !isMadeOfMetal) {
