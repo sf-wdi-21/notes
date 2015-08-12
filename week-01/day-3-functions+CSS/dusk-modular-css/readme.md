@@ -3,8 +3,8 @@
 ##Learning Objectives
 
 * Abstract your styles with classes
-* Design modular CSS classes
-* Organize your CSS into reusable components
+* Design modular CSS
+* Practice the challenging intricacies of CSS
 
 ###Steps
 
