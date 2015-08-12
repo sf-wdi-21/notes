@@ -1,38 +1,44 @@
 <!DOCTYPE html>
 <html>
+<!-- head -->
 <head>
   <title>Modular CSS</title>
   <meta charset="utf-8" />
-  <style>
-  .shape {
-    height: 3em;
-    width: 3em;
-    border: .2em solid black;
-  }
-  .block-children > * { display: block;}
-  .inline-block-children > * { display: inline-block; }
-  /**/
-  .operator {
-    margin-bottom: 1.5em;
-    font-size: 1em;
-  }
-  </style>
+  <link rel="stylesheet" type="text/css" href="main.css">
 </head>
+<!-- body -->
 <body>
+  <!-- header -->
   <header>
     <h1>Modular CSS</h1>
   </header>
+  <!-- main -->
   <main>
+    <!-- lady section -->
     <section class="block-children">
-      <a href="#">Link</a>
-      <img src="https://s-media-cache-ak0.pinimg.com/236x/28/b6/2a/28b62afea6ef7d1765cf4083f8756791.jpg" alt="old-lady">
+      <img src="imgs/lady.jpg" alt="lady">
     </section>
+    <hr>
+    <!-- shapes grid section -->
     <section class="inline-block-children">
-      <div class="shape blue-background narrow"></div>
-      <span class="operator"> + </span>
-      <div class="shape red-background narrow"></div>
-      <span class="operator"> = </span>
-      <div class="shape purple-background wide">
+      <div class="shape">1</div>
+      <div class="shape">2</div>
+      <div class="shape">3</div>
+      <br/>
+      <div class="shape">4</div>
+      <div class="shape">5</div>
+      <div class="shape">6</div>
+      <br/>
+      <div class="shape">7</div>
+      <div class="shape">8</div>
+      <div class="shape">9</div>
+    </section>
+    <hr>
+    <!-- bull's eye section -->
+    <section>
+      <div></div>
+      <div></div>
+      <div></div>
     </section>
   </main>
 </body>

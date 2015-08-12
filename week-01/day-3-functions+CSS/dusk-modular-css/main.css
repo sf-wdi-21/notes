@@ -1,0 +1,8 @@
+.shape {
+  height: 3em;
+  width: 3em;
+  border: .2em solid black;
+  margin: 1em;
+}
+.block-children > * { display: block;}
+.inline-block-children > * { display: inline-block; }
