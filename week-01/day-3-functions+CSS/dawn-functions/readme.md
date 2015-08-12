@@ -1,233 +1,352 @@
-#Intro to JavaScript Functions
+#Functions
 
-##Learning Objectives
+![Ice Cream Sandwich Machine](./function.gif)
 
-* Explain the purpose of functions
-* Contrast an algorithm with a function
-* Create Javascript functions with parameters
-* Distinguish between returning and printing a value
-* Differentiate between global vs local scopes
+A **function** is similar to a machine in that it receives an input (ice cream and cookies), processes the input (smash!), and creates a resulting output in a consistent manner (tasty ice cream sandwiches).
 
----
+##Goals
 
-##What are functions?
+* Create simple Javascript functions with parameters
+* Explain difference between returning and printing values
+* Demonstrate proper function naming conventions
+* Understand the concept of scoped variables within a function
 
-Computer science can essentially be divided into two core elements: **data structures** & **algorithms**.
+##Requirements
 
-A **data structure** organizes information.
+* All functions should be original work
+* No hardcoded external values
 
-An **algorithm** *abstractly* describes how to manipulate data to solve a problem.
 
-A [**function**](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions) is a concrete implementation of an algorithm in a computer language. *It is a "subprogram" that encapsulates a specific behavior.*
+#Setup
 
----
+* Create a new javascript `myFunctions.js` and run it with node.
+* Arguments will be passed into `myFunctions.js` for use  by the functions.
+* REMEMBER:  by default the first two arguments will be `node` and the path to the file, i.e. `~/dev/someFolder/app.js`.
+* [Help with passing arguments to a file](https://github.com/sf-wdi-19-20/WDI21staging/tree/master/modules/week-01/day-2-control-flow/dusk-modular-programs#setup)
 
-##Why do we care?
 
-"Functions are the *bread and butter* of JavaScript programming.
 
-The concept of wrapping a *piece of program* in a value has many uses.
-
-It is a *tool to structure* larger programs, to *reduce repetition*, to *associate names with subprograms*, and to isolate these subprograms from each other."
-
--Marjin Haverbeke, *Eloquent Javascript*.
-
-Question: Why are functions important?
-
----
-
-##Algorithms vs functions
-
-How could we describe the function `square` in an algorithm vs in a function?
-
-**Algorithm —**
-*abstract*
+#Defining a Function
+A function can be thought of as a program within a larger program.  They often perform small or repetitious tasks.  When a function is *called*, the code within the curly braces will be executed.  It will only be executed when the function is called.
+    
+    function greetEveryone() {
+        // anything inside the curly braces will be executed
+        console.log("Hi, everyone!");
+    }
+    
+The above code is called a *function definition*.  On its own, the function will not execute.  The function will need to be *called* by an outside source to initialize and carry out its tasks.  To call a function, the function name and following parenthesis are typed as a statement.
 
 ```
-Take a number, multiply it by itself, and return the product.
+    greetEveryone(); // Hi, everyone!
 ```
 
-**Function —**
-*concrete*
+#Defining a function with a parameter
+When a function receives a parameter, it will use that value to perform an action. In the function `greetPerson( name )` the function requires that a name variable be given to it.  
+
+    function greetPerson( name ) {
+        console.log("Hello " + name);
+    }
+Similar to calling a function without parameters, the function name is called as a statement.  Parameters are passed into the function within the parenthesis.
 
 ```
-var square = function(num) {
-    return num * num;
+    var name = "Jeff";
+    greetPerson(name); // Hello Jeff
+```
+
+###Say hello to some students
+Functions can take variables as parameters or Strings
+
+``` 
+    var name1 = "Christopher";
+    var name2 = "Judy";
+    var name3 = "Noomi";
+
+    greetPerson(name1); // Hello Christopher
+    greetPerson(name2); // Hello Judy
+    greetPerson(name3); // Hello Noomi
+    
+    greetPerson("Will"); // Hello Will
+```
+##Defining a function with multiple parameters
+
+Functions can take multiple paramters.  Each parameter must be separated from another by a comma.  
+
+    // Add two intergers
+    function add( a, b ) {
+        console.log( a + b );
+    }
+    
+    var x = 6;
+    var y = 2;
+    
+    sum(x, y); // 8
+    sum(2, 3); // 5
+    sum(44, 33); // 77
+    
+##Functions on Integers
+```
+    // Subtract two integers
+    function subtract(a, b) {
+        console.log( a - b );
+    }
+```
+``` 
+    // Multiply two integers
+    function multiply( a, b) {
+        console.log( a  *  b);
+    }
+```
+```
+    // Divide two integers
+    function divide(a, b) {
+        console.log( a / b );
+    }
+``` 
+##Functions on Strings
+Functions may perform actions upon Strings as well.
+
+```
+    // convert String to uppercase
+    function shout( phrase ) {
+        console.log( phrase.toUpperCase() );
+    }
+    
+    var phrase = 'i am mighty.'
+    shout( phrase ); // I AM MIGHTY.
+```
+```
+    // convert String to lowercase
+    function whisper( phrase ) {
+        console.log( phrase.toLowerCase() );
+    }
+    
+    shout( "I AM SMALL"); // i am small
+``` 
+```
+    // append an exclamation point to the end of a phrase
+    function exclaim( phrase ) {
+        console.log( phrase + '!');
+    }
+    
+    var phrase = "Avast, ye mateys";
+    exclaim( phrase ); // Avast, ye mateys!
+```
+
+**Note:** When naming functions, it is best practice to 
+ use camelCase if multiple words are used in the title. 
+ This helps with readability, much like the case with 
+ variable and filename naming convention.
+
+> **Bad Naming Convention:**
+> 
+> * `Squarethesenumbers()`
+> * `CONVERTTOBINARY()`
+> * `pythagoreantheorem()`
+>  
+> **Good Naming Convention:**
+> 
+> * `hexToBinary()`
+> * `determineRootVariant()`
+> * `deployPhaserTorpedos()`
+
+```
+    // convert spaces to dashes in a phrase
+    function spacesToDashes( phrase ) {
+        console.log(phrase.replace(/ /g, "-"));
+    }
+    
+    var phrase = "Dash is also a great API lookup tool!";
+    exclaim( phrase ); // Dash-is-also-a-great-API-lookup-tool!
+```
+
+In the case of the function spacesToDashes, the function description 'spaces to dashes' the first letters were capitalized and the phrase was concatenated to 'spacesToDashes'
+    
+## Functions with Return Values
+The above functions use console.log() to display the result of their internal actions to the screen.  Functions also have the ability to send results back for later use.
+
+``` 
+    // square a number and return the new value
+    function square( a ) {
+      return a * a;
+    }
+
+    var mySquaredValue = square( 8 );
+    console.log( mySquaredValue ); // 64
+```
+The particular function above multiplies the value it received as a parameter by itself and *returns* the resulting product back to the point where it was called.  The variable `mySquaredValue` now has the *return* value of hte function `square( 8 )` assigned to it. 
+
+
+##Function Scope
+A variable that is declared outside a function definition is a **global** variable, and its value is accessible and modifiable throughout your program. A variable that is declared inside a function definition is **local**.
+
+Functions can access and modify global variables at will.  A program cannot access a function's local variable, however.  By nature, variables declared and defined within a function are created and destroyed as soon as the function starts and stops.  The local variable's data would be impossible to depend on from a source outside of the function.  
+
+```
+/* banana is a global variable and can be accessed by all functions within the file */
+var banana = 1;
+
+/* This function will change the global variable `banana` */
+function sliceBanana(slices){
+    banana = slices;
+    return;
 }
 ```
-Question: What are the fundamental differences between an algorithm and a function?
-
----
-
-##Components of a function
-
-The **parameters** are what you delare as being passed into the fuction in its definition, while *arguments* are what is actually passed into the function when called.
 
 ```
-var iHaveParameters = function(firstParam, secondParam, heyImTheThirdParam) {
-  //do something with the parameters
-}
-```
-
-The **return statement** is what the function outputs; you only have one thing return from a function.
-
-```
-var functionThatReturns = function() {
-  return true;  //simply returns true
-}
-```
-
-The **function body** is everything inside the actual function.
-
-```
-var rockingBod = function() {
-  //this is the body of the function
-}
-```
-
----
-
-##Declaring a function
-
-Either:
-
-```
-var sweetFunk = function() {
-    //sweetness
-} 
-```
-
-or:
-
-```
-function sweetFunk() {
-    //sweetness
-}
-```
-is acceptable for declaring a function; just stick to one convention.
-
-Note, a function can also be a key to an object; as a result it can more specifically be referred to as a method.
-
-```
-duck = {
-  cheer: function() {
-    console.log("quack! quack! quack!");
-  }
+function multiplyBySix(x){
+    /* mult is a local variable and can only be accessed and altered within the function */
+    var mult = 6;
+    x = x * mult;
+    return x;
 }
 
-duck.cheer()    // => "quack! quack! quack!"
+console.log(multiplyBySix(4));
+=> 24
+
+/* Attempting to display a local variable outside of its scope will return an undefined */
+console.log(x);
+=> undefined / ERROR!!!
 ```
 
----
 
-##Break Time
 
-###15 minutes
+##Explicit vs. Implicit Return Values
+Functions that return a variable or value are said to have *Explicit* returns.  Functions that simply have a return statement without a variable or value following it are called *Implicit* returns.  Implicit returns will returned an `undefined` value, which is perfectly fine!  Calling the return statement in a function simply signals that the function should end and return control back to the point that called the said function.
 
-<img src="http://i.giphy.com/wsEX8uMrTRDoI.gif" style="width: 250px;">
+###Explicit Example
+``` javascript
+function explicitFunction() {
+    return "Here Is My Explicit Return Value";
+}
 
----
+var returnValue = explicitFunction():
+console.log( returnValue === "Here Is My Explicit Return Value" ); // true
+```
 
-##Challenge: Variable output
+###Implicit Example
 
-In the next **10m**:
+``` javascript
+function implicitFunction() {
+    // What do I return?
+}
 
-1) Define a function `maxOrMin` that takes three parameters: two numbers and a boolean.
+var returnValue = implicitFunction():
+console.log( returnValue === undefined ); // true
+```
 
-2) Have it return the larger of the two numbers if the boolean is true, otherwise have it return the lesser of the numbers.
+``` javascript
+function implicitFunction2() {
+    return; // What do I return?
+}
 
----
+var returnValue = implicitFunction2():
+console.log( returnValue === undefined ); // true
+```
 
-##Example solution
+
+##Functions on Booleans
+Functions are able to receive and return boolean values.  Functions that return boolean values are commonly used to check the states of variables and whether conditions are met.
+
+> **Note:** It is best practice to name functions with boolean return values with a prefix of 'is', 'has', or 'can.'
+> 
+> * isEven()
+> * isPrime()
+> * hasCheezburger()
+> * canItBlend()
+> 
+> This will let the programmer know that the return value of the function will be a boolean value.  It also increases the readiblity of the code.
+
+### Function with boolean value as a parameter
+```
+    // outputs a statement based on boolean value
+    function hasCheezburger( answer ) ){
+        if (answer === true) {
+            console.log("Can I haz ur Cheezburger?");
+        } else {
+            console.log("Y no Cheezburger?");
+        }
+    }
+    var answer = true;
+    hasCheezeburger(answer); // Can I haz ur Cheezburger?
 
 ```
-function maxOrMin(num1, num2, max) {
-    //sort the numbers
-    var sorted = [num1, num2].sort(function(a, b){
-      return a - b;
-    });
-    if(max) {
-        //if max is true return the greater number
-        return sorted[1];
+
+### Function with boolean return value
+```
+    // checks if number is greater or less than 5
+    function isGreaterThanFive( number ){
+        if( number > 5 ) {
+            return true;
+        } else {
+            return false;
+        } 
+    }
+    
+    var number = 3;
+    var result = isGreaterThanFive(number);
+    console.log(result); // false; 
+```
+The above function has two return statements.  Since both are within an `if / else ` statement, only one will apply to the condition.  Once a return statement is executed the function ends.  This ensures that only one return statement can be executed per function.  
+
+*A function may have multiple possible return statements but only one may be executed at any one given function call.*
+
+### Function with both boolean parameter and return values
+
+```
+    // return opposite boolean value of parameter received
+    function completelyDisagree( bool ) {
+        if (bool === true) {
+            return false;
+        } else {
+            return true;
+        }
+    }
+    
+    var iAmRight = true;
+    var doYouAgree = completelyDisagree( iAmRight );
+    console.log( doYouAgree ); // false
+```
+
+
+
+
+
+##Function Recursion 
+
+Function recursion is the act of a function calling itself within its own code.  Traditionally, *recursive* functions require at least one parameter passed in.  Each time a function calls iself, the value of the parameter is changed to produce a desired effect.
+
+```
+/* Display all numbers from num to 0 on the screen */
+function countDown(num){
+    /* Base Case */
+    if(num < 0 ){
+        return;
     } else {
-        //otherwise return the lesser number
-        return sorted[0];
+    
+        /* Action Steps */
+        console.log(num);
+        num = num - 1;
+    
+        /* Recursive Steps */
+        countDown(num);     
     }
 }
+
+countDown(10);
+=> 10 9 8 7 6 5 4 3 2 1 0
 ```
 
----
+###What is this magic?!
+1.  The code above displays the current value of `num` to the screen then decrements the value by one.  
+2.  It then calls `countdown(num)` again. This time the value has been decremented.  
+3.  Notice that these statements are encapsulated inside an `if` statement.  This creates what is known as a *base case*.  
+4.  When `num` no longer satisfies the conditional statement `num >= 0`, (the variable reaches zero,) the function will no longer call itself and will end.
+5.  Pat yourself on the back.  This is not simple stuff!  
 
-##Scope
 
-Understanding this concept is essential to a proper foundation of JavaScript. Scoping rules vary from language to language. JavaScript has two scopes: *global* & *local* scope.
+![recursion](./recursion.gif)
+
+*Recursion is your friend!*
 
 
-Quite simply, a **scope** represents the area of your program where variable is defined. You can think of scope 
-
-As a rule: **A new function introduces a new scope**
-
----
-
-##Scope Example
-
-```
-var cityBoy = "I'm global";
- 
-function smallTown() {
-  var cityBoy = "I'm local";
- 
-  console.log ("local:", cityBoy);     
-}
- 
-smallTown();          
- 
-console.log("global:", cityBoy);     
-```
-
-Question: What happens to a variable's scope if you forget to declare the variable by using the keyword `var`?
-
----
-
-##Callbacks
-
-A **callback** is a function that is passed into another function. A function that can take a callback is known as a **first-class function**.
-
-```
-var consoleMe = function(message) {
-  console.log("I'm the callback, now displaying message...");
-  console.log(message);
-}
-var firstClassFunction = function(message, callback) {
-  console.log("I'm the first class function, now calling the callback...");
-  callback(message);
-}
-firstClassFunction("AYO!", consoleMe);
-```
-
-Question: Consider the JS function `sort`, is it a firstclass function?
-
----
-
-##Challenge: Callbacks
-
-Create a function called `sweetNothings` that takes a name as a parameter and outputs a love poem to that person.
-
-Create another funtion called `swoon` that also takes in a name and a callback as parameters and in the body of the function calls the callback with the name passed in.
-
-Finally try calling `swoon("Delmer", sweetNothings);` so that a love poem is written to Del.
-
----
-<img src="http://i.giphy.com/dsKnRuALlWsZG.gif" style="width:350px">
-
----
-
-##Further Discussion Topics
-
-We discuss these concepts at a later date. They are related, but more advanced. So have a solid understanding of these topics before you move on.
-
-* [Variable Hoisting](http://www.sitepoint.com/demystifying-javascript-variable-scope-hoisting/#hoisting) – Sitepoint article
-* [Closures](http://stackoverflow.com/questions/111102/how-do-javascript-closures-work#answer-111200) – Stack Overflow post
-* [Recursion](http://www.codecademy.com/courses/javascript-lesson-205/0/1) — Code Academy lesson
-
----
+**Code Challenge:** Modify the above program to count down to zero, *then* count back up to the original value.
