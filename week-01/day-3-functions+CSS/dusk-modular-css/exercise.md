@@ -8,7 +8,7 @@
 
 ###Steps
 
-* Refer to the `index.html`
+* Refer to the `index.html` inside the `starter_code` directory
 * Create an external stylesheet that contains your work
 
 ###Tip
@@ -74,6 +74,6 @@ Tip: CSS will mostly use `text-align` (center children) or `margin` (center) for
 
 Make a bullseye using three circle shapes as such:
 
-![bullseye](example/imgs/bullseye.jpg)
+![bullseye](starter_code/imgs/bullseye.jpg)
 
 Hint: Use absolute and relative positioning, z-index, and some of your existing classes.
