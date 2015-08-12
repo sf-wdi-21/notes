@@ -61,7 +61,7 @@ Create a function that accepts a string as input and returns a boolean true if i
 
 Here's an expected function prototype:
  
-`function isPalindrome(a, b);`
+`function isPalindrome(a);`
 
 Notice that the function begins with the word is.  Best practice reminds us to prefix any function with a boolean return with a 'has', 'is', or other similar deliniation.  
 
