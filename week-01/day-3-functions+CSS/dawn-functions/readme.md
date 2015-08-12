@@ -214,28 +214,33 @@ console.log(x);
 Functions that return a variable or value are said to have *Explicit* returns.  Functions that simply have a return statement without a variable or value following it are called *Implicit* returns.  Implicit returns will returned an `undefined` value, which is perfectly fine!  Calling the return statement in a function simply signals that the function should end and return control back to the point that called the said function.
 
 ###Explicit Example
-```
-/* This function EXPLICITLY returns the variable c */
-function explicitFunction(x, y) {
-
-	var c = x + y;
-	return c;
-
+``` javascript
+function explicitFunction() {
+	return "Here Is My Explicit Return Value";
 }
 
+var returnValue = explicitFunction():
+console.log( returnValue === "Here Is My Explicit Return Value" ); // true
 ```
 
 ###Implicit Example
 
-```
-var b = 4;
-
-function explicitFunction(x) {
-	/* This function returns gracefully after altering the global variable b */
-	b = b * x;
-	return;
+``` javascript
+function implicitFunction() {
+    // What do I return?
 }
 
+var returnValue = implicitFunction():
+console.log( returnValue === undefined ); // true
+```
+
+``` javascript
+function implicitFunction2() {
+    return; // What do I return?
+}
+
+var returnValue = implicitFunction2():
+console.log( returnValue === undefined ); // true
 ```
 
 
