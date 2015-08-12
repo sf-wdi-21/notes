@@ -37,7 +37,7 @@
     <td>Module1</td>
     <td>Culture Setting (Team)</td>
     <td><a href="/week-01/day-2-control-flow/dawn-control-flow/">Control Flow</a> (Nathan / Ilias)</td>
-    <td>Functions & Arguments (Justin / Ilias)</td>
+    <td><a href="/week-01/day-2-control-flow/dawn-control-flow/">Functions & Arguments</a> (Justin / Ilias)</td>
     <td>Intro Console & DOM (Nathan / Justin)</td>
     <td>Review (Team)</td>
   </tr>
