@@ -98,8 +98,72 @@ This would result in the following transformation:
   start:  ['g', '.', '.', '.', '.']  
   finish: ['g', 'g', 'g', 'g', 'g']  
 
-...
+2. n_in_a_row
+
+  start:  ['.', '.', '.', '.', '.']  
+  finish: ['b', 'b', '.', '.', '.']  \(given n is 2)  
+  finish: ['b', 'b', 'b', '.', '.']  \(given n is 3)  
+
+3. every_even_erase
+
+  start:  ['b', 'b', 'b', 'b', 'b']  
+    finish: ['.', 'b', '.', 'b', '.']  
+  
+4. every_odd_erase
+
+  start:  ['b', 'b', 'b', 'b', 'b']  
+    finish: ['b', '.', 'b', '.', 'b']  
+  
+5. every_n_erase
+
+  start:  ['b', 'b', 'b', 'b', 'b']  
+    finish: ['b', 'b', 'b', '.', 'b']  \(given n is 4)  
+  finish: ['b', 'b', 'b', 'b', '.']  \(given n is 5)  
+
+6. move_the_blue_dot_one_to_the_right
+
+  start:  ['.', '.', 'b', '.', '.']  
+    finish: ['.', '.', '.', 'b', '.']  
+  
+  start:  ['g', 'b', '.', '.', 'g']  
+    finish: ['g', '.', 'b', '.', 'g']  
+  
+7. delete_before
+
+  start:  [ 'g', 'b', '.', '.', '.' ]    
+  finish: [ '.', 'b', '.', '.', '.' ]    
+
+  start:  [ 'g', 'b', 'b', '.', '.' ]    
+  finish: [ '.', '.', 'b', '.', '.' ]  
+
 
 ### Day 3 Challenges -- advanced loops & conditionals
 
-...
+0. bleed_right
+
+  start:  ['.', '.', 'b', '.', '.']  
+  finish: ['.', '.', 'b', 'b', 'b']  
+
+1. invert_colors
+
+  start:  ['b', 'g', 'g', 'b', 'b']  
+  finish: ['g', 'b', 'b', 'g', 'g']  
+
+  start:  ['b', '.', 'g', '.', 'b']  
+  finish: ['g', '.', 'b', '.', 'g']  
+
+2. pull_blues_right
+
+  start:  ['b', '.', 'b', '.', '.']  
+  finish: ['.', '.', '.', 'b', 'b']  
+
+3. pull_blues_left
+
+  start:  ['b', 'g', 'g', 'b', 'b']  
+  finish: ['g', 'b', 'b', 'g', 'g']  
+
+4. reverse_row
+
+  start:  ['b', 'g', 'g', '.', 'g']  
+  finish: ['g', '.', 'g', 'g', 'b']  
+
