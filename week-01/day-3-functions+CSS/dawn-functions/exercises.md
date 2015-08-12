@@ -74,5 +74,5 @@ Specs:
 Extend your function to successfully test phrases (without punctuation.)  In the test, blank spaces should not be considered in comparing the forwards and backwards forms of hte phrases.
 
 ##Extra Stretchy Goal
-Alter your function to only use a single traversal of the phrase without using any built-in String or array methods.  Hint: Research loops!
+Alter your function to only use a single traversal (one loop) of the phrase using any built-in String or array methods EXCEPT reverse.  Hint: Research loops!
 
