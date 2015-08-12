@@ -8,73 +8,70 @@
 
 ###Steps
 
-Refer to the `index.html`. 
+* Refer to the `index.html`
+* Create an external stylesheet that contains your work
+
+###Tip
+
+Use Chrome's developer tools to test out your styles in real time. This avoids you making changes and reloading each time to see the change.
+
 
 ##Exercises
 
 ###SHOUT IT OUT!
 
-Create a class `.uppercase` that uppercases the text of "Modular CSS". 
-
-###Align right
-
-Create a class `.align-right` that will move "Modular CSS" to the right of the page.
+Create a class `.shout` that uppercases the text of "Modular CSS". 
 
 ###Shadow
 
-Create a class called `.shadow` that creates a drop shadow for the "Modular CSS" text.
-
-
-###Coloring
-
-Create three separate classes:
-
-* `.white-text` that makes "Modular CSS" white
-* `.red-background` that makes the `header` element's background red
-* `.blue-background` that makes the `main` element's background blue
-* `.yellow-background` that we will use later
-
-###Sizing
-
-You may have noticed that the three boxes have changed colors. That's because the class names we just defined had already been applied to them earlier. Now let's mess with changing their size.
-
-Create two separate classes:
-
-* `.wide` that makes the width of an element `4em`
-* `.narrow` that makes the width of an element `2em`
-
-###Operators
-
-Create a class `.operators` that make the the operators `+` & `=`  have a font-size of `2em` and centers them vertically with the shapes (HARD).
-
-###~~Strike out~~
-
-Create a class `.strike` that will strike out any text in the element it is applied to.
-
-<!--Create a line across the screen. Use classes to cut it in half and center it-->
-
-###Cut it / in half
-
-Create a class `.half` that will cut an element's size by 50%.
-
-<!--Invert the photo-->
+Create a class called `.shadow` that creates a drop shadow for the "Modular CSS" text. Make it subtle and not ugly (try blurring the shadow and using gray as the color).
 
 ###Invert
 
-Create a class `.invert	` that flips the photo of the old woman upside down.
+Create a class `.invert	` that flips the photo of the lady upside down.
 
-<!--todo-->
+Hint: try `transform: rotate(180deg)`
+
+###Coloring
+
+Create three separate classes to color the grid:
+
+* `.red-background`
+* `.blue-background`
+* `.purple-background`
+
+Make the shapes 1, 5, 9 red; shapes 2, 6, 7 blue; and shapes 3, 4, 8 purple.
 
 ###Circle
 
-Create a class called `.circle` and add it to the three boxes to make them circles.
+Create a class called `.circle` and add it to each shape in the grid make them all circles.
 
-###Technically Speaking
+Erase all the numbers inside the circles.
 
-Create a class `.technical` that will add a yellow background to any element. Like `this`.
+*Tip: For productivity, use the `command` key and click around in sublime to spawn multiple cursors.*
 
-###Bonus
+###Halfsies
 
-* Box model
-* Display types
-* Flexbox
+Create a class `.half` that will cut an element's size by 50%.
+
+Use it to cut the `<hr>` tag's size in half.
+
+###Centering
+
+Create two classes to center the title text, the lady and your grid.
+
+You may realize that since we have to account for inline, block, and inline-block elements they have different ways of being centered. A a result you will need two separate classes that we may choose to name:
+
+* `.middle` (for block elements)
+* `.center` (for inline or inline-block elements)
+
+Tip: CSS will mostly use `text-align` (center children) or `margin` (center) for horizontally centering things. Here's a helpful [reference guide](https://css-tricks.com/centering-css-complete-guide/) to centering things for more help.
+
+
+###Bullseye
+
+Make a bullseye using three circle shapes as such:
+
+![bullseye](imgs/bullseye.jpg)
+
+Hint: Use absolute and relative positioning, z-index, and some of your existing classes.
