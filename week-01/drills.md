@@ -2,7 +2,7 @@
 
 For this week's drills we will be playing a game called "Kyrel".
 
-In this game, you will be given a row and asked to transform it into a different row. For instance, you might be given a row with five empty cells and asked to draw a blue dot in the right-most cell. Since you always start in the left-most cell (the default starting position), you'll need to move before you can draw.
+In this game, you will be given a row and asked to transform it into a different row. For instance, you might be given a row with five empty cells solution and asked to draw a blue dot in the right-most cell. Since you always start in the left-most cell (the default starting position), you'll need to move before you can draw.
 
 ### Methods
 The following special methods are available for traversing/transforming the row:
@@ -52,27 +52,27 @@ This would result in the following transformation:
 
 ### Day 1 Challenges -- intro to commands
 
-0. turn_3rd_cell_blue
+0. turn_3rd_cell_blue - [solution](https://github.com/sf-wdi-21/kyrel/tree/master/challenges/solutions/turn_3rd_cell_blue.js)
 
     start:  ['.', '.', '.', '.', '.']   
     finish: ['.', .', 'b', '.', '.']  
 
-1. erase_3rd_cell
+1. erase_3rd_cell - [solution](https://github.com/sf-wdi-21/kyrel/tree/master/challenges/solutions/erase_3rd_cell.js)
 
   start:  ['b', 'b', 'b', 'b', 'b']  
   finish: ['b', 'b', '.', 'b', 'b']  
 
-2. every_other_erase
+2. every_other_erase - [solution](https://github.com/sf-wdi-21/kyrel/tree/master/challenges/solutions/every_other_erase.js)
 
   start:  ['b', 'b', 'b', 'b', 'b']  
   finish: ['b', '.', 'b', '.', 'b']  
 
-3. every_other_blue
+3. every_other_blue - [solution](https://github.com/sf-wdi-21/kyrel/tree/master/challenges/solutions/every_other_blue.js)
 
   start:  ['g', 'g', 'g', '.', '.']  
   finish: ['g', 'b', 'g', 'b', '.']  
 
-4. move_start_to_finish
+4. move_start_to_finish - [solution](https://github.com/sf-wdi-21/kyrel/tree/master/challenges/solutions/move_start_to_finish.js)
 
   start:  ['b', '.', '.', '.', '.']  
   finish: ['.', '.', '.', '.', 'b']  
@@ -85,12 +85,12 @@ This would result in the following transformation:
 
 ### Day 2 Challenges -- basic for loops & conditionals
 
-0. all_blue
+0. all_blue - [solution](https://github.com/sf-wdi-21/kyrel/tree/master/challenges/solutions/all_blue.js)
 
   start:  ['.', '.', '.', '.', '.']  
   finish: ['b', 'b', 'b', 'b', 'b']  
 
-1. all_first_color
+1. all_first_color - [solution](https://github.com/sf-wdi-21/kyrel/tree/master/challenges/solutions/all_first_color.js)
 
   start:  ['b', '.', '.', '.', '.']  
   finish: ['b', 'b', 'b', 'b', 'b']  
@@ -98,29 +98,29 @@ This would result in the following transformation:
   start:  ['g', '.', '.', '.', '.']  
   finish: ['g', 'g', 'g', 'g', 'g']  
 
-2. n_in_a_row
+2. n_in_a_row - [solution](https://github.com/sf-wdi-21/kyrel/tree/master/challenges/solutions/n_in_a_row.js)
 
   start:  ['.', '.', '.', '.', '.']  
   finish: ['b', 'b', '.', '.', '.']  \(given n is 2)  
   finish: ['b', 'b', 'b', '.', '.']  \(given n is 3)  
 
-3. every_even_erase
+3. every_even_erase - [solution](https://github.com/sf-wdi-21/kyrel/tree/master/challenges/solutions/every_even_erase.js)
 
   start:  ['b', 'b', 'b', 'b', 'b']  
     finish: ['.', 'b', '.', 'b', '.']  
   
-4. every_odd_erase
+4. every_odd_erase - [solution](https://github.com/sf-wdi-21/kyrel/tree/master/challenges/solutions/every_odd_erase.js)
 
   start:  ['b', 'b', 'b', 'b', 'b']  
     finish: ['b', '.', 'b', '.', 'b']  
   
-5. every_n_erase
+5. every_n_erase - [solution](https://github.com/sf-wdi-21/kyrel/tree/master/challenges/solutions/every_n_erase.js)
 
   start:  ['b', 'b', 'b', 'b', 'b']  
     finish: ['b', 'b', 'b', '.', 'b']  \(given n is 4)  
   finish: ['b', 'b', 'b', 'b', '.']  \(given n is 5)  
 
-6. move_the_blue_dot_one_to_the_right
+6. move_the_blue_dot_one_to_the_right - [solution](https://github.com/sf-wdi-21/kyrel/tree/master/challenges/solutions/move_the_blue_dot_one_to_the_right.js)
 
   start:  ['.', '.', 'b', '.', '.']  
     finish: ['.', '.', '.', 'b', '.']  
@@ -128,7 +128,7 @@ This would result in the following transformation:
   start:  ['g', 'b', '.', '.', 'g']  
     finish: ['g', '.', 'b', '.', 'g']  
   
-7. delete_before
+7. delete_before - [solution](https://github.com/sf-wdi-21/kyrel/tree/master/challenges/solutions/delete_before.js)
 
   start:  [ 'g', 'b', '.', '.', '.' ]    
   finish: [ '.', 'b', '.', '.', '.' ]    
@@ -139,12 +139,14 @@ This would result in the following transformation:
 
 ### Day 3 Challenges -- advanced loops & conditionals
 
-0. bleed_right
+Before you get started on today's exercises, **please download the [Kyrel App](https://github.com/sf-wdi-21/kyrel)**, either by cloning it, or downloading the zip file.
+
+0. bleed_right - [solution](https://github.com/sf-wdi-21/kyrel/tree/master/challenges/solutions/bleed_right.js)
 
   start:  ['.', '.', 'b', '.', '.']  
   finish: ['.', '.', 'b', 'b', 'b']  
 
-1. invert_colors
+1. invert_colors - [solution](https://github.com/sf-wdi-21/kyrel/tree/master/challenges/solutions/invert_colors.js)
 
   start:  ['b', 'g', 'g', 'b', 'b']  
   finish: ['g', 'b', 'b', 'g', 'g']  
@@ -152,17 +154,17 @@ This would result in the following transformation:
   start:  ['b', '.', 'g', '.', 'b']  
   finish: ['g', '.', 'b', '.', 'g']  
 
-2. pull_blues_right
+2. pull_blues_right - [solution](https://github.com/sf-wdi-21/kyrel/tree/master/challenges/solutions/pull_blues_right.js)
 
   start:  ['b', '.', 'b', '.', '.']  
   finish: ['.', '.', '.', 'b', 'b']  
 
-3. pull_blues_left
+3. pull_blues_left - [solution](https://github.com/sf-wdi-21/kyrel/tree/master/challenges/solutions/pull_blues_left.js)
 
   start:  ['b', 'g', 'g', 'b', 'b']  
   finish: ['g', 'b', 'b', 'g', 'g']  
 
-4. reverse_row
+4. reverse_row - [solution](https://github.com/sf-wdi-21/kyrel/tree/master/challenges/solutions/reverse_row.js)
 
   start:  ['b', 'g', 'g', '.', 'g']  
   finish: ['g', '.', 'g', 'g', 'b']  
