@@ -45,7 +45,7 @@
     <td>Module2</td>
     <td>Assessment (Team)</td>
     <td><a href="week-01/day-2-control-flow/dusk-modular-programs/">Modular Programs</a> (Ilias / Justin)</td>
-    <td><a href="https://github.com/sf-wdi-21/notes/tree/master/week-01/day-3-functions%2BCSS/dusk-modular-css">Class-based CSS</a> (Ilias / Justin)</td>
+    <td><a href="https://github.com/sf-wdi-21/notes/blob/master/week-01/day-3-functions%2BCSS/dusk-modular-css/exercise.md">Class-based CSS</a> (Ilias / Justin)</td>
     <td>DOM Context & Event Binding (Nathan / Ilias)</td>
     <td>Racing Game (Team)</td>
   </tr>
