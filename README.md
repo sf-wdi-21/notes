@@ -38,7 +38,7 @@
     <td>Culture Setting (Team)</td>
     <td><a href="week-01/day-2-control-flow/dawn-control-flow">Control Flow</a> (Nathan / Ilias)</td>
     <td><a href="week-01/day-3-functions%2BCSS/dawn-functions">Functions & Arguments</a> (Justin / Ilias)</td>
-    <td><a href="week-01/day-4-DOM/dawn-intro-dom-jquery">Intro DOM & jQuery</a> (Nathan / Justin)</td>
+    <td><a href="week-01/day-4-DOM/dawn-intro-dom-jquery">Intro jQuery & DOM</a> (Nathan / Justin)</td>
     <td>Review (Team)</td>
   </tr>
   <tr>
@@ -53,7 +53,7 @@
     <td>HW</td>
     <td><a href="week-01/day-1-intro/reading/1_javascript_primitives.md">JS Primitives</a> & <a href="/week-01/day-2-control-flow/dawn-control-flow/readme.md">Control Flow</a></td>
     <td><a href="week-01/day-3-functions%2BCSS/dawn-functions/reading.md">Functions</a> & <a href="week-01/day-3-functions%2BCSS/dusk-modular-css/readme.md">CSS</a></td>
-    <td><a href="week-01/day-4-DOM/dawn-functions/reading.md">jQuery Intro</a> & <a href="http://api.jquery.com/category/manipulation/"> Methods</a></td>
+    <td><a href="week-01/day-4-DOM/dawn-intro-dom-jquery/README.md">jQuery & DOM</a></td>
     <td>TBD: More jQuery or Iterators</a></td>
     <td></td>
   </tr>
