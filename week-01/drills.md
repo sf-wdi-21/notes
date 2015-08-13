@@ -162,7 +162,7 @@ Before you get started on today's exercises, **please download the [Kyrel App](h
 3. pull_blues_left - [solution](https://github.com/sf-wdi-21/kyrel/tree/master/challenges/solutions/pull_blues_left.js)
 
   start:  ['b', 'g', 'g', 'b', 'b']  
-  finish: ['g', 'b', 'b', 'g', 'g']  
+  finish: ['b', 'b', 'b', 'g', 'g']  
 
 4. reverse_row - [solution](https://github.com/sf-wdi-21/kyrel/tree/master/challenges/solutions/reverse_row.js)
 
