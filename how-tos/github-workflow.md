@@ -79,7 +79,7 @@ Once your setup you can follow these steps to:
 
 ###Sourcing updates
 
-Now at any time you can grab any changes we make to the original class notes repo by being inside your local notes repo and typing `git pull origin master`. If you get an error make sure you have added & committed any changes first.
+Now at any time you can grab any changes we make to the original class notes repo by being inside your local notes repo and typing `git pull upstream master`. If you get an error make sure you have added & committed any changes first.
 
 ###Making changes
 

@@ -61,7 +61,7 @@ Create a function that accepts a string as input and returns a boolean true if i
 
 Here's an expected function prototype:
  
-`function isPalindrome(a, b);`
+`function isPalindrome(a);`
 
 Notice that the function begins with the word is.  Best practice reminds us to prefix any function with a boolean return with a 'has', 'is', or other similar deliniation.  
 
@@ -74,5 +74,5 @@ Specs:
 Extend your function to successfully test phrases (without punctuation.)  In the test, blank spaces should not be considered in comparing the forwards and backwards forms of hte phrases.
 
 ##Extra Stretchy Goal
-Alter your function to only use a single traversal of the phrase without using any built-in String or array methods.  Hint: Research loops!
+Alter your function to only use a single traversal (one loop) of the phrase using any built-in String or array methods EXCEPT reverse.  Hint: Research loops!
 

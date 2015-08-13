@@ -107,39 +107,47 @@ This would result in the following transformation:
 3. every_even_erase - [solution](https://github.com/sf-wdi-21/kyrel/tree/master/challenges/solutions/every_even_erase.js)
 
   start:  ['b', 'b', 'b', 'b', 'b']  
-    finish: ['.', 'b', '.', 'b', '.']  
+  finish: ['.', 'b', '.', 'b', '.']  
   
 4. every_odd_erase - [solution](https://github.com/sf-wdi-21/kyrel/tree/master/challenges/solutions/every_odd_erase.js)
 
   start:  ['b', 'b', 'b', 'b', 'b']  
-    finish: ['b', '.', 'b', '.', 'b']  
-  
-5. every_n_erase - [solution](https://github.com/sf-wdi-21/kyrel/tree/master/challenges/solutions/every_n_erase.js)
+  finish: ['b', '.', 'b', '.', 'b']  
+
+
+### Day 3 Challenges -- More Loops
+
+Before you get started on today's exercises, **please download the [Kyrel App](https://github.com/sf-wdi-21/kyrel)**, either by cloning it, or downloading the zip file.
+
+0. every_even_erase - [solution](https://github.com/sf-wdi-21/kyrel/tree/master/challenges/solutions/every_even_erase.js)
 
   start:  ['b', 'b', 'b', 'b', 'b']  
-    finish: ['b', 'b', 'b', '.', 'b']  \(given n is 4)  
+  finish: ['.', 'b', '.', 'b', '.']
+
+2. every_n_erase - [solution](https://github.com/sf-wdi-21/kyrel/tree/master/challenges/solutions/every_n_erase.js)
+
+  start:  ['b', 'b', 'b', 'b', 'b']  
+  finish: ['b', 'b', 'b', '.', 'b']  \(given n is 4)  
   finish: ['b', 'b', 'b', 'b', '.']  \(given n is 5)  
 
-6. move_the_blue_dot_one_to_the_right - [solution](https://github.com/sf-wdi-21/kyrel/tree/master/challenges/solutions/move_the_blue_dot_one_to_the_right.js)
+3. move_the_blue_dot_one_to_the_right - [solution](https://github.com/sf-wdi-21/kyrel/tree/master/challenges/solutions/move_the_blue_dot_one_to_the_right.js)
 
   start:  ['.', '.', 'b', '.', '.']  
-    finish: ['.', '.', '.', 'b', '.']  
+  finish: ['.', '.', '.', 'b', '.']  
   
   start:  ['g', 'b', '.', '.', 'g']  
-    finish: ['g', '.', 'b', '.', 'g']  
+  finish: ['g', '.', 'b', '.', 'g']  
   
-7. delete_before - [solution](https://github.com/sf-wdi-21/kyrel/tree/master/challenges/solutions/delete_before.js)
+4. delete_before - [solution](https://github.com/sf-wdi-21/kyrel/tree/master/challenges/solutions/delete_before.js)
 
   start:  [ 'g', 'b', '.', '.', '.' ]    
   finish: [ '.', 'b', '.', '.', '.' ]    
 
-  start:  [ 'g', 'b', 'b', '.', '.' ]    
-  finish: [ '.', '.', 'b', '.', '.' ]  
+  start:  [ 'g', 'b', 'b', '.', 'b' ]    
+  finish: [ '.', '.', 'b', '.', 'b' ]  
 
 
-### Day 3 Challenges -- advanced loops & conditionals
-
-Before you get started on today's exercises, **please download the [Kyrel App](https://github.com/sf-wdi-21/kyrel)**, either by cloning it, or downloading the zip file.
+### Day 4 Challenges -- advanced loops & conditionals
 
 0. bleed_right - [solution](https://github.com/sf-wdi-21/kyrel/tree/master/challenges/solutions/bleed_right.js)
 
@@ -162,10 +170,9 @@ Before you get started on today's exercises, **please download the [Kyrel App](h
 3. pull_blues_left - [solution](https://github.com/sf-wdi-21/kyrel/tree/master/challenges/solutions/pull_blues_left.js)
 
   start:  ['b', 'g', 'g', 'b', 'b']  
-  finish: ['g', 'b', 'b', 'g', 'g']  
+  finish: ['b', 'b', 'b', 'g', 'g']  
 
 4. reverse_row - [solution](https://github.com/sf-wdi-21/kyrel/tree/master/challenges/solutions/reverse_row.js)
 
   start:  ['b', 'g', 'g', '.', 'g']  
   finish: ['g', '.', 'g', 'g', 'b']  
-

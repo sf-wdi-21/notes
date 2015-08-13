@@ -9,7 +9,7 @@
 ###Steps
 
 * Refer to the `index.html` inside the `starter_code` directory
-* Create an external stylesheet that contains your work
+* Create an external stylesheet that contains your work or add to `main.css`
 
 ###Tip
 
