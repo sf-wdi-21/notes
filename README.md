@@ -46,7 +46,7 @@
     <td>Assessment (Team)</td>
     <td><a href="week-01/day-2-control-flow/dusk-modular-programs/">Modular Programs</a> (Ilias / Justin)</td>
     <td><a href="week-01/day-3-functions%2BCSS/dusk-modular-css/exercise.md">Class-based CSS</a> (Ilias / Justin)</td>
-    <td>DOM Context & Event Binding (Nathan / Ilias)</td>
+    <td><a href="week-01/day-4-DOM/dusk-dom-events">DOM Context & Event Binding</a> (Nathan / Ilias)</td>
     <td>Racing Game (Team)</td>
   </tr>
   <tr>
@@ -54,7 +54,7 @@
     <td><a href="week-01/day-1-intro/reading/1_javascript_primitives.md">JS Primitives</a> & <a href="/week-01/day-2-control-flow/dawn-control-flow/readme.md">Control Flow</a></td>
     <td><a href="week-01/day-3-functions%2BCSS/dawn-functions/reading.md">Functions</a> & <a href="week-01/day-3-functions%2BCSS/dusk-modular-css/readme.md">CSS</a></td>
     <td><a href="week-01/day-4-DOM/dawn-intro-dom-jquery/README.md">jQuery & DOM</a></td>
-    <td>TBD: More jQuery or Iterators</a></td>
+    <td>No Reading!</a></td>
     <td></td>
   </tr>
 </table>
