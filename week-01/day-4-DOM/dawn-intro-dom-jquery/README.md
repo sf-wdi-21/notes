@@ -1,5 +1,11 @@
 #Intro to jQuery and the DOM
 
+| Objectives |
+| :---- |
+| Get comfortable with Chrome Developer Tools and the Console |
+| Select elements from the page using CSS Selectors |
+| Perform basic DOM manipulations using jQuery |
+
 #### Chrome Developer Tools
 Please take a quick look at the following documentation for the [Chrome Developer Console](https://developer.chrome.com/devtools), specifically the [Elements tab](https://developer.chrome.com/devtools/docs/dom-and-styles), and the [Console tab](https://developer.chrome.com/devtools/docs/console) (Max 20 minutes). This is one of the most important tools in your developer toolbelt.
 
