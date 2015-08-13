@@ -1,12 +1,12 @@
 #Intro to jQuery and the DOM
 
-## Chrome Developer Tools & the DOM
-**Before getting started**, please take a quick look at the following documentation for the [Chrome Developer Console](https://developer.chrome.com/devtools), specifically the [Elements tab](https://developer.chrome.com/devtools/docs/dom-and-styles), and the [Console tab](https://developer.chrome.com/devtools/docs/console) (Max 20 minutes). This is one of the most important tools in your developer toolbelt.
+#### Chrome Developer Tools
+Please take a quick look at the following documentation for the [Chrome Developer Console](https://developer.chrome.com/devtools), specifically the [Elements tab](https://developer.chrome.com/devtools/docs/dom-and-styles), and the [Console tab](https://developer.chrome.com/devtools/docs/console) (Max 20 minutes). This is one of the most important tools in your developer toolbelt.
 
-**What is the DOM?***
+#### What is the DOM?
 DOM stands for Document Object Model. It's a fancy way of describing what's going on in your browser when you visit a website. You may think that a website is just a chunk of html, css, and javscript. But between it being pure data (text), and it being a rendered page that you can explore, there's an important intermediate step. It turns out that everything you interact with inside of your browser can be represented as a javascript `object`. For example, this paragraph is an object, and it's full of information about being an html `p` tag.
 
-##jQuery
+##Intro to jQuery
 jQuery is just JavaScript! It was invented in 2005 and has made our lives as developers better ever since.
 
 We use jQuery because it's:
@@ -46,7 +46,7 @@ Take a look at the [raw jquery library](http://code.jquery.com/jquery-2.1.3.js) 
 You know you're working with jQuery any time you see a `$` in your code.
 
 As you're working with jQuery to manipulate DOM elements, you are almost always either *getting* or *setting* a value. Memorize this pattern:  
-- `$("CSS Selector").someJqueryMethodName()>` - **getting** a value
+- `$("CSS Selector").someJqueryMethodName()` - **getting** a value
 - `$("CSS Selector").someJqueryMethodName(setterValue)` - **setting** a value
 
 For example, if you are viewing this readme on github.com, then you can try the following in your Chrome Developer Console:  
