@@ -12,42 +12,42 @@
 
 #### CSS Selector Challenge
 1.
-\#fancy
-p#fancy
-div p#fancy
-.page #fancy
-.page p#fancy
-div.page p#fancy
+* \#fancy
+* p#fancy
+* div p#fancy
+* .page #fancy
+* .page p#fancy
+* div.page p#fancy
 
 2.
-div .small
-div a.small
-.small
-div.page a.small
+* div .small
+* div a.small
+* .small
+* div.page a.small
 
 3.
-p a
-div.page p a
-.page p a
-div p a
+* p a
+* div.page p a
+* .page p a
+* div p a
 
 4.
-.mad-favs li
-ul.mad-favs li
-div.page ul.mad-favs li
-.page .mad-favs li
+* .mad-favs li
+* ul.mad-favs li
+* div.page ul.mad-favs li
+* .page .mad-favs li
 
 5.
-.sparkles
-p.sparkles
-div p.sparkles
-div.page p.sparkles
+* .sparkles
+* p.sparkles
+* div p.sparkles
+* div.page p.sparkles
 
 6.
-p a.small
-p .small
-div p .small
-div.page p a.small
+* p a.small
+* p .small
+* div p .small
+* div.page p a.small
 
 ### jQuery Selector Challenge
 
@@ -106,7 +106,15 @@ var el = document.getElementByClassName("someclass")
     ```
 
 
-#### Indiana Jones Challenge
+#### Indiana Jones And the Temple of DOM
 
-PENDING
+``` javascript
+// title
+$("h1#san-francisco_title").text("Indiana Jones and the Temple of DOM");
+$("h1#san-francisco_title").append("<small>(Rated G)</small>")
 
+// image swap
+var $target = $("div.image-wrapper img").eq(0);
+var new_image = "http://media2.giphy.com/media/MS0fQBmGGMaRy/giphy.gif";
+$target.attr("src", new_image);
+```

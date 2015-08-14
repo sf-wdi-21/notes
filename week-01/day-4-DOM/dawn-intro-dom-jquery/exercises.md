@@ -65,17 +65,13 @@ Use jquery to select the element containing the words "Hello There" with as many
 4. How would you add a second greeting ("Que tal?"), below the first?
 5. How would you add the class "blue" to both greetings?
 
-#### Indiana Jones Challenge
+#### Indiana Jones And the Temple of DOM
 
 Go to the [General Assembly homepage](https://generalassemb.ly/) and open your Chrome Developer Console.
 
 1. Grab the huge text splashed across the front page.
     * Get its current text.
-        * Change it to "Indiana Jones: DOM Adventure"
-    * Get the font size.
-        * Make it tiny.
-    * What color is it?
-        * Make it green.
+        * Change it to "Indiana Jones and the Temple of DOM"
     * Add a `small` tag containing the text "(Rated G)" at the end of the line.
 1. Turn the big red button blue.
 1. Change the background of the first section heading to yellow.
