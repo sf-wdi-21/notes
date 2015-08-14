@@ -47,7 +47,7 @@
     <td><a href="week-01/day-2-control-flow/dusk-modular-programs/">Modular Programs</a> (Ilias / Justin)</td>
     <td><a href="week-01/day-3-functions%2BCSS/dusk-modular-css/exercise.md">Class-based CSS</a> (Ilias / Justin)</td>
     <td><a href="week-01/day-4-DOM/dusk-dom-events">DOM Context & Event Binding</a> (Nathan / Ilias)</td>
-    <td>Racing Game (Team)</td>
+    <td><a href="week-01/day-5/weekend_project_spec.md">Racing Game</a> (Team)</td>
   </tr>
   <tr>
     <td>HW</td>
