@@ -128,7 +128,8 @@ fruits = fruits.map(function(element) {
  
   	return element;
 });
-//"Apples", "Bananas", "Cherries", "Durians", "Elderberries", "Figs", "Guavas", "Huckleberries", "Ice plants", "Jackfruits"
+// "Apples", "Bananas", "Cherries", "Durians", "Elderberries", "Figs", "Guavas",  
+// "Huckleberries", "Ice plants", "Jackfruits"
 
 ```
 
