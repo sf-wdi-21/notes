@@ -173,5 +173,39 @@ sum = numbers.reduce( function(current, next){
 
 ```
 
+##array.filter()##
+With the `filter()` method you can create a *second* array filled with elements that pass certain criteria that you desginate.  This is great for creating a sub array of fruits that start with vowels, a list of even numbers from a bigger list, and so on.  
+  *It's important to remember that a filter method on an array needs a `boolean` return value for the callback function you pass as an argument.*  
+  
+Fruity Example - Return a list of fruit that start with vowels:  
+
+```javascript 
+var vowels = ["A", "E", "I", "O", "U"];
+function vowelFruit(fruit) {
+  var isVowel = vowels.indexOf(fruit[0]);
+  if (isVowel >= 0) {
+  	return true; 
+  } else { 
+  	return false;
+  }
+}
+var vowelFruits = fruits.filter(vowelFruit);
+// ["Apple", "Elderberry", "Ice plant"]
+
+```
+Numbers Example - Find all even numbers within an array greater than 5:  
+
+```javascript 
+numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+even = numbers.filter( function(num){
+	var isEven = num%2==0;
+    var greaterThanFive = num > 5;
+    return isEven && greaterThanFive;
+});
+// [6, 8, 10]
+
+```
+
 
 [Here is a link to the Mozilla Developer Network page on Javascript Arrays and prototype methods](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
