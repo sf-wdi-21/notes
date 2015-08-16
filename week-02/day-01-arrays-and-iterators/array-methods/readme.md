@@ -72,12 +72,30 @@ var huckleBerryPos = fruits.indexOf("HuckleBerry");
 var removedItem = fruits.splice(huckleBerryPos, 1); 
 // ["Apple", "Banana", "Cherry", "Durian", "Elderberry", "Fig", "Guava", "Ice plant", "Jackfruit"];
 ```
-##Traversals##
-To loop through an array similar to a for-loop traversal, with the ability to alter each element:
+
+![img](http://www.frusion.com/media/1011/fruit-row.png)
+
+
+#Traversals and Actions#
+
+##array.forEach()##
+
+To loop through an array in a fashion similar to a for-loop traversal with the ability to alter each element, a `forEach()` method is available
+
+**forEach function skeleton**:
 
 ```javascript
-fruits.forEach(function (fruit, i, fruits) {
-  console.log(i + ". " + fruit);
+
+array.forEach( function callBack (element, index, array) {
+    console.log(index + ". " + element); 
+});
+```
+
+Fruity Example - Make a numbered list
+
+```javascript
+fruits.forEach( function (element, index, array) {
+  console.log(index + ". " + element);
 });
 /*	0. Apple 
 	1. Banana 
@@ -91,12 +109,55 @@ fruits.forEach(function (fruit, i, fruits) {
 	9. Jackfruit
 */
 ```
+     
+##array.map()##
+Similar to `forEach()`, `map()` traverses an array; this method, however, performs whatever callback function you pass into it as an argument on each element. 
 
 
+Fruity Example - pluralize all of our fruits  
 
+```javascript
+fruits = fruits.map(function(element) {
+	
+	// if word ends in 'y', remove 'y' and add 'ies' to the end
+  	var lastLetter = element[element.length -1];
+   	if( lastLetter === 'y'){ 
+  		element = element.slice(0,element.length-1) + 'ie';
+	}
+   	element = element+'s';
+ 
+  	return element;
+});
+//"Apples", "Bananas", "Cherries", "Durians", "Elderberries", "Figs", "Guavas", "Huckleberries", "Ice plants", "Jackfruits"
 
+```
 
+Numbers Example - Square each number in an array
 
+```javascript
+numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+numbers = numbers.map( function( element ) {
+	element = Math.pow(element, 2);
+
+	return element;
+});
+// numbers = [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
+```
+
+##array.reduce()##
+The `reduce()` method is designed to create one single object that is the result of an action performed among all elements in an array.  It essentially 'reduces' the values of an array into one single element.
+
+```javascript 
+numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+sum = numbers.reduce( function(current, next){
+	return current + next; 
+});
+// sum => 55
+
+```
+##Neat Tricks##
 
 
 
