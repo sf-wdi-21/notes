@@ -148,6 +148,20 @@ numbers = numbers.map( function( element ) {
 ##array.reduce()##
 The `reduce()` method is designed to create one single object that is the result of an action performed among all elements in an array.  It essentially 'reduces' the values of an array into one single element.
 
+Fruity Example - Return the first letter of every word in fruits concatentated into one single string:  
+
+```javascript 
+avgLen = fruits.reduce( function(current, next, index){
+    if(index == 1) { 
+    	current = current[0]; 
+    }
+	return current+next[0];
+});
+// "ABCDEFGHIJ"
+
+```
+Numbers Example - Find the sum of all of the numbers in an array:
+
 ```javascript 
 numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
@@ -157,10 +171,6 @@ sum = numbers.reduce( function(current, next){
 // sum => 55
 
 ```
-##Neat Tricks##
-
-
-
 
 
 [Here is a link to the Mozilla Developer Network page on Javascript Arrays and prototype methods](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
