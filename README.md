@@ -33,7 +33,7 @@
   </tr>
   <tr>
     <td>Module1</td>
-    <td><a href="https://github.com/sf-wdi-21/notes/tree/master/week-02/day-01-arrays%2BIterators/dawn-arrayMethods">Array Methods (Justin)</a></td>
+    <td><a href="https://github.com/sf-wdi-21/notes/tree/master/week-02/day-01-arrays%2BIterators/dawn-arrayMethods">Array Methods</a> (Justin)</td>
     <td>Forms & JSON (Nathan)</td>
     <td>HTML Templating (Ilias)</td>
     <td>Objects (Justin)</td>
