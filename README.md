@@ -1,5 +1,7 @@
 #WDI SF 21
 
+[HW Submission Form](http://goo.gl/forms/91O3VeI8V4)
+
 <!-- ##Week 12 -->
 <!-- ##Week 11 -->
 <!-- ##Week 10 -->
@@ -10,12 +12,54 @@
 <!-- ##Week 5 -->
 <!-- ##Week 4 -->
 <!-- ##Week 3 -->
-<!-- ##Week 2 -->
 
-[HW Submission Form](http://goo.gl/forms/91O3VeI8V4)
+##Week 2 -- Working with Objects
+<table>
+  <tr>
+    <th></th>
+    <th>Monday</th>
+    <th>Tuesday</th>
+    <th>Wednesday</th>
+    <th>Thursday</th>
+    <th>Friday</th>
+  </tr>
+  <tr>
+    <td>Drills</td>
+    <td><a href="week-02/drills.md">Extend Kyrel</a></td>
+    <td><a href="week-02/drills.md">HTML Strings</a></td>
+    <td><a href="week-02/drills.md">Frequency Counter</a></td>
+    <td><a href="week-02/drills.md">Merge</a></td>
+    <td>Assessment (Team)</td>
+  </tr>
+  <tr>
+    <td>Module1</td>
+    <td>Array Methods (Justin)</td>
+    <td>Forms & JSON (Nathan)</td>
+    <td>HTML Templating (Ilias)</td>
+    <td>Objects (Justin)</td>
+    <td>Review (Team)</td>
+  </tr>
+  <tr>
+    <td>Module2</td>
+    <td>Implementing Iterators (Ilias)</td>
+    <td>Intro AJAX (Nathan)</td>
+    <td>AJAX & Google Maps (Nathan)</td>
+    <td>OOP Drills (Justin)</td>
+    <td>OOP Refactor (Nathan)</td>
+  </tr>
+  <tr>
+    <td>HW</td>
+    <td>HTML Forms</td>
+    <td>How the Internet Works</td>
+    <td>OOP Reading</td>
+    <td>JS Style Guide</td>
+    <td><!-- LEAVE BLANK --></td>
+
+  </tr>
+</table>
 
 
-##Week 1
+##Week 1 -- Controlling the DOM
 <table>
   <tr>
     <th></th>
