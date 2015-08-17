@@ -33,7 +33,7 @@
   </tr>
   <tr>
     <td>Module1</td>
-    <td>Array Methods (Justin)</td>
+    <td><a href="week-02/day-01-arrays%2BIterators/arrayMethods">Array Methods (Justin)</a></td>
     <td>Forms & JSON (Nathan)</td>
     <td>HTML Templating (Ilias)</td>
     <td>Objects (Justin)</td>
