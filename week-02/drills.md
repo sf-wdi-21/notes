@@ -3,19 +3,19 @@
 ### Extending Kyrel
 It's time to dig a little deeper into the guts of kyrel. The following functionality doesn't exist in the current implementation of the game. Let's add it!
 
-0. is_empty_method - [solution](week-02/drills_solutions.md#isempty)
+0. is_empty_method - [solution](drills_solutions.md#isempty)
     
     Create a utility method called `isEmpty` that checks the current cell for color and returns a boolean.
 
-1. move_right_n_method - [solution](week-02/drills_solutions.md#moverightn)
+1. move_right_n_method - [solution](drills_solutions.md#moverightn)
     
     By default `moveRight` and `moveLeft` move the kyrel one cell at a time. Modify both methods so that they take an integer as an argument, representing the number of times to move in that direction. (Make sure that the default behavior continues to work too!)
 
-2. move_method - [solution](week-02/drills_solutions.md#movedirection-times)
+2. move_method - [solution](drills_solutions.md#movedirection-times)
     
     Refactor your solution to #2 above. Your goal is to create a generic `move` method tbat takes two arguments: the direction of movement, and the number of steps/movements to take: e.g. `move("r", 4)`.
 
-3. n_cell_rows - [solution](week-02/drills_solutions.md#n_cell_rows)
+3. n_cell_rows - [solution](drills_solutions.md#n_cell_rows)
 
     Currently it is only possible to have a 5 cell row in kyrel. Modify the code so that the length of the row can easily be changed by updating a single variable.
 
