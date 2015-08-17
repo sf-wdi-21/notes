@@ -79,9 +79,34 @@ var removedItem = fruits.splice(huckleBerryPos, 1);
 
 ##Callbacks##
 
-<!--notes on callbacks here-->
+Callbacks are functions that you pass as an argument into another javascript function.  When they are passed in as an argument, they can be called within the function at whim.  
 
-##Traversals and Actions##
+Here's a delicious example:
+
+```javascript
+
+function mySandwich(topping1, topping2, callback) {
+    alert('I just started eating my sandwich.\nIt has: ' + topping1 + ' and ' + topping2);
+    callback();
+}
+
+mySandwich('ham', 'cheese', function() {
+    alert('I just finished eating my sandwich.');
+});
+```
+
+As you have no doubt seen in your last project, you were using callback functions that were defined within the arguments list of the jQuery  functions. It's funky, but it works well!
+
+jQuery function in the wild:
+
+```javascript
+
+$("p").on("click", function(){
+    alert("The paragraph was clicked.");
+});
+
+```
+##Array Traversals and Actions##
 
 ###array.forEach()###
 
