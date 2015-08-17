@@ -62,7 +62,7 @@ assert(["thursday", "friday", "saturday"], "thursday", first)
 
 ```javascript
 assert(["monday", "tuesday", "wednesday"], "wednesday", last)
-assert(["thursday", "friday", "saturday"], "saturday", first)
+assert(["thursday", "friday", "saturday"], "saturday", last)
 ```
 
 **Min**
