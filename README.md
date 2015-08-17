@@ -33,7 +33,7 @@
   </tr>
   <tr>
     <td>Module1</td>
-    <td><a href="week-02/day-01-arrays%2BIterators/arrayMethods">Array Methods (Justin)</a></td>
+    <td><a href="https://github.com/sf-wdi-21/notes/tree/master/week-02/day-01-arrays%2BIterators/dawn-arrayMethods">Array Methods (Justin)</a></td>
     <td>Forms & JSON (Nathan)</td>
     <td>HTML Templating (Ilias)</td>
     <td>Objects (Justin)</td>
@@ -41,7 +41,7 @@
   </tr>
   <tr>
     <td>Module2</td>
-    <td>Implementing Iterators (Ilias)</td>
+    <td><a href="https://github.com/sf-wdi-21/notes/tree/master/week-02/day-01-arrays%2BIterators/dusk-iteratorsLab">Implementing Iterators</a> (Ilias)</td>
     <td>Intro AJAX (Nathan)</td>
     <td>AJAX & Google Maps (Nathan)</td>
     <td>OOP Drills (Justin)</td>
