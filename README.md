@@ -95,7 +95,7 @@
   </tr>
   <tr>
     <td>HW</td>
-    <td><a href="week-01/day-1-intro/reading/1_javascript_primitives.md">JS Primitives</a> & <a href="/week-01/day-2-control-flow/dawn-control-flow/readme.md">Control Flow</a></td>
+    <td><a href="week-01/day-1-intro/reading/1_javascript_primitives.md">JS Primitives</a> & <a href="https://github.com/sf-wdi-21/notes/blob/master/week-01/day-2-control-flow/dawn-control-flow/README.md">Control Flow</a></td>
     <td><a href="week-01/day-3-functions%2BCSS/dawn-functions/reading.md">Functions</a> & <a href="week-01/day-3-functions%2BCSS/dusk-modular-css/readme.md">CSS</a></td>
     <td><a href="week-01/day-4-DOM/dawn-intro-dom-jquery/README.md">jQuery & DOM</a></td>
     <td>No Reading!</a></td>
