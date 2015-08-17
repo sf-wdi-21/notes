@@ -55,14 +55,14 @@ Now use the below tests to infer the behavior of the functions `first`, `last`, 
 
 ```javascript
 assert(["monday", "tuesday", "wednesday"], "monday", first)
-assert(["thursday", "friday", "saturday"], "thurday", first)
+assert(["thursday", "friday", "saturday"], "thursday", first)
 ```
 
 **Last**
 
 ```javascript
 assert(["monday", "tuesday", "wednesday"], "wednesday", last)
-assert(["thursday", "friday", "saturday"], "saturday", first)
+assert(["thursday", "friday", "saturday"], "saturday", last)
 ```
 
 **Min**
