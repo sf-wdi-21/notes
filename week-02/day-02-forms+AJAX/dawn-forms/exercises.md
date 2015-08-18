@@ -42,7 +42,7 @@ For the following exercises, please ONLY use html.
     - a (required) text input with a name of "q", and a default value of "http status cats".
     - a submit button
 
-You should end up here: "https://www.google.com/search?tbm=isch&q=http+status+cats"
+    You should end up here: "https://www.google.com/search?tbm=isch&q=http+status+cats"
 
 4. **Movie Search**. Create an html `form` that searches for movies on the OMDB API by title and by year. You will need to take care to use the correct query parameters. The only way to find out what they are is to [read their documentation](http://omdbapi.com/#usage).
 

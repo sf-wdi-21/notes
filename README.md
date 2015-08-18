@@ -41,8 +41,8 @@
   </tr>
   <tr>
     <td>Module2</td>
-    <td><a href="https://github.com/sf-wdi-21/notes/tree/master/week-02/day-01-arrays%2BIterators/dusk-iteratorsLab">Implementing Iterators</a> (Ilias)</td>
-    <td>Intro AJAX (Nathan)</td>
+    <td><a href="week-02/day-01-arrays%2BIterators/dusk-iteratorsLab">Implementing Iterators</a> (Ilias)</td>
+    <td><a href="week-02/day-02-forms+AJAX/dusk-ajax">Intro AJAX</a> (Nathan)</td>
     <td>AJAX & Google Maps (Nathan)</td>
     <td>OOP Drills (Justin)</td>
     <td>OOP Refactor (Nathan)</td>
