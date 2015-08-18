@@ -9,7 +9,7 @@ Your goal is to integrate with the giphy.com API.
 
 Your completed application will display gifs that match user search results.
 
-Please clone: [Giffaw](https://github.com/sf-wdi-21/giffaw)
+Please clone: [The Giphy AJAX Lab](https://github.com/sf-wdi-21/giffaw) and follow the instructions in the readme.
 
 ---
 ---
@@ -35,7 +35,7 @@ Make a music search app using jQuery, AJAX, and the Spotify API. You will be usi
 
 1. Create a new directory and GitHub repo called `spotify_app`.
 
-2. You'll need `index.html`, `style.css`, and `script.js` files. Feel free to copy <a href="spotify_app" target="_blank">this starter code</a> to get started.
+2. You'll need `index.html`, `style.css`, and `script.js` files. Feel free to copy <a href="https://github.com/sf-wdi-21/blank_template" target="_blank">this starter code</a> to get started.
 
 3. Practice querying [Spotify's search endpoint](https://developer.spotify.com/web-api/search-item) using Postman with a couple different search keywords. You'll want to set `type=track` in your request URL. Look at the response data, and figure out how you would access the track name and artist name for a particular track (this will involve accessing values from nested objects and arrays).
 
