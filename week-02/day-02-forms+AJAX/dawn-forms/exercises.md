@@ -5,9 +5,9 @@ Please clone and use this [blank template](https://github.com/sf-wdi-21/blank_te
 ### Query Parameters -- [solutions](solutions.md)
 
 0. Create a function that converts a string into an object, using the following principle:  
-* A `=` separates a `key` on the left from a `value` on the right.
-* An `&` separates key-value pairs from each other.
-* The string may not contain spaces.
+    - A `=` separates a `key` on the left from a `value` on the right.
+    - An `&` separates key-value pairs from each other.
+    - The string may not contain spaces.
 
 Here's how your conversion function should work:
 
@@ -38,10 +38,11 @@ For the following exercises, please ONLY use html.
 2. **Color Search**. Create an html `form` that contains the html5 color-picker input (named "q"). When the user picks a color and clicks submit, redirect them to, e.g. "https://duckduckgo.com/?q=%2300fa91".
 
 3. **Image Search**. Create an html `form` that has an action of "https://www.google.com/search" and contains three inputs:  
-* a hidden input with a name of "tbm" and a value of "isch".
-* a (required) text input with a name of "q", and a default value of "http status cats".
-* a submit button
-* You should end up here: "https://www.google.com/search?tbm=isch&q=http+status+cats"
+    - a hidden input with a name of "tbm" and a value of "isch".
+    - a (required) text input with a name of "q", and a default value of "http status cats".
+    - a submit button
+
+You should end up here: "https://www.google.com/search?tbm=isch&q=http+status+cats"
 
 4. **Movie Search**. Create an html `form` that searches for movies on the OMDB API by title and by year. You will need to take care to use the correct query parameters. The only way to find out what they are is to [read their documentation](http://omdbapi.com/#usage).
 
