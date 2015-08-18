@@ -1,9 +1,5 @@
 # HTML5 Forms
 
-In order that you avoid W3Schools, here is a guide for writing simple forms in HTML5. In fact you should just install this chrome [extension](https://chrome.google.com/webstore/detail/w3schools-hider/igiahejkpbnbnekdaefddmdceocmjpll?hl=en-US) so that you never have to see W3Schools hijacking your google searches. As a novice it's a fine resource, but as you are leveling up you should be referencing much more reputable sources such as [MDN](https://developer.mozilla.org/en-US/) & [W3C](http://www.w3.org/).
-
-[MDN's section on forms](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Forms) is a great resource and has been distilled below.
-
 ### An Example `<form>` Element (Tag)
 
 ```html
@@ -144,15 +140,11 @@ You may need the user to enter a specific amount of characters. Let's say you ne
 ```
 
 
-
-###Confirmation
-
-Most commonly when creating passwords, your application will need to ensure that the passwords match before allowing the form to submit.
-
-```html
-```
-
-
 ##Further Reading
 
-As you start to build application where users need to create accounts and login, these validation will be invaluable. More reading [here](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Forms/Data_form_validation).
+MDN has a number of exhaustive resources on HTML forms and inputs. It can be a lot to absorb, so look for patterns and try to grasp the big picture.
+
+* [HTML Form Reference](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Forms) is a great resource and has been distilled below.
+* [HTML Input Reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input)
+* [Native Form Widgets](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Forms/The_native_form_widgets)
+* [Form Validation] [here](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Forms/Data_form_validation).
