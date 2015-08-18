@@ -25,10 +25,10 @@
   </tr>
   <tr>
     <td>Drills</td>
-    <td><a href="week-02/drills.md">Extend Kyrel</a></td>
-    <td><a href="week-02/drills.md">HTML Strings</a></td>
-    <td><a href="week-02/drills.md">Frequency Counter</a></td>
-    <td><a href="week-02/drills.md">Merge</a></td>
+    <td><a href="week-02/drills.md">Extend Kyrel (Nathan)</a></td>
+    <td><a href="week-02/drills.md">HTML Strings (Ilias)</a></td>
+    <td><a href="week-02/drills.md">Frequency Counter (Ilias)</a></td>
+    <td><a href="week-02/drills.md">Merge (Ilias)</a></td>
     <td>Assessment (Team)</td>
   </tr>
   <tr>
@@ -49,10 +49,10 @@
   </tr>
   <tr>
     <td>HW</td>
-    <td><a href="https://github.com/sf-wdi-21/notes/blob/master/week-02/day-02-forms%2BAJAX/dawn-forms/readme.md">HTML Forms</a></td>
-    <td>How the Internet Works</td>
-    <td>OOP Reading</td>
-    <td>JS Style Guide</td>
+    <td><a href="https://github.com/sf-wdi-21/notes/blob/master/week-02/day-02-forms%2BAJAX/dawn-forms/readme.md">HTML Forms (Ilias)</a></td>
+    <td>How the Internet Works (Ilias)</td>
+    <td>OOP Reading (Justin)</td>
+    <td>JS Style Guide (Nathan)</td>
     <td><!-- LEAVE BLANK --></td>
 
   </tr>
