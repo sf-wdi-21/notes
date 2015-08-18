@@ -3,6 +3,30 @@
 ### Return of the Movie Search
 Your goal is to figure out how to use the [OMDB API](http://omdbapi.com/#usage) + [jQuery's `get` method](api.jquery.com/jQuery.get/) to request information (JSON) about the movie "Primer". Can you console.log the movie description? HINT: start by hitting the endpoint directly, then figure out how to "drill down" through the json object to get to the data you want.
 
+### Which Comes First?
+
+In what order will the console-logs occur?
+
+``` javascript
+console.log("Sanity Check: JS is working!");
+
+$(document).ready(function(){
+
+    console.log("Up here");
+
+    $.get("http://omdbapi.com?t=avatar", function(response_data){
+        console.log("In here");
+        $("h1").text(response_data.Title);
+    });
+
+    console.log("Down here");
+
+});
+
+console.log("Out here")
+
+```
+
 ### Giphy AJAX Lab
 
 Your goal is to integrate with the giphy.com API.

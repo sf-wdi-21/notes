@@ -30,6 +30,12 @@ $.ajax({
 });
 ```
 
+### Which Comes First
+1. Sanity Check: JS is working! // base.js is loading
+2. Out here                     // base.js is finished loading
+3. Up here                      // the document is ready
+4. Down here                    // the ajax request has been sent
+5. In here                      // the ajax request is back
 
 ### Giphy AJAX Lab
 Solutions can be found in the [solutions branch](https://github.com/sf-wdi-21/giffaw/tree/basic_solution)
