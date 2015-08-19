@@ -76,6 +76,6 @@ Just like mailing a letter, a LAN's public IP address can be thought of as a hou
 ##Further Reading
 
 * [TCP/IP Wiki](https://en.wikipedia.org/wiki/Internet_protocol_suite)
-* [How does the Internet Work? (Stanford)](http://web.stanford.edu/class/msande91si/www-spr04/readings/week1/InternetWhitepaper.htm)
+* [How Does the Internet Work? (Stanford)](http://web.stanford.edu/class/msande91si/www-spr04/readings/week1/InternetWhitepaper.htm)
 * [TCP/IP Fundamentals](http://www.thegeekstuff.com/2011/11/tcp-ip-fundamentals/)
-* [HTTP intro](https://dev.opera.com/articles/http-basic-introduction/)
+* [HTTP Intro](https://dev.opera.com/articles/http-basic-introduction/)
