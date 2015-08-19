@@ -11,14 +11,18 @@
 
 * Thus far, we've been coding information (or data) directly into our HTML file, but we need a way to dynamically display that data in a manner that separates html from javascript. In other words we shouldn't be writing html in our javascript, that is GROSS!
 
-* We'll use <a href="http://underscorejs.org/#template" target="_blank">Underscore's templating engine</a> to dynamically display data to our HTML.
+* We'll use [Underscore's](http://underscorejs.org/) [templating functionality](http://underscorejs.org/#template) to dynamically display data to our HTML.  is a JavaScript library that provides a bunch of utility to help you manipulate and display data. It includes a function to help us template, which we'll be taking advantage of.
+* 
+## A Helpful Metaphor
+
+Think of a **template** as a *mold*, the **parameter** passed in as *plastic* poured in, and the resulting html string that is generated as a *cast*. 
 
 ## Why use templating?
 
 * Separate presentation (html & css) from your business logic (javascript). Remember this?
 
   ```js
-  $('#todo-list').append('<li class="student">' + firstName + ' - ' + lastName + '</li>');
+  $('#student-list').append('<li class="student">' + firstName + ' - ' + lastName + '</li>');
   ```
 
 * When appending new HTML elements to the page, the string of elements to append will only get longer as you begin to write more complex statements.
@@ -29,19 +33,11 @@
 
 * If you need to change your HTML structure for elements you're creating and displaying (i.e. adding an additional class name to your to-do tasks), all you have to do is change the template!
 
-## Underscore.js
-
-[Underscore.js](http://underscorejs.org/) is a JavaScript library that provides a bunch of utility to help you manipulate and display data. It includes a function to help us template, which we'll be taking advantage of.
-
 ## Setup
 
-Fork & clone this [repo](https://github.com/sf-wdi-21/underscore_templating)
+Fork & clone this [repo](https://github.com/sf-wdi-21/underscore_templating) to get started.
 
-##Metaphor
-
-Think of a **template** as a *mold*, the **parameter** passed in as *plastic* poured in, and the resulting html string that is generated as a *cast*. 
-
-##What is happening in `app.js`?
+## What is happening in `app.js`?
 
 **Select something to mold**
 
@@ -71,12 +67,12 @@ Think of a **template** as a *mold*, the **parameter** passed in as *plastic* po
 
 Use underscore templating to accomplish the following user stories:
 
-###User stories
+### User stories
 User should be able to...
 
 * See all the octocats on the page
 * Click on a profile picture next to each octocat's name that will take them to that octocat's Github account
 
-## Bonus
+### Bonus
 
-Refactor your Giphy app to use a template
+Refactor your [Giffaw app](https://github.com/sf-wdi-21/giffaw) to use a template.
