@@ -1,4 +1,4 @@
-# Underscore Templating
+# HTML Templating
 | Objectives |
 | :--- |
 | Add the Underscore.js library to your projects |
