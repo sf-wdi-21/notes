@@ -19,7 +19,7 @@ It's time to dig a little deeper into the guts of kyrel. The following functiona
 
     Currently it is only possible to have a 5 cell row in kyrel. Modify the code so that the length of the row can easily be changed by updating a single variable.
 
-### HTML Strings
+### HTML Strings - [solution](drills_solutions.md#html-strings)
 
 For the following challanges, please use this [data object](https://gist.githubusercontent.com/nathanallen/8b7fe7e58f10dd6e0825/raw/390e7f7dcc5c4c8ed561cb6f4eacfd9a4545fed5/wdi21.json).
 
