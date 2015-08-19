@@ -19,7 +19,7 @@ It's time to dig a little deeper into the guts of kyrel. The following functiona
 
     Currently it is only possible to have a 5 cell row in kyrel. Modify the code so that the length of the row can easily be changed by updating a single variable.
 
-### HTML Strings
+### HTML Strings - [solution](drills_solutions.md#html-strings)
 
 For the following challanges, please use this [data object](https://gist.githubusercontent.com/nathanallen/8b7fe7e58f10dd6e0825/raw/390e7f7dcc5c4c8ed561cb6f4eacfd9a4545fed5/wdi21.json).
 
@@ -39,7 +39,7 @@ For the following challanges, please use this [data object](https://gist.githubu
 
 Extra points if you use built-in Array methods like `forEach`, `map`, and `join` and only insert into the DOM once.
 
-### Letter Frequency Counter
+### Letter Frequency Counter - [solution](drills_solutions.md#letter-frequency-counter)
 
 Write a function that counts the number of times each letter occurs in a given string. It should return an object containing the count for each letter.
 
@@ -55,13 +55,6 @@ For example, given the word "apple", `letterCount("apple")` should return:
 ```
 
 **Bonus**: Make sure that lower case letters and upper case letters count for the same character. Also, ignore spaces and punctuation.
-
-**Stretch**: What are the three most common consonants in the English Language? Calculate the frequency distribution of letters in a given text corpus. Extra points if you can output them in order of percent frequency, i.e. given "zoo" it should output:
-
-``` javascript
-"o" 0.66
-"z" 0.33
-```
 
 ### Merge
 

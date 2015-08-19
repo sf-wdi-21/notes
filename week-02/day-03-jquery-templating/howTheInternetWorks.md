@@ -15,9 +15,9 @@ The Internet protocol suite consists of four layers, the top has the highest lev
 
 ###Application Layer
 
-This layer is the top layer of TCP/IP protocol suite. There are various protocols the application layer can use and depends on the underlaying transport layer protocols to send data.
+This layer is at the top of the TCP/IP protocol suite. There are various protocols the application layer can use and depends on the underlaying transport layer protocols to send data.
 
-Common protocols include:
+Common protocols for this layer include:
 
 * HTTP - HyperText transfer protocol
 * FTP - File transfer protocol
@@ -26,7 +26,7 @@ Common protocols include:
 
 ###Transport Layer
 
-This layer recieves data from the application layer above. It provides the protocol for communication of data.
+This layer recieves data from the application layer above. It provides a protocol for the communication of data.
 
 The two most common protocols it can use are:
 
@@ -60,7 +60,7 @@ Common protocols include:
 Data is broken into **data packets** and routed to a specific **IP address**.
 
 ###Data Packets
-Data packets or network packets are a finite chunk of information that is sent from one computer to another. Each packet may take a different route to arrive at the same destinate and even arrive in different orders than it had been sent. Packets are numbered according to their origional order and reassembled by the reciever to assembly a coherent peice of data.
+Data packets or network packets are a finite chunk of information that is sent from one computer to another. Each packet may take a different route to arrive at the same destinate and even arrive a different order than it had been originally sent. Packets are numbered according to their initial order and reassembled by the reciever to assemble a coherent peice of data.
 
 Video: [A packet's journey](https://www.youtube.com/watch?v=ewrBalT_eBM)
 
@@ -71,11 +71,11 @@ Just like mailing a letter, a LAN's public IP address can be thought of as a hou
 
 ##HTTP
 
-[The Protocol Every Web Developer should know](http://code.tutsplus.com/tutorials/http-the-protocol-every-web-developer-must-know-part-1--net-31177)
+"How does HTTP work" you ask? Good question. It is a great idea to know as it is [the protocol every web developer should know](http://code.tutsplus.com/tutorials/http-the-protocol-every-web-developer-must-know-part-1--net-31177)!
 
 ##Further Reading
 
 * [TCP/IP Wiki](https://en.wikipedia.org/wiki/Internet_protocol_suite)
-* [How does the Internet Work? (Stanford)](http://web.stanford.edu/class/msande91si/www-spr04/readings/week1/InternetWhitepaper.htm)
+* [How Does the Internet Work? (Stanford)](http://web.stanford.edu/class/msande91si/www-spr04/readings/week1/InternetWhitepaper.htm)
 * [TCP/IP Fundamentals](http://www.thegeekstuff.com/2011/11/tcp-ip-fundamentals/)
-* [HTTP intro](https://dev.opera.com/articles/http-basic-introduction/)
+* [HTTP Intro](https://dev.opera.com/articles/http-basic-introduction/)
