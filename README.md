@@ -27,7 +27,7 @@
     <td>Drills</td>
     <td><a href="week-02/drills.md">Extend Kyrel</a> (Nathan)</td>
     <td><a href="week-02/drills.md">HTML Strings</a> (Justin)</td>
-    <td><a href="week-02/drills.md">Html Stringsr</a> (Justin)</td>
+    <td><a href="week-02/drills.md">Html Strings</a> (Justin)</td>
     <td><a href="week-02/drills.md">Frequency Counter</a> (Ilias)</td>
     <td>Assessment (Team)</td>
   </tr>
