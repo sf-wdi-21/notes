@@ -12,7 +12,7 @@
 * Thus far, we've been coding information (or data) directly into our HTML file, but we need a way to dynamically display that data in a manner that separates html from javascript. In other words we shouldn't be writing html in our javascript, that is GROSS!
 
 * We'll use [Underscore's](http://underscorejs.org/) [templating functionality](http://underscorejs.org/#template) to dynamically display data to our HTML.  is a JavaScript library that provides a bunch of utility to help you manipulate and display data. It includes a function to help us template, which we'll be taking advantage of.
-* 
+
 ## A Helpful Metaphor
 
 Think of a **template** as a *mold*, the **parameter** passed in as *plastic* poured in, and the resulting html string that is generated as a *cast*. 
