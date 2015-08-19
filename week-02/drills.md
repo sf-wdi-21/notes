@@ -56,13 +56,6 @@ For example, given the word "apple", `letterCount("apple")` should return:
 
 **Bonus**: Make sure that lower case letters and upper case letters count for the same character. Also, ignore spaces and punctuation.
 
-**Stretch**: What are the three most common consonants in the English Language? Calculate the frequency distribution of letters in a given text corpus. Extra points if you can output them in order of percent frequency, i.e. given "zoo" it should output:
-
-``` javascript
-"o" 0.66
-"z" 0.33
-```
-
 ### Merge
 
 Write a function that takes two sorted arrays of numbers and returns a merged array of the sorted numbers. For example:
