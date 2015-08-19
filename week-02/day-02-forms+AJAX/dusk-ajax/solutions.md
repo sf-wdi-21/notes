@@ -38,5 +38,5 @@ $.ajax({
 5. In here                      // the ajax request is back
 
 ### Giphy AJAX Lab
-Solutions can be found in the [solutions branch](https://github.com/sf-wdi-21/giffaw/tree/basic_solution)
+Solutions can be found in the [solutions branch](https://github.com/sf-wdi-21/giffaw/tree/solution)
 
