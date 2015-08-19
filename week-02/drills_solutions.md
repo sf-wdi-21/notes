@@ -84,7 +84,45 @@ renderGithubLinks( data.students );
 ```
 
 #### Letter Frequency Counter
-Pending
+Good:
+``` javascript
+function characterFrequency(str){
+  var output = {};
+
+  str.split("").forEach(function(char){
+    if ( char !== " " ) {
+      var count = output[char];
+      if ( count === undefined ) {
+        output[char] = 1;
+      } else {
+        output[char] = count + 1;
+      }
+    }
+  })
+
+  return output;
+}
+```
+
+
+Better:
+``` javascript
+function characterFrequency(str){
+  var output = {},
+      len = str.length,
+      char,
+      count;
+
+  for(var i=0; i<len; i++) {
+    char = str[i];
+    if ( char === " " ) { continue; }
+    count = output[char];
+    output[char] = ( count ? count + 1 : 1 );
+  }
+
+  return output;
+}
+```
 
 #### Merge
 Pending
