@@ -39,7 +39,7 @@ For the following challanges, please use this [data object](https://gist.githubu
 
 Extra points if you use built-in Array methods like `forEach`, `map`, and `join` and only insert into the DOM once.
 
-### Letter Frequency Counter
+### Letter Frequency Counter - [solution](drills_solutions.md#letter-frequency-counter)
 
 Write a function that counts the number of times each letter occurs in a given string. It should return an object containing the count for each letter.
 
