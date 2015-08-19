@@ -52,7 +52,7 @@
     <td><a href="https://github.com/sf-wdi-21/notes/blob/master/week-02/day-02-forms%2BAJAX/dawn-forms/readme.md">HTML Forms</a> (Ilias)</td>
     <td><a href="https://github.com/sf-wdi-21/notes/blob/master/week-02/day-03-jquery-templating/howTheInternetWorks.md">How the Internet Works</a> (Ilias)</td>
     <td>OOP Reading (Justin)</td>
-    <td>JS Style Guide (Nathan)</td>
+    <td><a href="https://github.com/airbnb/javascript/tree/master/es5">JS Style Guide</a> (Nathan)</td>
     <td><!-- LEAVE BLANK --></td>
 
   </tr>
