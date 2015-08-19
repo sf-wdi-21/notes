@@ -27,7 +27,7 @@
     <td>Drills</td>
     <td><a href="week-02/drills.md">Extend Kyrel</a> (Nathan)</td>
     <td><a href="week-02/drills.md">HTML Strings</a> (Justin)</td>
-    <td><a href="week-02/drills.md">Html Strings</a> (Justin)</td>
+    <td><a href="week-02/drills.md">HTML Strings</a> (Justin)</td>
     <td><a href="week-02/drills.md">Frequency Counter</a> (Ilias)</td>
     <td>Assessment (Team)</td>
   </tr>
@@ -35,7 +35,7 @@
     <td>Module1</td>
     <td><a href="week-02/day-01-arrays%2BIterators/dawn-arrayMethods">Array Methods</a> (Justin)</td>
     <td><a href="week-02/day-02-forms+AJAX/dawn-forms">Forms & JSON</a> (Nathan)</td>
-    <td>HTML Templating (Ilias)</td>
+    <td><a href="https://github.com/sf-wdi-21/notes/tree/master/week-02/day-03-jquery-templating/underscore-templating">HTML Templating</a> (Ilias)</td>
     <td>Objects (Justin)</td>
     <td>Review (Team)</td>
   </tr>
