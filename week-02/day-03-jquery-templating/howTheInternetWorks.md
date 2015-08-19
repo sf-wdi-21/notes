@@ -71,7 +71,7 @@ Just like mailing a letter, a LAN's public IP address can be thought of as a hou
 
 ##HTTP
 
-[The Protocol Every Web Developer should know](http://code.tutsplus.com/tutorials/http-the-protocol-every-web-developer-must-know-part-1--net-31177)
+How does HTTP work you ask? Good question. It is a great idea to know as it is [the protocol every web developer should know](http://code.tutsplus.com/tutorials/http-the-protocol-every-web-developer-must-know-part-1--net-31177)!
 
 ##Further Reading
 
