@@ -41,6 +41,8 @@ Extra points if you use built-in Array methods like `forEach`, `map`, and `join`
 
 ### Letter Frequency Counter - [solution](drills_solutions.md#letter-frequency-counter)
 
+Start code w/ tests [here](https://github.com/sf-wdi-21/letterCount)
+
 Write a function that counts the number of times each letter occurs in a given string. It should return an object containing the count for each letter.
 
 For example, given the word "apple", `letterCount("apple")` should return:
