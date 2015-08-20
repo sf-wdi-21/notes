@@ -126,7 +126,7 @@ var smellsNice = rose.smellsPretty //true
 If we wanted to create yet ANOTHER flower, all we have to do is call our function just like we did above.  This time, lets make an object called `lily`.
 
 ```javascript
-var lily = new flower();
+var lily = new Flower();
 ```
 
 We can access the properties of `lily` in the same manner as we did with `rose`.
