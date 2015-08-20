@@ -36,7 +36,7 @@
     <td><a href="week-02/day-01-arrays%2BIterators/dawn-arrayMethods">Array Methods</a> (Justin)</td>
     <td><a href="week-02/day-02-forms+AJAX/dawn-forms">Forms & JSON</a> (Nathan)</td>
     <td><a href="week-02/day-03-jquery-templating/html-templating/readme.md">HTML Templating</a> (Ilias)</td>
-    <td>Objects (Justin)</td>
+    <td><a href="https://github.com/sf-wdi-21/notes/blob/master/week-02/day-04-Objects-and-OOP/dawn-objects/readme.md">Objects (Justin)</a></td>
     <td>Review (Team)</td>
   </tr>
   <tr>
