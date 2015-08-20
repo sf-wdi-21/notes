@@ -84,7 +84,7 @@ Here. I'll make you a flower using the *Literal* method:
 
 ```javascript
 // Literal Object Definition
-var Flower = {
+var flower = {
 	color : "red",
 	petals : 32,
 	smellsPretty : true
@@ -228,7 +228,7 @@ There are many more aspects to objects that we will discover tomorrow.  For now,
 PS. Here is the Literal equivalent of the flower constructor with all of the methods intact:
 
 ```javascript
-var Flower = {
+var flower = {
     color :"red",
 	petals : 32,
 	smellsPretty: true,
