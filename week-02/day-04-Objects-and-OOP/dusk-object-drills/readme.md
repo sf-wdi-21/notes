@@ -73,7 +73,7 @@ function Flower(color, petals, smellsPretty){
     };
     this.render = function() {
         $('body').append("<p>My pretty flower is " + this.color +
-          " and has " + this.petals + " pristine petals.");
+          " and has " + this.petals + " pristine petals.</p>");
     }
 }
 ``` 
