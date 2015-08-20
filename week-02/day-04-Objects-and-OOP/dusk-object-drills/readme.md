@@ -105,7 +105,7 @@ Now that we are awesome Flower experts, lets try our hand at cross-pollinating t
 entirely **NEW** Flower object!  
 - Create a method called crossPollinate
 - The method will have another Flower object as a parameter.  
-- Return a new Flower. Make the Flower's color a mix of both 'parent' colors. (i.e. red, yellow = "red-yellow") We don't care about the color wheel.
+- Return a new Flower. Make the Flower's color a mix of both 'parent' colors. (i.e. red, yellow = "red-yellow") We don't care about the color wheel. 
 - Make the new petal count an average between the two parents' petal counts.
 - The smellPretty gene is recessive unfortunately. This means that a flower will smell pretty IF and only IF both
 flowers smell pretty.  
