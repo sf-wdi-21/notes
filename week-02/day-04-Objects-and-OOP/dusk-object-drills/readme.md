@@ -1,3 +1,5 @@
+#Flowers as Objects (contd.)
+
 We have a fully functioning Flower object that we can use to create flowers.
 
 ```javascript
@@ -110,6 +112,8 @@ entirely **NEW** Flower object!
 - Return a new Flower. Make the Flower's color a mix of both 'parent' colors. (i.e. red, yellow = "red-yellow") We don't care about the color wheel. 
 - Make the new petal count an average between the two parents' petal counts.
 - The smellPretty gene is recessive unfortunately. This means that a flower will smell pretty IF and only IF both flowers smell pretty.  
+
+*Thought experiment: Could we create an intermediary object, maybe called Bee, that could facilitate cross-pollination and return a new flower? Flowers don't just bash their heads together and make new flowers in the real world!  They need bees!  What are some methods we could assign to a Bee object?*
 
 <h3>Uber Challenge</h3>
 -  Create a method within the Flower object that will render a description of your flower along with all of its vital statistics we have collected as well as an image to a simple website.  
