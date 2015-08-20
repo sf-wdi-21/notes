@@ -109,7 +109,7 @@ var rose = new Flower();
 ```
 
 Let us break down a couple concepts introduced with this new line of code:
-- The capitalization of `rose` lets everyone know that `rose` is an object.
+- The capitalization of `Flower` lets everyone know that `Flower` is an object constructor.  Calling `Flower()` will return a `Flower` object.
 - The `new`before our function call lets javascript know that we are creating a new object that will be independent of any other object.
 - We call the flower function, which creates an object with the three pre-defined properties already made.  Our object is ready to go!
 
