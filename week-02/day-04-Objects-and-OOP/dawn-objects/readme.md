@@ -248,3 +248,8 @@ var Flower = {
         alert("This flower is " + this.color + ".");    
     }
 }
+```
+
+Further Suggested Reading:
+- [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Introduction_to_Object-Oriented_JavaScript)
+- [Tutsplus](http://code.tutsplus.com/tutorials/the-basics-of-object-oriented-javascript--net-7670)
