@@ -94,7 +94,7 @@ node rps.js paper
 Hint: Rock beats scissors, scissors beats paper, and paper beats rock
 
 ###4. Hello Everybody!
-Greeter should be able to
+Greeter should be able to...
 
 * Pass in a variable-size list of names
 * Have a greeting logged for each name
@@ -111,5 +111,27 @@ node helloEverybody.js Vikash Camilo
 => Hello Vikash!
 => Hello Camilo!
 ```
+
+###5. Modulo
+Calculator should be able to...
+
+* Pass in two numbers: n1 & n2
+* See the program console every number in between zero and n1 which is divisible by n2
+
+```
+node modulo.js 14 3
+=> [3,6,9,12]
+```
+
+```
+node modulo.js 15 5
+=> [5,10,15]
+```
+
+```
+node modulo.js 100 6
+=> [ 6, 12, 18, 24, 30, 36, 42, 48, 54, 60, 66, 72, 78, 84, 90, 96 ]
+```
+
 
 
