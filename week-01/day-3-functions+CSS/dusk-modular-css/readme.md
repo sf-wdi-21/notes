@@ -1,80 +1,295 @@
-#Modular CSS
+# Intro CSS
 
-##Learning Objectives
+## Breakdown of Syntax
 
-* Abstract your styles with classes
-* Design modular CSS classes
-* Organize your CSS into reusable components
+Every CSS statement will always include a `selector` and a `declaration`, which together is known as a rule-set or simply a `rule`. Phrased another way, a rule equals the combination of a selector and a declaration.
 
-###Steps
+**Example CSS Rule:**
+![CSS prototype](https://en-support.files.wordpress.com/2011/09/css-selectors-lrg.png)
 
-Refer to the `index.html`. 
+The `selector` labelled `a` is the targeted html tag that will be altered with the property and value.
 
-##Exercises
+This means that all anchor, `a`, html tags will be affected with whatever is inside the declartion brackets: `{` and `}`. As you can probably deduce, the background color of the `a` tags will become the color `yellow` since in the declaration, the property and value are respectively `background-color` and  `yellow`.
 
-###SHOUT IT OUT!
+## Requiring Stylesheets
 
-Create a class `.uppercase` that uppercases the text of "Modular CSS". 
+**The Best Way** - External (css lives in a separate file).
 
-###Align right
+```html
+<html>
+<head>
+    <title>I like clean code</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <p></p>
+    <p></p>
+</body>
+</html>
+```
 
-Create a class `.align-right` that will move "Modular CSS" to the right of the page.
 
-###Shadow
+```css
+p {
+    font-size: 14px;
+}
+```
 
-Create a class called `.shadow` that creates a drop shadow for the "Modular CSS" text.
+**The Lazy Way** - Internal
+
+```html
+<html>
+<head>
+    <title>I feel lazy</title>
+    <style type="text/css">
+        p {
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <p></p>
+    <p></p>
+</body>
+</html>
+```
+
+**The Worst Way** - Inline
+
+Note: this is what chrome does when you add styles from the elements tab in your console. This is also how javascript applies css to elements.
+
+```html
+<html>
+<head>
+    <title>I am a terrible person</title>
+</head>
+<body>
+    <p style="font-size:14px;"></p>
+    <p style="font-size:14px;"></p>
+</body>
+</html>
+```
+
+*Take away*
+
+"Seperation of Concerns" is a best practice.
+
+* HTML does Structure / CSS does Layout / JS does interaction
+* Less code repetition
+* Easier to read / organize / refactor
+
+## Specificity of Styles
+
+Given the following html:
+
+```html
+  <p class="pick-me" id="pick-me">What color am I?</p>
+```
+
+Which color wins? Round 1.
+
+```css
+  p {
+     color: red;
+     color: green;
+  }
+  
+  p {
+     color: blue;
+  }
+```
+
+Which color wins? Round 2.
+
+```css
+  html body p {
+     color: orange;
+  }
+  
+  #pick-me {
+     color: blue;
+  }
+  
+  .pick-me {
+     color: green;
+  }
+  
+  p#pick-me.pick_me {
+     color: red;
+  }
+  
+  p.pick-me {
+     color: yellow;
+  }
+```
+
+Which color wins? Round 3.
+
+```css
+  #pick-me {
+     color: blue;
+  }
+  
+  p#pick-me {
+     color: orange;
+  }
+  
+  p {
+      color: red !important;
+  }
+```
 
 
-###Coloring
+Solutions:
 
-Create three separate classes:
+1. blue beats green beats red.
+1. red beats blue beats yellow beats green beats red beets oranges bananas.
+1. red beats orange beats blue.
 
-* `.white-text` that makes "Modular CSS" white
-* `.red-background` that makes the `header` element's background red
-* `.blue-background` that makes the `main` element's background blue
-* `.yellow-background` that we will use later
 
-###Sizing
+###The rules of CSS Specificity:
 
-You may have noticed that the three boxes have changed colors. That's because the class names we just defined had already been applied to them earlier. Now let's mess with changing their size.
+* Lower css rules / declarations overwrite higher ones.
+* More *specific* selectors beat less specific ones
+    * id > class > tag
+        * no number of tags can beat a class
+        * no number of classes can beat an id
+* Inline styles > Internal styles > External styles 
+* `!important` trumps all of the above.
 
-Create two separate classes:
 
-* `.wide` that makes the width of an element `4em`
-* `.narrow` that makes the width of an element `2em`
+## Inheritance of Styles
 
-###Operators
 
-Create a class `.operators` that make the the operators `+` & `=`  have a font-size of `2em` and centers them vertically with the shapes (HARD).
+```html
+    <h1>Cheese Sale! <button>Buy Now!</button></h1>
+    <p>We are selling cheese.</p>
+    <div class="info-box">
+        <h1>Sorry!</h1>
+        <p>We're out of cheese.</p>
+        <button>Complain</button>
+    </div>
+```
 
-###~~Strike out~~
+```css
+  h1 {
+    color: blue;
+  }
+  
+  .info-box {
+    color: orange;
+  }
+  
+  button {
+    color: inherit;
+  }
+```
 
-Create a class `.strike` that will strike out any text in the element it is applied to.
+**Exercise**
 
-<!--Create a line across the screen. Use classes to cut it in half and center it-->
+What color is...
 
-###Cut it / in half
+1. "Cheese Sale"?
+1. "We are selling cheese"? 
+1. "Sorry!"?
+1. "We're out of cheese"?
+1. "Buy Now"?
+1. "Complain"?
 
-Create a class `.half` that will cut an element's size by 50%.
+When you've made your guesses, you can play with the code here:
+[Inheritance Demo](http://codepen.io/pen/def?fork=WvvORV)
 
-<!--Invert the photo-->
+Which Properties are Inheritied? [See here.](http://www.w3.org/TR/CSS/#indices)
 
-###Invert
+## Arranging elements to display properly
 
-Create a class `.invert	` that flips the photo of the old woman upside down.
+`span` and `div` are our bread and butter. They are the HTML equivalent of hydrogen and oxygen.
 
-<!--todo-->
+|display:|inline|block|
+|-------:|-----:|----:|
+|   | `span` | `div` |
 
-###Circle
 
-Create a class called `.circle` and add it to the three boxes to make them circles.
+More inline elements:
 
-###Technically Speaking
+* a
+* small
+* img
+  
+Block elements:
 
-Create a class `.technical` that will add a yellow background to any element. Like `this`.
+* h1, h2, h3
+* p
+* header, nav, footer, section, aside --> all just divs by another name!
 
-###Bonus
+You can think of these tags as...
 
-* Box model
-* Display types
-* Flexbox
+```
+small = span + special_sauce
+h1 = div + special_sauce
+```
+
+**Exercise**
+
+Build your own:
+
+* Make an inline element with a class of "strike" that "strikes out" the font inside of it.
+* Make an inline element with a class of "keyword" that puts a thin black box around text.
+* Make a block element with a class of "danger" with red font, a yellow background, and generous padding.
+* Make a block element with a class of "success" with green font, and a thin gray border.
+
+
+## Box Model: Everything is a box!
+
+From outside, in:
+
+* margin
+* border
+* padding
+* content
+
+![box model diagram](img/box-model.png)
+
+**Like a picture frame:**
+
+* The painting is the content.
+* The "matte board" is the padding (which allows the content to breathe).
+* The frame is the border.
+* And margin? Margin is the distance between one painting and the next.
+
+![picture frame](img/picture-frame.jpg)
+
+**Content**
+
+Content can be text, other elments, or nothing at all. The dimensions of your box depends on what you put in it, and whether or not you explicity set a `height` and `width`.
+
+
+![mime in a box](img/marceau-box.jpg)
+
+
+## CSS Shorthands
+
+These are equivalent:
+
+```css
+p {
+    padding: 2em;
+    /*padding-top: 2em;*/
+    /*padding-right: 2em;*/
+    /*padding-bottom: 2em;/*/
+    /*padding-left: 2em;*/
+         
+    border: 2px solid black;
+    /*border-width: 2px;*/
+    /*border-style: solid;*/
+    /*border-color: black;*/
+}
+```
+
+
+##Resources
+
+* CSS Reference - https://developer.mozilla.org/en-US/docs/Web/CSS/Reference
+* CSS Properties List - https://css-tricks.com/almanac/properties/
+* What are the Default CSS Values for each element as specified by the World Wide Web Consortium (W3C)? - http://www.w3.org/TR/CSS2/sample.html
+* Where can I find the main CSS3 specs? - http://www.w3.org/TR/css-2010/

@@ -52,7 +52,7 @@ Take a number, multiply it by itself, and return the product.
 
 ```
 var square = function(num) {
-	return num * num;
+    return num * num;
 }
 ```
 Question: What are the fundamental differences between an algorithm and a function?
@@ -93,7 +93,7 @@ Either:
 
 ```
 var sweetFunk = function() {
-	//sweetness
+    //sweetness
 } 
 ```
 
@@ -101,7 +101,7 @@ or:
 
 ```
 function sweetFunk() {
-	//sweetness
+    //sweetness
 }
 ```
 is acceptable for declaring a function; just stick to one convention.
@@ -147,10 +147,10 @@ function maxOrMin(num1, num2, max) {
       return a - b;
     });
     if(max) {
-    	//if max is true return the greater number
+        //if max is true return the greater number
         return sorted[1];
     } else {
-    	//otherwise return the lesser number
+        //otherwise return the lesser number
         return sorted[0];
     }
 }

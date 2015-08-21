@@ -1,0 +1,52 @@
+/*positioning*/
+.block-children > * { display: block;}
+.inline-block-children > * { display: inline-block; }
+/*lady*/
+/*text*/
+.shout { text-transform: uppercase; }
+.invert { transform: rotate(180deg); }
+/*shapes*/
+.shape {
+	height: 4em;
+	width: 4em;
+	border: .2em solid black;
+	margin: 1em;
+}
+.circle { border-radius: 10em; }
+/*colors*/
+.red-background { background: red; }
+.blue-background { background: blue; }
+.purple-background { background: purple; }
+/*sizing*/
+.half { width: 50%; }
+/*bullseye*/
+.bullseye {
+	position: relative;
+	display: block;
+	width: 10em;
+}
+.ring { position: absolute; }
+.inner {
+	top: 2em;
+	left: 2em;
+	z-index: 2;
+}
+.second-inner {
+	top: 1em;
+	left: 1em;
+	height: 6em;
+	width:  6em;
+	z-index: 1;
+}
+.outer {
+	height: 8em;
+	width: 8em;
+	z-index: 0;
+}
+/*centering*/
+.middle { margin: 0 auto; }
+.center { text-align: center; }
+
+width: 10em;
+    margin: 0 auto;
+    display: block;
