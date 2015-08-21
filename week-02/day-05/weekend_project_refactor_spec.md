@@ -127,7 +127,7 @@ These are for "extra credit!" Don't focus on these until you've hit the core req
 * Get creative with **inventive styling**, e.g. use hover effects or animations to spiff things up. Get creative with backgrounds. Dump the HTML track and use pure css.
 * Display a **countdown timer** ("3, 2, 1, Go!") / winning time / best time.
 * **Race against a bot**.
-* **Instanct Replay**: record yourself and then race against yourself, in real-time.
+* **Instant Replay**: record yourself and then race against yourself, in real-time.
 * Integrate with a **3rd party API**: flickr, youtube, spotify, omdb, giphy, etc.
 
 ---
