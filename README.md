@@ -45,7 +45,7 @@
     <td><a href="week-02/day-02-forms+AJAX/dusk-ajax">Intro AJAX</a> (Nathan)</td>
     <td><a href="week-02/day-03-jquery-templating/dusk-ajax-google-maps">AJAX & Google Maps</a> (Nathan)</td>
     <td><a href="week-02/day-04-Objects-and-OOP/dusk-object-drills/readme.md">OOP Drills (Justin)</a></td>
-    <td>OOP Refactor (Nathan)</td>
+    <td><a href="week-02/day-05/weekend_project_refactor_spec.md">OOP Racing Game</a> (Nathan)</td>
   </tr>
   <tr>
     <td>HW</td>
