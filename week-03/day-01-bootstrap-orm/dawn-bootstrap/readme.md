@@ -164,7 +164,7 @@ When telling an HTML element how many columns it should take up, we also tell it
 
 ##Mockups (in-class)
 
-We'll be coding up a few mockups using Bootstrap. Fork and clone [this repo](https://github.com/sf-wdi-21/bootstrap_mockups) to get started.
+Stop here for now, in class, we'll be coding up a few mockups using Bootstrap when you'll need to fork and clone [this repo](https://github.com/sf-wdi-21/bootstrap_mockups) to get started.
 
 <hr>
 <hr>
