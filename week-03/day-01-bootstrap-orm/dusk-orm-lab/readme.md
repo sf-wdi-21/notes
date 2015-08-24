@@ -1,10 +1,10 @@
 <h1>ORM (Object Relational Mapping)</h1>
 
-|Objectives|
-|-|
-|Identify the key components that constitute an ORM|
-|Build a simple ORM implementation that stores Javascript objects|
-|Learn the basic navigational tools of an ORM to prepare for MongoDB|
+Objectives|
+-----|
+|Identify the key components that constitute an ORM
+|Build a simple ORM implementation that stores Javascript objects
+|Learn the basic navigational tools of an ORM to prepare for MongoDB
 
 <h2> What is ORM? </h2>
 
