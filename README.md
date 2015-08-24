@@ -48,7 +48,7 @@
   </tr>
   <tr>
     <td>HW</td>
-    <td>Express Hello World (Nathan)</td>
+    <td><a href="week-03/day-02-intro-express/dawn-routing/README.md">Express Hello World</a> (Nathan)</td>
     <td>RESTful convention (Ilias)</td>
     <td>Mongo CRUD (Justin)</td>
     <td>TBD (Ilias)</td>
