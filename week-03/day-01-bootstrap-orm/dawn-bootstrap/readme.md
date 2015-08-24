@@ -46,7 +46,7 @@ Let's make a directory, `funWithBootstrap` and inside create an `index.html`. He
 
 ###Using Bower
 
-Now let's include a few libraries in our HTML file: jQuery, Underscore, and Bootstrap. Inside of `funWithBootstrap` run:
+Now let's include a few libraries in our HTML file: jQuery, Underscore, and Bootstrap. Inside of `funWithBootstrap`, run:
 
 ```bash
 bower install jquery underscore bootstrap
@@ -56,29 +56,29 @@ bower install jquery underscore bootstrap
 
 ####What just happened?
 
-You'll notice you now have a `bower_compents` directory, which inside you'll find a directly for jQuery, Underscore and Bootstrap.
+You'll notice you now have a `bower_compents` directory, which inside you'll find a directory for jQuery, Underscore, and Bootstrap.
 
-Inside of each of these folders you'll see a bunch of files. Don't worry. The file with the name of the library is probably the main one. For example `bower_components/underscore/underscore.js` is the only file you'll use for Underscore. For the other libraries you may need to look inside a `dist` (for distribution) directory to find `jquery.js`.
+Inside of each of these folders you'll see a bunch of files. Don't worry. The file with the name of the library is probably the main one. For example, `bower_components/underscore/underscore.js` is the only file you'll use for Underscore. For the other libraries, you may need to look inside a `dist` (for distribution) directory to find `jquery.js`.
 
 ####Bootstrap files
 
-Bootstrap comes with CSS, JavaScript, and theme files. The CSS library give you access to it's main set of classes. The JavaScript library gives you access to it's "components" (i.e. navbars, galleries, etc). The theme CSS file give you additional classes. You can look elsewhere for additional themes.
+Bootstrap comes with CSS, JavaScript, and theme files. The [CSS library](http://getbootstrap.com/css/) gives you access to its main set of classes. The [JavaScript library](http://getbootstrap.com/javascript/) gives you access to its "components" (i.e. navbars, galleries, etc). The theme CSS file gives you additional classes. You can look elsewhere for additional themes (Hint: Google it.).
 
 ####Why does Bower give me so many files?
-The core library (e.g. `underscore.js`) is actually getting a lot of it's logic from other files. Additionally there might be assets or even optional components you can include, which aren't core to the library.
+The core library (e.g. `underscore.js`) is actually getting a lot of its logic from other files. Additionally, there might be assets or even optional components you can include which aren't core to the library.
 
 ####What's this `.min` thing?
-`.min` before the file extension, such as `.min.css` or `.min.js` just signals that all the whitespace has been taken out of the file and the variables have been renamed to be as short as possible. This is called **minification** It is a very bad idea to try to read a minified file. Instead those files are only used in production when you want to shortened.
+`.min` before the file extension, such as `.min.css` or `.min.js` just signals that all the whitespace has been taken out of the file and the variables have been renamed to be as short as possible. This is called **minification**. It is a very bad idea to try to read a minified file. Instead those files are only used in production when you want your libraries to be shortened.
 
 ###Requiring the Libraries
 
-Now we would like to have our html file link to jQuery, Underscore, and most importantly Bootstrap!
+Now we would like to have our html file link to jQuery, Underscore, and most importantly, Bootstrap!
 
 ###CHALLENGE: Require the libraries
 
 From your `index.html`, import jQuery, Underscore, Bootstrap (the CSS, JavaScript, and theme files) into your projects. Let's use the non-minifed versions of the files for now.
 
-Tip: Chances are you'll spell something in the path wrong, so check your chrome console to see an error message saying it didn't find the file with that path. Fix the path referencing the file, clear your errors (with ctr-L) and refresh the page making sure there are no more new errors.
+Tip: Chances are you'll spell something in the path incorrectly, so check your Chrome console for an error message saying it didn't find the file with that path. Fix the path referencing the file, clear your errors (with ctrl+L), and refresh the page to make sure there are no more new errors.
 
 Tip: You can find a solution below.
 
@@ -89,21 +89,21 @@ Tip: You can find a solution below.
 
 A grid enables you to layout your HTML in a structured manner.
 
-The majority of websites use some sort of grid-system. Bootstrap comes with a grid-system, but it's easily to create your own.
+The majority of websites use some sort of grid-system. Bootstrap comes with a grid-system, but it's easy to create your own.
 
 **How would we use one?**
 
-All your content will live inside a column which in turn exists inside a row. Columns are typically broken up into a fraction of twelve (as it's a very divisible number). 
+All your content will live inside a column, which in turn exists inside a row. Columns are typically broken up into a fraction of twelve (as it's a very divisible number). 
 
 Below illustrates a generic (non-bootstrap) twelve-column grid-system; the orange marks represent rows. We give each element a class (i.e. `.column-12`) to tell it how many columns to take up.
 
-You can see the top row has an element inside of it that takes up all twelve columns, while the bottom row has two elements inside of it that each take up 6 columns.
+You can see the top row has an element inside of it that takes up all twelve columns, while the bottom row has two elements inside of it that each take up six columns.
 
 ![grid](imgs/grid.png)
 
 **How could we build it?** 
 
-Given we want to build a 12-column grid system we would have to consider 12 of 12 columns 100% of the page, 6 of 12 columns 50%, 4 of 12 30%, etc. Here's an example implementation below.
+Given we want to build a 12-column grid system, we would have to consider 12 of 12 columns to equal 100% of the page, 6 of 12 columns 50%, 4 of 12 33.3%, etc. Here's an example implementation below.
 
 ```css
 .column-12 {
