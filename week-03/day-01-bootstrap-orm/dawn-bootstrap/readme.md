@@ -263,11 +263,11 @@ Here's what it will look like (note `bower_components` in each path!):
   <script type="text/javascript" src="bower_components/underscore/underscore.js"></script>
   <!-- jquery -->
   <script type="text/javascript" src="bower_components/jquery/dist/jquery.js"></script>
-  <!-- boostrap js -->
+  <!-- bootstrap js -->
   <script type="text/javascript" src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
-  <!-- boostrap css -->
+  <!-- bootstrap css -->
   <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.css">
-  <!-- boostrap css theme (optional) -->
+  <!-- bootstrap css theme (optional) -->
   <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap-theme.css">
 </head>
 <body>
