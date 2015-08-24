@@ -32,7 +32,7 @@
   </tr>
   <tr>
     <td>Module1</td>
-    <td>Bootstrap, Bower (Nathan)</td>
+    <td><a href='week-03/day-01-bootstrap-orm/dawn-bootstrap/readme.md'>Bootstrap, Bower</a> (Nathan)</td>
     <td>Intro Express: Serving Data (Nathan)</td>
     <td>Todo Lab: CR (Ilias)</td>
     <td>Cookies & local storage (Nathan)</td>
