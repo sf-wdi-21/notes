@@ -191,6 +191,7 @@ Some examples:
 
 Always make sure you understand what the code is doing before copying and pasting it. Fortunately, this is not too challenging and Bootstrap has excellent documentation. As always, if you're confused or things are breaking - google around. Bootstrap is pretty much ubiquitous and it is likely that others have encountered and (hopefully) solved the issues you're dealing with.
 
+---
 
 # Intro to Bower
 
@@ -280,5 +281,48 @@ Here's what it will look like (note `bower_components` in each **relative** path
 </html>
 ```
 
-In your Chrome Developer Console, check the "Network" tab as you reload. If you see red, you're probably mistyped your link. Take care to use *relative links*. You shouldn't see anything resembling: "file:///Users/name/my_code/wdi21/modules/bootstrap_mockups/bower_components/bootstrap/dist/css/bootstrap-theme.css", instead you should see a relative link like: `/bower_components/bootstrap/dist/css/bootstrap-theme.css`
+* In your Chrome Developer Console, check the "Network" tab as you reload. If you see red, you're probably mistyped your link.
+* Take care to use *relative links*. You should see a relative link like: `/bower_components/bootstrap/dist/css/bootstrap-theme.css`. You should **never** see anything resembling: "file:///Users/name/my_code/wdi21/modules/bootstrap_mockups/bower_components/bootstrap/dist/css/bootstrap-theme.css"!!!
 
+## Using bower.json to simplify
+Bower isn't just a handly way to install files locally, it also gives us a new way to share our project code with other developers *without* needing to send along tons of third-party libraries.
+
+Here's an example of a `bower.json` file for a project called "bootstrap_mockups". Take a look at this project's dependencies:
+
+``` javascript
+{
+  "name": "bootstrap_mockups",
+  "version": "0.0.0",
+  "homepage": "https://github.com/sf-wdi-21/bootstrap_mockups",
+  "authors": [
+    "myname <myname@email.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.5",
+    "jquery": "~2.1.4",
+    "underscore": "~1.8.3"
+  }
+}
+```
+
+Now, when another developer comes along and wants to work on my project. All they have to do is clone my repo (and just *my* code!) and run `bower install`. Bower will then know to look in the `bower.json` file for project dependencies, and will download them to a local project folder called `bower_components`.
+
+### Updating bower.json
+You can manually make changes to `bower.json`, but to create your own you can do the following:
+
+* If it doesn't exist yet, run `bower init` and walk through the prompts.
+* If it already exists, run `bower install` to download dependencies. To add new dependency simply run `bower install --save name_of_library` (make sure not to skip "--save" that's telling bower to add a new entry to `bower.json`).
+
+####Test it out
+Try deleting the entire `bower_components` folder, then run `bower install`. If you did things correctly, bower will read the local `bower.json` file and recreate/repopulate the `bower_components` folder with your project's dependencies and libraries.
+
+###Learn More
+To learn more about bower, check out: [bower.io](http://bower.io/). You can also always type `bower --help` in your terminal to see bower commands and options.
