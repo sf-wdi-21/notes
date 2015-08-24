@@ -153,14 +153,14 @@ What percentage would you have to make the width for a div that took up 3 column
 
 Bootstrap's grid system is very similar to what we have just implemented except one thing: It is also *responsive*.
 
-Websites that are designed responsively adjust to different screen sizes. Media queries and percentages are key to designing responsive sites, and that's just how bootstrap does it!
+Websites that are designed responsively adjust to different screen sizes. Media queries and percentages are key to designing responsive sites, and that's just how Bootstrap does it!
 
-When telling an HTML element how many columns it should take up, we also tell it at what screen size. For example if I wanted an element to be full screen at a small screen size, but half screen at a large screen size I could give it the two Bootstrap classes `.col-sm-12` & `.col-lg-6`. Under the hood bootstrap leverages media queries in each of these classes to apply to different screen sizes. Here a list of the default screen size options. 
+When telling an HTML element how many columns it should take up, we also tell it at what screen size to do so. For example, if I wanted an element to be full screen at a small screen size, but half screen at a large screen size, I could give it the two Bootstrap classes `.col-sm-12` & `.col-lg-6`. Under the hood bootstrap leverages media queries in each of these classes to apply to different screen sizes. Here a list of the default screen size options. 
 
-* col-xs-* =< 768px
-* col-sm-* =< 992px
-* col-md-* =< 1200px
-* col-lg-* >= 1200px
+* col-xs-* =< 768px (e.g. smartphones)
+* col-sm-* =< 992px (e.g. tablets)
+* col-md-* =< 1200px (e.g. laptops, desktops)
+* col-lg-* >= 1200px (e.g. large desktops, smart TVs)
 
 ##Mockups (in-class)
 
@@ -172,7 +172,7 @@ We'll be coding up a few mockups using Bootstrap. Fork and clone [this repo](htt
 
 ###Require the libraries
 
-Once you import jQuery, Underscore, and Bootstrap the resulting html file should look similar to:
+Once you import jQuery, Underscore, and Bootstrap, the resulting html file should look similar to the following (Remember: Order matters!):
 
 ```html
 <!DOCTYPE html>
