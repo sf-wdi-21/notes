@@ -196,9 +196,7 @@ Always make sure you understand what the code is doing before copying and pastin
 
 ##Bower can make our life easier
 
-Bower is a tool that helps us find, download, and manage the numerous JavaScript & CSS libraries you frequently use in your HTML. 
-
-jQuery, Underscore, Bootstrap, are examples of libraries we may want to add to our project. It can be a hassle to find the source code for each one to link them to our HTML page. Instead let's use **Bower**, a library management tool, to bring them to us!
+jQuery, Underscore, Bootstrap, are examples of third-party libraries we frequently use in projects. It can be a hassle to find the CDN for each library. Using CDNs also requires us to have an internet connection while we're doing development work. As our code-base grows, keeping track of all our dependencies will be a headache! Bower allows us to download and manage all our dependencies locally.
 
 ###Installing Bower
 
@@ -206,6 +204,12 @@ You'll only need to do this once: install bower with...
 
 ```bash
 npm install -g bower
+```
+
+or
+
+```bash
+sudo npm install -g bower
 ```
 
 *Note: as we installed it globally with `-g` we can now run `bower` from anywhere in our computer.*
@@ -245,11 +249,11 @@ bower install underscore bootstrap
 
 ####What just happened?
 
-You'll notice you now have a `bower_compents` directory, which inside you'll find a directory for jQuery, Underscore, and Bootstrap.
+You'll notice you have a new directory in your project folder called `bower_compents`. Inside, you'll find folders for everything you just installed: jQuery, Underscore, and Bootstrap.
 
 Inside of each of these folders you'll see a bunch of files. Don't worry. The file with the name of the library is probably the main one. For example, `bower_components/underscore/underscore.js` is the only file you'll use for Underscore. For the other libraries, you may need to look inside a `dist` (for distribution) directory to find `jquery.js`.
 
-Here's what it will look like (note `bower_components` in each path!):
+Here's what it will look like (note `bower_components` in each **relative** path!):
 
 ```html
 <!DOCTYPE html>
@@ -260,18 +264,21 @@ Here's what it will look like (note `bower_components` in each path!):
   <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <!-- underscore -->
-  <script type="text/javascript" src="bower_components/underscore/underscore.js"></script>
+  <script type="text/javascript" src="/bower_components/underscore/underscore.js"></script>
   <!-- jquery -->
-  <script type="text/javascript" src="bower_components/jquery/dist/jquery.js"></script>
-  <!-- bootstrap js -->
-  <script type="text/javascript" src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
-  <!-- bootstrap css -->
-  <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.css">
-  <!-- bootstrap css theme (optional) -->
-  <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap-theme.css">
+  <script type="text/javascript" src="/bower_components/jquery/dist/jquery.js"></script>
+  <!-- boostrap js -->
+  <script type="text/javascript" src="/bower_components/bootstrap/dist/js/bootstrap.js"></script>
+  <!-- boostrap css -->
+  <link rel="stylesheet" type="text/css" href="/bower_components/bootstrap/dist/css/bootstrap.css">
+  <!-- boostrap css theme (optional) -->
+  <link rel="stylesheet" type="text/css" href="/bower_components/bootstrap/dist/css/bootstrap-theme.css">
 </head>
 <body>
 
 </body>
 </html>
 ```
+
+In your Chrome Developer Console, check the "Network" tab as you reload. If you see red, you're probably mistyped your link. Take care to use *relative links*. You shouldn't see anything resembling: "file:///Users/name/my_code/wdi21/modules/bootstrap_mockups/bower_components/bootstrap/dist/css/bootstrap-theme.css", instead you should see a relative link like: `/bower_components/bootstrap/dist/css/bootstrap-theme.css`
+
