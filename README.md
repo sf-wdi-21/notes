@@ -11,7 +11,52 @@
 <!-- ##Week 6 -->
 <!-- ##Week 5 -->
 <!-- ##Week 4 -->
-<!-- ##Week 3 -->
+
+##Week 3 -- REST & CRUD
+<table>
+  <tr>
+    <th></th>
+    <th>Monday</th>
+    <th>Tuesday</th>
+    <th>Wednesday</th>
+    <th>Thursday</th>
+    <th>Friday</th>
+  </tr>
+  <tr>
+    <td>Drills</td>
+    <td>Game Show (Team)</td>
+    <td>Linked Lists (Justin)</td>
+    <td>Linked Lists (Justin)</td>
+    <td>Linked Lists (Justin)</td>
+    <td>Assessment (Team)</td>
+  </tr>
+  <tr>
+    <td>Module1</td>
+    <td>Bootstrap, Bower (Nathan)</td>
+    <td>Intro Express: Serving Data (Nathan)</td>
+    <td>Todo Lab: CR (Ilias)</td>
+    <td>Cookies & local storage (Nathan)</td>
+    <td>Review (Team)</td>
+  </tr>
+  <tr>
+    <td>Module2</td>
+    <td>ORM Lab (Justin)</td>
+    <td>Intro Express: Routes & Params (Nathan)</td>
+    <td>Todo Lab: UD (Ilias)</td>
+    <td>Mongo CRUD (Justin)</td>
+    <td>Catchphrase Project (Ilias)</td>
+  </tr>
+  <tr>
+    <td>HW</td>
+    <td>Express Hello World (Nathan)</td>
+    <td>RESTful convention (Ilias)</td>
+    <td>Mongo CRUD (Justin)</td>
+    <td>TBD (Ilias)</td>
+    <td><!-- LEAVE BLANK --></td>
+  </tr>
+</table>
+
+
 
 ##Week 2 -- Working with Objects
 <table>
