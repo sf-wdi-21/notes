@@ -23,11 +23,46 @@ var res = cmd.Execute();
 var name = res[0]["FIRST_NAME"];
 ```
 
+![SQL Table](http://www.plus2net.com/sql_tutorial/images/table.jpg)
+
 Here is an example of code accessing a database with ORM
 
 ```javascript
 var p = ORM.GetPerson(10);
 var name = p.getFirstName();
+```
+
+```javascript
+{
+	{
+		emp_no: 1,
+		name: "Alex S",
+		age: 26,
+		department: "Store"
+		salary: 5000
+	},
+	{
+		emp_no: 2,
+		name: "Golith K",
+		age: 32,
+		department: "Marketing"
+		salary: 5600
+	},
+	{
+		emp_no: 3,
+		name: "Rabin R",
+		age: 31,
+		department: "Marketing"
+		salary: 5600		
+	},
+	{
+		emp_no: 4,
+		name: "Jons",
+		age: 26,
+		department: "Security"
+		salary: 5100		
+	},	
+}
 ```
 ORMS store data as objects, rather than tables with rows of data.  You know and understand
 Javascript and Object Oriented Programming.  We can use OOP to store and access complex
