@@ -40,7 +40,7 @@
   </tr>
   <tr>
     <td>Module2</td>
-    <td>ORM Lab (Justin)</td>
+    <td><a href='week-03/day-01-bootstrap-orm/dusk-orm-lab/readme.md'>ORM Lab</a> (Justin)</td>
     <td>Intro Express: Routes & Params (Nathan)</td>
     <td>Todo Lab: UD (Ilias)</td>
     <td>Mongo CRUD (Justin)</td>
