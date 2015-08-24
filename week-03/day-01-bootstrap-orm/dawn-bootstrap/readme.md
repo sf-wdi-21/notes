@@ -68,7 +68,7 @@ Bootstrap comes with CSS, JavaScript, and theme files. The [CSS library](http://
 The core library (e.g. `underscore.js`) is actually getting a lot of its logic from other files. Additionally, there might be assets or even optional components you can include which aren't core to the library.
 
 ####What's this `.min` thing?
-`.min` before the file extension, such as `.min.css` or `.min.js` just signals that all the whitespace has been taken out of the file and the variables have been renamed to be as short as possible. This is called **minification**. It is a very bad idea to try to read a minified file. Instead those files are only used in production when you want your libraries to be shortened.
+`.min` before the file extension, such as `.min.css` or `.min.js` just signals that all the whitespace has been taken out of the file and the variables have been renamed to be as short as possible. This is called **minification**. It is a very bad idea to try to read a minified file. Instead, those files are only used in production when you want your libraries to be shortened.
 
 ###Requiring the Libraries
 
@@ -76,7 +76,7 @@ Now we would like to have our html file link to jQuery, Underscore, and most imp
 
 ###CHALLENGE: Require the libraries
 
-From your `index.html`, import jQuery, Underscore, Bootstrap (the CSS, JavaScript, and theme files) into your projects. Let's use the non-minifed versions of the files for now.
+From your `index.html`, import jQuery, Underscore, Bootstrap (the CSS, JavaScript, and theme files) into your projects. Let's use the non-minified versions of the files for now.
 
 Tip: Chances are you'll spell something in the path incorrectly, so check your Chrome console for an error message saying it didn't find the file with that path. Fix the path referencing the file, clear your errors (with ctrl+L), and refresh the page to make sure there are no more new errors.
 
@@ -151,7 +151,7 @@ What percentage would you have to make the width for a div that took up 3 column
 
 ###Responsiveness
 
-Bootstraps grid system is very similar to what we have just implemented except one thing. It is also responsive.
+Bootstrap's grid system is very similar to what we have just implemented except one thing: It is also *responsive*.
 
 Websites that are designed responsively adjust to different screen sizes. Media queries and percentages are key to designing responsive sites, and that's just how bootstrap does it!
 
