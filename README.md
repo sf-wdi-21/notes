@@ -25,9 +25,9 @@
   <tr>
     <td>Drills</td>
     <td>Game Show (Team)</td>
-    <td>Linked Lists (Justin)</td>
-    <td>Linked Lists (Justin)</td>
-    <td>Linked Lists (Justin)</td>
+    <td><a href='https://github.com/sf-wdi-21/linked-list'>Linked Lists</a> (Justin)</td>
+    <td><a href='https://github.com/sf-wdi-21/linked-list'>Linked Lists</a>(Justin)</td>
+    <td><a href='https://github.com/sf-wdi-21/linked-list'>Linked Lists</a>(Justin)</td>
     <td>Assessment (Team)</td>
   </tr>
   <tr>
