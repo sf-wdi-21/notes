@@ -49,7 +49,7 @@ Let's start with a simple **Express** application.
 
 * Make a directory and `index.js`  
 	
-	```
+	``` bash
 	mkdir quick_example
 	cd quick_example/
 	touch index.js
@@ -57,7 +57,7 @@ Let's start with a simple **Express** application.
 
 * Then create a `package.json`, use the first line below or `npm init`.
 
-	```
+	``` bash
 	echo {} > package.json		#puts an empty object into a new `package.json`
 	npm install --save express
 	subl .
@@ -78,7 +78,7 @@ Now we need write some code for our simple application.
 
 `index.js`
 
-```
+``` javascript
 // requirements
 var express = require('express'),
 	app = express();
@@ -98,7 +98,7 @@ app.listen(3000, function () {
 
 Now you can start the server: 
 
-```
+``` bash
 node index.js
 ```
 
@@ -154,7 +154,7 @@ Let's build these into our application:
 
 `index.js`
 
-```
+``` javascript
 var express = require('express'),
 	app = express();
 	
@@ -196,7 +196,7 @@ What if we want to create an app that can dynamically say hello to anyone?
 
 * Using **url parameters** add a dynamic route to the application, indicated by `:` and the variable name you want to use, we'll use `:name` for the example below.
 
-```
+``` javascript
 app.get("/greet/:name", function (req, res) {
 	res.send( "Hello, " + req.params.name );
 });
@@ -221,7 +221,7 @@ Let's see query params in action. Go to [https://google.com/search?q=kittens&tbm
 
 Let's add our first route to practice query params.
 
-```
+``` javascript
 app.get("/thank", function (req, res) {
 	var name = req.query.name;
 	res.send("Thank you, " + name);
