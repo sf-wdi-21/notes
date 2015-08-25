@@ -1,4 +1,4 @@
-#REST Architecture
+#RESTful Convention
 
 Representational State Transfer (REST) is a software architectural style for building scalable and performant web services.
 
