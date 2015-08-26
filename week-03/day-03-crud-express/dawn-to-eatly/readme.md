@@ -79,7 +79,7 @@ Follow the instructions of each of the "dashes" below, aka mini-sprints. If/when
 
 * Next to each food create a delete button that will send an ajax delete request
 	 * Use bootstrap's "close button"
-	 * Unless you're an ber stickler about seperation of concerns, use an `onclick` that triggers a `deleteFood` function, it's a lot easier to deal with. Pass in `this` to the function.
+	 * Unless you're an uber stickler about seperation of concerns, use an `onclick` that triggers a `deleteFood` function, it's a lot easier to deal with. Now pass in `this` (the context) into the function. "This" will be the button itself.
 	 * Using the context (this) that the `deleteFood` function has recieved, grab the id (remember it exists as a data attribute). Now you can formulate an ajax delete request.
 
 * Create a route that accepts a delete request and removes the item from the array.
