@@ -1,4 +1,8 @@
-#REST Architecture
+#### Pre-Reading
+* [HTTP Intro](http://code.tutsplus.com/tutorials/http-the-protocol-every-web-developer-must-know-part-1--net-31177)
+* [HTTP Headers for Dummies](http://code.tutsplus.com/tutorials/http-headers-for-dummies--net-8039)
+
+#REST Convention
 
 Representational State Transfer (REST) is a software architectural style for building scalable and performant web services.
 
@@ -81,6 +85,4 @@ Server-side complexity of deep layered systems is to be abstracted away from the
 
 
 ##Further Reading
-
 * [REST API Quick Tips](http://www.restapitutorial.com/lessons/restquicktips.html)
-
