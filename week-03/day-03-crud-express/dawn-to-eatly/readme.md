@@ -35,7 +35,7 @@ Follow the instructions of each of the "dashes" below, aka mini-sprints. If/when
 
 * Create an index route that serves up all your data as JSON, `JSON.stringify` should be helpful
 
-* Create a function `getFoods` that uses AJAX to get hit that endpoint and log the response in the browser's console
+* Create a function `getFoods` that uses AJAX to hit that endpoint and log the response in the browser's console
 
 [Reference lesson](https://github.com/sf-wdi-21/notes/tree/master/week-02/day-02-forms+AJAX/dusk-ajax)
 
