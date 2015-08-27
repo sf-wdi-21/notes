@@ -224,6 +224,64 @@ query.exec(function(err, books){
 ```
 
 
+
+## Organizing the Data
+
+### Document Structure
+
+**Embedded Data**
+
+![](http://docs.mongodb.org/manual/_images/data-model-denormalized.png)
+
+
+**Data References**
+
+![](http://docs.mongodb.org/manual/_images/data-model-normalized.png)
+
+
+## Embedded Data
+
+* Let's make a new `Author` schema with the attributes
+	* `name` that will be a String
+	* `books` that will contain an array of Books the Author has written 
+
+* Define the Author schema
+
+```javascript
+var AuthorSchema = new Schema({
+  name: String,
+  books: [BookSchema]
+});
+```
+* Turn the schema into a model
+
+```
+var Author = mongoose.model('Author', AuthorSchema);
+```
+
+* Let's make an author
+```javascript
+var homer = new Author();
+```
+
+* Create some books
+
+```javascript
+var theIliad = new Book({title: 'The Iliad'});
+var theOdyssey = new Book({title: 'The Odyssey'});
+```
+
+* Associate the books with that Author and check the result
+
+```javascript
+homer.books.push(theIliad, theOdyssey);
+homer.books;
+```
+
+* Note: Since the books are stored *inside* the associated Author, we can remove the Book's property `author`
+
+
+
 ##Further suggested readings:
 [Mongoose official site](http://mongoosejs.com/index.html)
 [MongoDB official site](https://www.mongodb.org/)
