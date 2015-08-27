@@ -198,7 +198,7 @@ Using the remove method:
 
 ```javascript
 Book.remove({ title: "The Giver" }, function(err, book) {
-    if (!err) { return console.log(err) };
+    if (err) { return console.log(err) };
     
     console.log("removal of " + book.title + " successful.")
 });
@@ -210,18 +210,6 @@ findByIdAndRemove();
 findOneAndRemove();
     
 ```
-
-###Storing a Query Object
-
-We can avoid passing in a callback to our query and store it for later...
-
-```javascript
-var query = Book.find({});
-query.exec(function(err, books){
-  console.log(books);
-});
-```
-
 
 ##Further suggested readings:
 [Mongoose official site](http://mongoosejs.com/index.html)
