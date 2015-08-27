@@ -26,8 +26,8 @@
     <td>Drills</td>
     <td>Game Show (Team)</td>
     <td><a href='https://github.com/sf-wdi-21/linked-list'>Linked Lists</a> (Justin)</td>
-    <td><a href='https://github.com/sf-wdi-21/linked-list'>Linked Lists</a>(Justin)</td>
-    <td><a href='https://github.com/sf-wdi-21/linked-list'>Linked Lists</a>(Justin)</td>
+    <td><a href='https://github.com/sf-wdi-21/linked-list'>Linked Lists</a> (Justin)</td>
+    <td><a href='https://github.com/sf-wdi-21/linked-list'>Linked Lists</a> (Justin)</td>
     <td>Assessment (Team)</td>
   </tr>
   <tr>
@@ -43,7 +43,7 @@
     <td><a href='week-03/day-01-bootstrap-orm/dusk-orm-lab/readme.md'>ORM Lab</a> (Justin)</td>
     <td>Intro Express: <a href="week-03/day-02-intro-express/dusk-assets">Static Assets</a> (Nathan)</td>
     <td>Todo Lab: UD (Ilias)</td>
-    <td>Mongo CRUD (Justin)</td>
+    <td><a href="https://github.com/sf-wdi-21/bite_me_mongo_express">Express Mongo Lab</a> (Nathan)</td>
     <td>Catchphrase Project (Ilias)</td>
   </tr>
   <tr>
