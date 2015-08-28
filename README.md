@@ -51,7 +51,7 @@
     <td><a href="week-03/day-02-intro-express/dawn-routing/README.md">Express Hello World</a> (Nathan)</td>
     <td><a href="https://github.com/sf-wdi-21/notes/blob/master/week-03/day-03-crud-express/rest.md">RESTful convention</a> (Ilias)</td>
     <td><a href="week-03/day-04-mongo-crud/dawn-mongo/readme.md">Mongo CRUD</a>(Justin)</td>
-    <td>TBD (Ilias)</td>
+    <td>[Bret Victor: Inventing on Principle](https://vimeo.com/36579366) (Ilias)</td>
     <td><!-- LEAVE BLANK --></td>
   </tr>
 </table>
