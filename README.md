@@ -44,7 +44,7 @@
     <td>Intro Express: <a href="week-03/day-02-intro-express/dusk-assets">Static Assets</a> (Nathan)</td>
     <td>Todo Lab: UD (Ilias)</td>
     <td><a href="https://github.com/sf-wdi-21/bite_me_mongo_express">Express Mongo Lab</a> (Nathan)</td>
-    <td>Catchphrase Project (Ilias)</td>
+    <td><a href="week-03/day-05">Catchphrase Project</a></td>
   </tr>
   <tr>
     <td>HW</td>
