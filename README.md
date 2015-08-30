@@ -12,6 +12,52 @@
 <!-- ##Week 5 -->
 <!-- ##Week 4 -->
 
+##Week 4 -- DB Relationships & Authorization
+
+<table>
+  <tr>
+    <th></th>
+    <th>Monday</th>
+    <th>Tuesday</th>
+    <th>Wednesday</th>
+    <th>Thursday</th>
+    <th>Friday</th>
+  </tr>
+  <tr>
+    <td>Drills</td>
+    <td>Binary Search (Justin)</td>
+    <td>Secret Keys (Justin / Ilias)</td>
+    <td>Warm Up Exercise</td>
+    <td>Warm Up Exercise</td>
+    <td>Review (Team)</td>
+  </tr>
+  <tr>
+    <td>Module1</td>
+    <td>Mongo Relationships (Justin)</td>
+    <td>Cookies (Nathan)</td>
+    <td>Authorization: Express Bcrypt (Ilias)</td>
+    <td>Lab (Nathan)</td>
+    <td>Review (Team)</td>
+  </tr>
+  <tr>
+    <td>Module2</td>
+    <td>Mongo Relationships (Justin)</td>
+    <td>Sessions (Nathan)</td>
+    <td>Authorization: Express Bcrypt (Ilias)</td>
+    <td>Project One: Intro (Team)</td>
+    <td>Project One</td>
+  </tr>
+  <tr>
+    <td>HW</td>
+    <td>Reading</td>
+    <td>Reading</td>
+    <td>Review</td>
+    <td>Project</td>
+    <td><!-- LEAVE BLANK --></td>
+  </tr>
+</table>
+
+
 ##Week 3 -- REST & CRUD
 <table>
   <tr>
