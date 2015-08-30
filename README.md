@@ -10,7 +10,6 @@
 <!-- ##Week 7 -->
 <!-- ##Week 6 -->
 <!-- ##Week 5 -->
-<!-- ##Week 4 -->
 
 ##Week 4 -- DB Relationships & Authorization
 
