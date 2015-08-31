@@ -48,10 +48,10 @@
   </tr>
   <tr>
     <td>HW</td>
-    <td><a href="week-04/day-2-cookies-sessions/README.md">Cookies</a></td>
-    <td>Reading</td>
-    <td>Review</td>
-    <td>Project</td>
+    <td><a href="week-04/day-2-cookies-sessions/README.md">Cookies</a> (Nathan)</td>
+    <td>Auth (Ilias) </td>
+    <td>TBD (Team)</td>
+    <td>Project One</td>
     <td><!-- LEAVE BLANK --></td>
   </tr>
 </table>
