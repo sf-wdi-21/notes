@@ -48,7 +48,7 @@
   </tr>
   <tr>
     <td>HW</td>
-    <td>Reading</td>
+    <td><a href="week-04/day-2-cookies-sessions/README.md">Cookies</a></td>
     <td>Reading</td>
     <td>Review</td>
     <td>Project</td>
