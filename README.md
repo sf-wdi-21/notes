@@ -32,7 +32,7 @@
   </tr>
   <tr>
     <td>Module1</td>
-    <td>Mongo Relationships (Justin)</td>
+    <td><a href="https://github.com/sf-wdi-21/mongo-rel-book-app">Mongo Relationships (Justin)</a></td>
     <td>Cookies (Nathan)</td>
     <td>Authorization: Express Bcrypt (Ilias)</td>
     <td>Lab (Nathan)</td>
