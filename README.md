@@ -11,7 +11,7 @@
 <!-- ##Week 6 -->
 <!-- ##Week 5 -->
 
-##Week 4 -- DB Relationships & Authorization
+##Week 4 -- Users
 
 <table>
   <tr>
