@@ -19,6 +19,7 @@ Our goal today is to harness the power of cookies. First, to track users to our 
 ## Reading and Writing Cookies -- Server Side
 
 **Writing Cookies**:
+
 ```javascript
 
 var express = require("express");
@@ -41,6 +42,7 @@ app.listen(3000, function () {
 ```
 
 **Reading Cookies** (from inside any route):
+
 ``` javascript
 // read the HTTP Cookie from Request Header
 var cookieStr = req.get("Cookie"); 
@@ -50,6 +52,7 @@ var cookieStr = req.get("Cookie");
 In practice we'll use `cookie-parser` middleware to so that we don't have to deal with string manipulation, and can just manipulate an object of key-value pairs. (We did the same thing with `body-parser` middleware).
 
 First we have to install `cookie-parser`:
+
 ```bash
 npm install --save cookie-parser
 ```
@@ -116,6 +119,7 @@ Once the cookie is set in the browser, any subsequent request to the website aut
 It's also possible to manipulate cookies on the client-side.
 
 From the Chrome Developer Console:
+
 ``` javascript
 document.cookie; // "message=hello"
 ```
@@ -141,9 +145,8 @@ For more on this approach, take a look at [Quirksmode on Cookies](http://www.qui
 * [HTTP Intro](http://code.tutsplus.com/tutorials/http-the-protocol-every-web-developer-must-know-part-1--net-31177)
 * [An Introduction to Cookies](http://code.tutsplus.com/tutorials/an-introduction-to-cookies--net-12482) (php/javascript)
 
+<hr>
 
-<br><br><br><br>
-<br><br><br><br>
 # Sessions
 Cookies are great, but they're limited in size, and they're hard to work with. If we want finer control, we want sessions!
 
