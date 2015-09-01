@@ -28,9 +28,9 @@ Think of a digested password as a firework. It is very easy to explode a firewor
 
 ##Bcrypt
 
-[Bcrypt](https://www.npmjs.com/package/bcrypt) is the most widely used, open-source password hashing library across any language.
+[Bcrypt](https://www.npmjs.com/package/bcrypt) is a widely used, open-source password hashing library available to multiple languages (we'll be using the NodeJS version).
 
-Play with it!
+Let's play!
 
 ```bash
 npm install bcrypt
