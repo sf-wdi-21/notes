@@ -141,8 +141,10 @@ For more on this approach, take a look at [Quirksmode on Cookies](http://www.qui
 * [An Introduction to Cookies](http://code.tutsplus.com/tutorials/an-introduction-to-cookies--net-12482) (php/javascript)
 
 
+<br><br><br><br>
+<br><br><br><br>
 # Sessions
-Cookies are great, but they're limited in size, and they're hard to work with. If want finer control, we want sessions!
+Cookies are great, but they're limited in size, and they're hard to work with. If we want finer control, we want sessions!
 
 Imagine for a moment that we have a fancy quiz-app and we used cookies to store user preferences and the current state of the quiz. Eventually the request header might look like:
 
