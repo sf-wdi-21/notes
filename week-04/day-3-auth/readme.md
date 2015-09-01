@@ -1,4 +1,4 @@
-# Authentication with Express & Bcrypt
+# Storing Passwords w/ Bcrypt
 
 | Objectives |
 | :--- |
