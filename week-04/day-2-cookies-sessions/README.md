@@ -6,6 +6,8 @@
 | Discuss and use an HTTP Cookie in a web application |
 | Differentiate between an HTTP Cookie and a session |
 
+
+# Cookies
 ## What's a cookie?
 An HTTP cookie is a [small piece of data](http://stackoverflow.com/questions/4100324/how-many-characters-can-be-stored-in-4kb) sent from a website and stored in a user's web browser. Every time the user loads the website, the browser sends the cookie back to the server in the HTTP Request Header. Cookies are commonly used to track whether a user is logged in or not. They can also be used to record user preferences.
 
@@ -137,3 +139,69 @@ For more on this approach, take a look at [Quirksmode on Cookies](http://www.qui
 * [Cookies in the Chrome Console](https://developers.google.com/web/tools/iterate/manage-data/cookies?hl=en)
 * [HTTP Intro](http://code.tutsplus.com/tutorials/http-the-protocol-every-web-developer-must-know-part-1--net-31177)
 * [An Introduction to Cookies](http://code.tutsplus.com/tutorials/an-introduction-to-cookies--net-12482) (php/javascript)
+
+
+# Sessions
+Cookies are great, but they're limited in size, and they're hard to work with. If want finer control, we want sessions!
+
+Imagine for a moment that we have a fancy quiz-app and we used cookies to store user preferences and the current state of the quiz. Eventually the request header might look like:
+
+```
+host: quizful.ly
+method: GET
+cookie: wrong_answers=7; right_answer=3; current_question=11; GeoIP=US:CA:San_Francisco:37.7909:-122.4017:v4; last_access=31-Aug-2015;
+```
+
+Now imagine that, instead of storing all this data in the browser, the server kept it in a database. And everytime someone visits the website for the first time, they're assigned a *globally unique id*, or **guid**.
+
+```
+host: quizful.ly
+method: GET
+cookie: guid=a134vbce34584ibjeapc38;
+```
+
+Now, instead of needing to read, parse, and manipulate all the data in the cookie, we can just find the user's session based on their **guid**.
+
+Here's the cheater way of doing this (the real way is using `express-session` middleware):
+
+``` javascript
+
+var sessions = {};
+
+// stubbed data
+sessions["a134vbce34584ibjeapc38"] = {
+    wrong_answers: 7,
+    right_answers: 3,
+    current_question: 11,
+    GeoIp: "US:CA:San_Francisco:37.7909:-122.4017:v4",
+    last_access: "31-Aug-2015"
+}
+
+
+app.get("/quiz", function(){
+    // sets the guid if none exists
+    res.set("guid", randomly_generated_unique_identifer)
+    // adds a new object to the sessions object, above
+    //...
+})
+
+app.post("/answer", function(){
+    var guid = res.cookies.guid;
+    var session = sessions[guid];
+    
+    var answer = res.query.answer;
+    if ( right_answer ) {
+        // update session
+        session.right_answers +=1;
+        session.current_question +=1;
+        res.send({verdict: "correct"})
+    } else {
+        // update session
+        session.wrong_answers +=1;
+        res.send({verdict: "incorrect"})
+    }
+})
+
+```
+
+Later we'll learn about `express-sessions` middleware.
