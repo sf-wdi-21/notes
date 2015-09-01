@@ -2,9 +2,8 @@
 
 | Objectives |
 | :--- |
+| Distinguish between Authentication and Authorization |
 | Implement a password **authentication** strategy with bcrypt |
-| Leverage a session to save a logged-in user's data  |
-| Design routes for a user to `/login` and `/logout` |
 
 ## Authentication / Authorization
 
