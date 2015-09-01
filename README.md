@@ -41,7 +41,7 @@
   <tr>
     <td>Module2</td>
     <td>Mongo Relationships (Justin)</td>
-    <td><a href="week-04/day-2-cookies-sessions">Form Login Lab</a> (Nathan)</td>
+    <td><a href="https://github.com/sf-wdi-21/express_form_login_cookies_lab">Form Login Lab</a> (Nathan)</td>
     <td>Authorization: Express Bcrypt (Ilias)</td>
     <td>Project One: Intro (Team)</td>
     <td>Project One</td>
