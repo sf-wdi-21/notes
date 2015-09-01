@@ -31,14 +31,14 @@ app.listen(3000, function () {
 
 ## Cookies
 
-#### Challenge 1: Write a Cookie
+#### Challenge 1: Write a Cookie - [solutions](solutions.md)
 * Set a cookie in the HTTP Resonse Header with a key of `"wdi"` and value of `21` whenever you hit `/moar_cookie`. See [res.cookie](http://expressjs.com/api.html#res.cookie).
 * Next, hit your endpoint. From inside your route, can you `read` the incoming cookies and `console.log` them?
     - How would you `get` the value associated with `wdi`?
     - What datatype is it? Can you prove it?
 
-#### Challenge 2: Destroy a Cookie
+#### Challenge 2: Destroy a Cookie - [solutions](solutions.md)
 * Remove the `"wdi"` cookie from the HTTP Response Header whenever you hit `/sad_cookie`. See [res.clearCookie](http://expressjs.com/api.html#res.clearCookie).
 
-#### Challenge 3: Visit Counter
+#### Challenge 3: Visit Counter - [solutions](solutions.md)
 Let's see if we can `count` the number of times someone has come to the site, using a cookie. First, set a cookie. Then, update the cookie each time you visit "/", incrementing the number by 1.
