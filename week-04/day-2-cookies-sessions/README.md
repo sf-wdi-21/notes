@@ -6,14 +6,14 @@
 | Discuss and use an HTTP Cookie in a web application |
 | Differentiate between an HTTP Cookie and a session |
 
-### What's a cookie?
+## What's a cookie?
 An HTTP cookie is a [small piece of data](http://stackoverflow.com/questions/4100324/how-many-characters-can-be-stored-in-4kb) sent from a website and stored in a user's web browser. Every time the user loads the website, the browser sends the cookie back to the server in the HTTP Request Header. Cookies are commonly used to track whether a user is logged in or not. They can also be used to record user preferences.
 
 ![cookie-monster](http://media0.giphy.com/media/EKUvB9uFnm2Xe/giphy.gif)
 
 Our goal today is to harness the power of cookies. First, to track users to our website. And secondly, to track their login "session".
 
-### Reading and Writing Cookies -- Server Side
+## Reading and Writing Cookies -- Server Side
 
 **Writing Cookies**:
 ```javascript
@@ -43,12 +43,53 @@ app.listen(3000, function () {
 var cookieStr = req.get("Cookie"); 
 ```
 
+#### Using `cookie-parser`
+In practice we'll use `cookie-parser` middleware to so that we don't have to deal with string manipulation, and can just manipulate an object of key-value pairs. (We did the same thing with `body-parser` middleware).
+
+First we have to install `cookie-parser`:
+```bash
+npm install --save cookie-parser
+```
+And now we just tell our app to use `cookie-parser`.
+
+```javascript
+var express      = require('express');
+var cookieParser = require('cookie-parser');
+
+var app = express();
+app.use(cookieParser());
+
+```
+
+Altogether that looks like:
+
+```javascript
+
+var express      = require('express');
+var cookieParser = require('cookie-parser');
+
+var app = express();
+app.use(cookieParser());
+
+app.get("/", function (req, res) {
+  console.log(req.cookie.message); // "hello"
+  res.cookie("message", "hello again"); // overwrite
+  res.send("Hello World");
+});
+
+app.listen(3000, function () {
+  console.log("UP AND RUNNING");
+});
+```
+
+**HTTP Response Header**
+
 This sends a response that looks something like the following:
 
 ```
 HTTP/1.1 200 OK
 X-Powered-By: Express
-Set-Cookie: message=hello
+Set-Cookie: message=hello%20again
 Content-Type: text/html; charset=utf-8
 Content-Length: 11
 ETag: W/"b-4a17b156"
@@ -68,9 +109,7 @@ Once the cookie is set in the browser, any subsequent request to the website aut
 ...
 ```
 
-Note: In practice we will be using `cookie-parser` middleware in our express applications so that we don't have to deal with string manipulation, and can just manipulate an object of key-value pairs. (We did the same thing with `body-parser` middleware).
-
-### Reading and Writing Cookies -- Client Side
+## Reading and Writing Cookies -- Client Side
 It's also possible to manipulate cookies on the client-side.
 
 From the Chrome Developer Console:
