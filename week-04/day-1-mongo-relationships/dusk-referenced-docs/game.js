@@ -122,55 +122,53 @@ mongoose.connect('mongodb://localhost/console');
 var Schema = mongoose.Schema;
 
 /* Console Schema */
-var consoleSchema = new Schema({
-	name: String,
-	manufacturer: String,
-	released: Date 
-});
+// var consoleSchema = new Schema({
+// 	name: String,
+// 	manufacturer: String,
+// 	released: Date 
+// });
 
 /* Game Schema */
-var gameSchema = new Schema({
-	name: String,
-	developer: String,
-	released: Date,
-	// i'm telling consoles to EXPECT references to Console documents
-	consoles: [{type: Schema.Types.ObjectId, ref: 'Console'}]
-});
+// var gameSchema = new Schema({
+// 	name: String,
+// 	developer: String,
+// 	released: Date,
+// 	// i'm telling consoles to EXPECT references to Console documents
+// 	consoles: [{type: Schema.Types.ObjectId, ref: 'Console'}]
+// });
 
-// /* Mongoose Document Methods */
-// /* Method that is called from Model*/
+/* Game instance methods */
 // /* Game.findSimilarType(); */
 // gameSchema.methods.findSimilarType = function(callback) {
 // 	return this.model('Game').find({type: this.type}, callback);
 // }
 
-// /* Mongoose Document Statics */
-// /* Game.search(...); */
+/* Game class methods */
 // gameSchema.statics.search = function (name, callback) { 
 // 	return this.where('name', new Regexp(name, 'i')).exec(callback);
 // }
 
 /* Compiling my models from my schemas */
-var Game = mongoose.model('Game', gameSchema);
-var Console = mongoose.model('Console', consoleSchema);
+// var Game = mongoose.model('Game', gameSchema);
+// var Console = mongoose.model('Console', consoleSchema);
 
-// /* make a Console document */
-var nin64 = {
-	name: 'Xbox',
-	manufacturer: 'Microsoft',
-	released: 'September 29, 1996'
-}
+/* make a Console document */
+// var nin64 = {
+// 	name: 'Nintendo 64',
+// 	manufacturer: 'Nintendo',
+// 	released: 'September 29, 1996'
+// }
 
 /* make a Game document */ 
-var zelda = {
-	name: 'The Legend of Zelda: Majoras Mask',
-	developer: 'Nintendo',
-	release: new Date('April 27, 2000'),
-	consoles: []
-}
+// var zelda = {
+// 	name: 'The Legend of Zelda: Majoras Mask',
+// 	developer: 'Nintendo',
+// 	release: new Date('April 27, 2000'),
+// 	consoles: []
+// }
 
 /* Create a Console document with the nin64 document */
-/* A successfully created Console document lies in success */
+/* A successfully created Console document is returned in success */
 // Console.create(nin64, function(err, nintendo64){
 // 	if(err) {return console.log(err);}
 // 	Game.create(zelda, function(err, zeldaGame) {
@@ -181,22 +179,22 @@ var zelda = {
 // 	});
 // })
 
-// Game.find({}, function(err, success) {
-// 	console.log(success);
-// })
-Game.findOne({ name: 'The Legend of Zelda: Majoras Mask' })
-		.populate('consoles')
-		.exec(function(err, game) {
-			if(err){return console.log(err);}
-			console.log(game.name + ' was released on the ' + game.consoles[0].name);
-			console.log(game);
-		});
+/* find one game with a matching name, populate the consoles array, and display information */
+// Game.findOne({ name: 'The Legend of Zelda: Majoras Mask' })
+// 		.populate('consoles')
+// 		.exec(function(err, game) {
+// 			if(err){return console.log(err);}
+// 			console.log(game.name + ' was released on the ' + game.consoles[0].name);
+// 			console.log(game);
+// 		});
 
+/* Removes all Console documents */
 // Console.remove({}, function(err, success) {
 // 	if(err) { return console.log(err);}
 // 	console.log("Successfully removed Console");
-	
 // });
+
+/* Removes all Game documents */
 // Game.remove({}, function(err, success) {
 // 	if(err) { return console.log(err);}
 // 	console.log("SUccessfully removed Game");
