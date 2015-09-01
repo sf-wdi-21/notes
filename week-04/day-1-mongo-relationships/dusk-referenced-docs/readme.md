@@ -1,5 +1,7 @@
-```javascript
+# Relationships in Mongo(ose)
 
+#### Setup
+```javascript
 var mongoose = require('mongoose');
 mongoose.connect('mongodb://localhost/console');
 
@@ -20,7 +22,6 @@ var consoleSchema = new Schema({
 The `Console Schema` describes a videogame console such as Nintendo, Sega, or XBox.
 
 
-
 ```javascript
 /*  Game Schema */
 var gameSchema = new Schema({
@@ -35,14 +36,14 @@ The `Game Schema` above describes an actual videogame such as Super Mario Bros.,
 
 Note the specific code on line 7 within the [] brackets.  Inside the brackets we 
 are describing what will go inside the consoles array as we work with the database.
-In this case we are telling the Game Schema that we will be putting in an ObjectId, which is that big ugly `_id` that mongoose automatically generates for us.  If you forget, it looks like this: ```55e4ce4ae83df339ba2478c6```.  That's what's going on with ```type: Schema.Types.Objectid```.  When we have the code ```ref: 'Console'``` that means that we will be storing ONLY ObjectIds associated with the ```Console``` document type.  Basically, we will only be putting ```Console``` ObjectIds inside hte ```consoles``` array. Makes sense!
+In this case we are telling the Game Schema that we will be putting in an ObjectId, which is that big ugly `_id` that mongoose automatically generates for us.  If you forget, it looks like this: ```55e4ce4ae83df339ba2478c6```.  That's what's going on with ```type: Schema.Types.Objectid```.  When we have the code ```ref: 'Console'``` that means that we will be storing ONLY ObjectIds associated with the ```Console``` document type.  Basically, we will only be putting ```Console``` ObjectIds inside the ```consoles``` array. Makes sense!
 
 
 ##Mongoose Document methods and statics
-Similar to objects prototypes,  we are able to write our own 'helper' methods within the Schemas and Models we make.    
+Similar to objects prototypes, we are able to write our own 'helper' methods within the Schemas and Models we make.    
 
 ```javascript
-/* Mongoose Document Methods */
+/* Game instance methods */
 gameSchema.methods.findSimilarType = function(callback) {
 	return this.model('Game').find({type: this.type}, callback);
 }
@@ -52,7 +53,7 @@ The above method called ```findSimilarType()``` is called by any Document made b
 
 
 ```javascript
-/* Mongoose Document Statics */
+/* Game class methods */
 gameSchema.statics.search = function (name, callback) { 
 	return this.where('name', new RegExp(name, 'i')).exec(callback);
 }
@@ -143,7 +144,7 @@ Lets print out the Console Document `nintendo64` to make sure the `ObjectId` in 
 
 Sure enough, the Game Document consoles only `ObjectId` matches the Console Document `_id`.  What's going on?  The Game Document consoles has a single `Objectid` that contians the '*address*' or the '*location*' where it can find the Console Document if and when it needs it.  This keeps our Game Document small, since it doesn't have to have so much information packed into it.  When it wants the Console Document data, it will ask for it. Until then, it's happy with just the `ObjectId` associated with it.
 
-##The Population() call
+##The `populate()` method
 
 When we want to finally get information from any Console Document we have inside the Game Document consoles array, we use the method call ```.populate()```.  
 
