@@ -30,7 +30,7 @@ See all branches in this repo with `git branch -a`. If you want to skip to anoth
 
 ###Get Started
 
-Fork & Clone [this repo]().
+Fork & Clone [this repo](https://github.com/sf-wdi-21/express_auth/tree/master).
 
 ##Step 1: App Setup (10m)
 
