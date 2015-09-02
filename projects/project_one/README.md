@@ -24,8 +24,7 @@ Make sure to do all of the following with your app.
 * **Data Validation** Validate data by handling incorrect inputs during sign up, such as unique email addresses, and minimum password lengths.
 * **Model Relationship** Create a `has_many` relationship between the User and another model using either embedded or referenced data.
 * **Visual Design** Use Twitter Bootstrap, Foundation, or another CSS framework to kick-start your front-end.
-* **Heroku** Deploy your code to Heroku. [Notes on that here](https://github.com/sf-wdi-18/notes/blob/master/projects%2Fproject-one%2Ftips%2FdeployingToHeroku.md).
-	* Ensure no app secrets are exposed.  __Do not commit secret keys to Github!__ [Notes on  that here](https://github.com/sf-wdi-18/notes/blob/master/projects%2Fproject-one%2Ftips%2FhidingSecrets.md).
+* **Heroku** Deploy your code to Heroku without exposing any secret keys (notes on that in the `/tips` directory).
 
 ## CHALLENGE ADD-ONS
 If you want to push yourself and learn something new, optionally consider doing some of the following with your app, but *please talk to an instructor* beforehand:
