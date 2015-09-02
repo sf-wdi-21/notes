@@ -177,8 +177,7 @@ UserSchema.statics.createSecure = function (email, password, cb) {
       // build the user object
       var user = {
         email: email,
-        passwordDigest: hash,
-        createdAt: Date.now()
+        passwordDigest: hash
       };
       // create a new user in the db with hashed password and execute the callback when done
       _this.create(user, cb);
