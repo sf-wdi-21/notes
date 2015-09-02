@@ -419,7 +419,7 @@ var express = require('express'),
 var views = path.join(process.cwd(), "views");
 
 app.get("/login", function (req, res) {
-  res.sendFile(path.join(views, "login"));
+  res.sendFile(path.join(views, "login.html"));
 });
 
 ```
