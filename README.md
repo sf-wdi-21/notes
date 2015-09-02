@@ -25,8 +25,8 @@
   <tr>
     <td>Drills</td>
     <td><a href="week-04/drills.md">Binary Search </a>(Justin)</td>
-    <td>Secret Keys (Justin / Ilias)</td>
-    <td>Warm Up Exercise</td>
+    <td><a href="week-04/drills.md">Secret Keys </a>(Illias & Justin)</td>
+    <td><a href="week-04/drills.md">Bubble Sort!</a>(Justin)</td>
     <td>Warm Up Exercise</td>
     <td>Review (Team)</td>
   </tr>
