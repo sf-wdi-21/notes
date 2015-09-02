@@ -1,4 +1,4 @@
-#WDI 18 SF - Project One
+#WDI 21 SF - Project One
 
 ## DESCRIPTION
 
@@ -33,18 +33,18 @@ If you want to push yourself and learn something new, optionally consider doing 
 * **External API** Use an external API to integrate rich data into your app.
 * **Authorization** Disallow users from CRUDing content in other users' profiles. Ie a user should not be able to delete a post if it is not theirs.
 * **Sass** Use a CSS pre-compiler to write more imperative CSS. 
-* **Web Sockets** - Use [Socket.io](http://socket.io/) to have real time behavior in your app.
 * **Web Scraping** If necessary, collect data directly from a website that doesn't have an API. Examples technologies include [Casper](http://casperjs.org/) or [Kimono](https://www.kimonolabs.com/).
 * **Whatever else you can think of!**
 
 ## TIMELINE
 
-* **Friday, May 22nd** - Communicate your app idea to an instructor and put it in a card on our Trello [board](https://trello.com/b/dl7VicOR/sfwdi18-project1). Be ready to talk about the scope of your project. Before beginning work on your project, your project idea and the scope of your project must be checked-off by an instructor.  You will need the following for an instructor check-off:
+* **Friday, Sept 4th** - Communicate your app idea to your lead instructor. Be ready to talk about the scope of your project. Before beginning work on your project, your project idea and the scope of your project must be checked-off by an instructor.  You will need the following for an instructor check-off:
     * Wireframes
     * User stories
     * Models and DB design
-* **Thursday, May 28th** - Deploy your code to Heroku by the end of the day.  It is not important how much coding you have done at this point; deploy whatever you have.  This will make your life easier.
-* **Friday, May 29th at 9:30am** - Project due and presentations!
+    * Github repo w/ Instructor as a collaborator
+* **Thursday, Sept 10th** - Deploy your code to Heroku by the end of the day.  It is not important how much coding you have done at this point; deploy whatever you have.  This will make your life easier.
+* **Friday, Sept 11th** - Project due and presentations!
 
 ## PLANNING
 
@@ -87,46 +87,12 @@ We will a schedule for 1:1s throughout the week. We will also do mini lessons on
 * Completion of the **core requirements**
 * A link to your website **hosted on Heroku**
 * A link to your **source code on GitHub**
-* A `README.md` file that serves as your **project documentation**
+* A `README.md` file that serves as your **project documentation** (this is important, do it please!)
 * A **presentation** illustrating:
 	* What is your project and what does it do?
 	* What was your motivation to build it?
 	* What are you proud of?
 	* What would you do with more time?
 	* What aspect presented the most challenges?
-
-##GROUPS
-
-ILIAS:
-Alex,
-Connor Slakey,
-Jeremy,
-Rebecca,
-Tae,
-Wyatt,
-Dimitriy,
-Celeste,
-Mike Tan
-
-NATHAN:
-Andreas,
-Daniel,
-Michael W.,
-Spencer,
-Tejaswi,
-Connor Stanley,
-Justin,
-David,
-Miqueas
-
-DEL:
-Charlie,
-Jared,
-Neil,
-Stephen,
-Ugo,
-Daimeon,
-Linda,
-Vanessa
 
 ###HAPPY CODING :)
