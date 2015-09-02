@@ -43,7 +43,7 @@
     <td>Mongo Relationships (Justin)</td>
     <td><a href="https://github.com/sf-wdi-21/express_form_login_cookies_lab">Form Login Lab</a> (Nathan)</td>
     <td>Authorization: Express Bcrypt (Ilias)</td>
-    <td>Project One: Intro (Team)</td>
+    <td><a href="https://github.com/sf-wdi-21/notes/blob/master/projects/project_one/README.md">Project One: Intro</a> (Team)</td>
     <td>Project One</td>
   </tr>
   <tr>
