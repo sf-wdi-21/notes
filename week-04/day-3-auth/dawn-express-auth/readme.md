@@ -124,7 +124,7 @@ Also write the `UserSchema`. Users should have the properties **email**, **passw
 var UserSchema = new Schema({
   email: {type: String, required: true},
   passwordDigest: {type: String, required: true},
-  createdAt: {type: Date, default: Date.now}
+  createdAt: {type: Date, default: Date.now()}
 });
 ```
 
