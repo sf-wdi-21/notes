@@ -124,7 +124,7 @@ Also write the `UserSchema`. Users should have the properties **email**, **passw
 var UserSchema = new Schema({
   email: {type: String, required: true},
   passwordDigest: {type: String, required: true},
-  createdAt: {type: Date, default: Date.now}
+  createdAt: {type: Date, default: Date.now()}
 });
 ```
 
@@ -177,8 +177,7 @@ UserSchema.statics.createSecure = function (email, password, cb) {
       // build the user object
       var user = {
         email: email,
-        passwordDigest: hash,
-        createdAt: Date.now()
+        passwordDigest: hash
       };
       // create a new user in the db with hashed password and execute the callback when done
       _this.create(user, cb);
@@ -420,7 +419,7 @@ var express = require('express'),
 var views = path.join(process.cwd(), "views");
 
 app.get("/login", function (req, res) {
-  res.sendFile(path.join(views, "login"));
+  res.sendFile(path.join(views, "login.html"));
 });
 
 ```

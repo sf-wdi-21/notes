@@ -50,7 +50,7 @@
     <td>HW</td>
     <td><a href="week-04/day-2-cookies-sessions/README.md">Cookies</a> (Nathan)</td>
     <td><a href="https://github.com/sf-wdi-21/notes/blob/master/week-04/day-3-auth/readme.md">Auth</a> (Ilias) </td>
-    <td>TBD (Team)</td>
+    <td>No Reading!</td>
     <td>Project One</td>
     <td><!-- LEAVE BLANK --></td>
   </tr>
