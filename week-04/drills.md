@@ -233,7 +233,7 @@ function mergeSort( array ) {
 
 	// divide the array in two
 	
-	call the merge function ( recursively call mergeSorts) 
+	call merge function ( recursively call mergeSorts) 
 }
 
 ```
@@ -245,13 +245,14 @@ function mergeSort( array ) {
 
 function merge( leftArray, rightArray ) {
 
-	while we still have two lists:
+	//while we still have two lists:
 			
-		create a new list and insert the smallest to largest numbers from either list
+		//create a new list and insert the smallest to largest elements from either list
 			
-	insert any remaining numbers
+	//insert any remaining elements
+	
 
-	return our resulting list.
+	return resulting list.
 }
 
 ```
