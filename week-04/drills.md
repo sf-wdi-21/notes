@@ -286,8 +286,10 @@ function merge(left, right) {
 ###Make your own Mergesort implementation!
 Create a mergeSort that will sort a list of student names from this class!
 
-	[ 'Tika','Keala','Neil','Sharon', 'Francis', 'Nathan',
-	  'James', 'Olivia', 'JustinR', 'Peter', 'Jamie', 'Kristian', 'Stephen',
-	  'Melissa', 'JustinA', 'Tom', 'Daniel', 'Ian', 'Heather', 'Marcel',
-	  'Humberto', 'Eric', 'Darragh', 'Sakina', 'Nick', 'Lisa', 'Sarad',
-	  'Katie',  'Bradley' ]
+```javascript
+[ 'Tika','Keala','Neil','Sharon', 'Francis', 'Nathan',
+  'James', 'Olivia', 'JustinR', 'Peter', 'Jamie', 'Kristian', 'Stephen',
+  'Melissa', 'JustinA', 'Tom', 'Daniel', 'Ian', 'Heather', 'Marcel',
+  'Humberto', 'Eric', 'Darragh', 'Sakina', 'Nick', 'Lisa', 'Sarad',
+  'Katie',  'Bradley' ]
+```
