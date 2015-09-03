@@ -8,28 +8,27 @@ Serial Version:
 ```javascript
 
 function binarySearch(searchArray, searchElement) {
- 
-    var min = 0;
-    var max = searchArray.length - 1;
-    var mid;
-    var currentElement;
- 
-    while (min <= max) {
-        mid = (min + max) / 2 | 0;
-        currentElement = searchArray[mid];
- 
-        if (currentElement < searchElement) {
-            min = mid + 1;
-        }
-        else if (currentElement > searchElement) {
-            max = mid - 1;
-        }
-        else {
-            return mid;
-        }
+  var min = 0;
+  var max = searchArray.length - 1;
+  var mid;
+  var currentElement;
+
+  while (min <= max) {
+    mid = (min + max) / 2 | 0;
+    currentElement = searchArray[mid];
+
+    if (currentElement < searchElement) {
+        min = mid + 1;
     }
- 
-    return -1;
+    else if (currentElement > searchElement) {
+        max = mid - 1;
+    }
+    else {
+        return mid;
+    }
+  }
+
+  return -1;
 }
 
 
@@ -187,29 +186,28 @@ You may use a conventional for loop.
 ###One possible solution to bubble sort: 
 
 ```javascript
-
 function bubbleSort(array) {
-    var end = array.length - 1;
-    // create a swapped switch (true/false)
-    var swapped = true;
-    // while our switch is 'true'
-    while(swapped){
-        //console.log(array);
-        // flip the swapped switch to false
-        swapped = false;
-        for(var i = 0; i < end; ++i) {
-            // If an element is greater than its neighbor
-            if (array[i] > array[i+1]) {
-                // swap the element and its neighbor
-                var temp = array[i];
-                array[i] = array[i+1];
-                array[i+1] = temp;
-                // flip the switch to true
-                swapped = true;
-            }
-        }
-        end--;
+  var end = array.length - 1;
+  // create a swapped switch (true/false)
+  var swapped = true;
+  // while our switch is 'true'
+  while(swapped){
+    //console.log(array);
+    // flip the swapped switch to false
+    swapped = false;
+    for(var i = 0; i < end; ++i) {
+      // If an element is greater than its neighbor
+      if (array[i] > array[i+1]) {
+        // swap the element and its neighbor
+        var temp = array[i];
+        array[i] = array[i+1];
+        array[i+1] = temp;
+        // flip the switch to true
+        swapped = true;
+      }
     }
+    end--;
+  }
 };
 
 ```
