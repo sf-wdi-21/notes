@@ -84,7 +84,7 @@ We will a schedule for 1:1s throughout the week. We will also do mini lessons on
 
 Checkout the [how to](https://github.com/sf-wdi-21/notes/tree/master/how-tos) directory for more great tips on things we didn't get the chance to cover in class, such as:
 
-* Deloying to Heroku
+* Deploying to Heroku
 * Hitting APIs from the backend
 * Hiding secret keys
 * Backend templating w/ EJS
