@@ -35,7 +35,7 @@
     <td><a href="https://github.com/sf-wdi-21/mongo-rel-book-app">Mongo Relationships (Justin)</a></td>
     <td><a href="week-04/day-2-cookies-sessions">Cookies</a> (Nathan)</td>
     <td><a href="https://github.com/sf-wdi-21/notes/blob/master/week-04/day-3-auth/dawn-express-auth/readme.md">Authorization: Express Bcrypt</a> (Ilias)</td>
-    <td>Lab (Nathan)</td>
+    <td><a href="https://github.com/sf-wdi-21/seven_challenges">Seven Challenges Lab</a> (Nathan)</td>
     <td>Review (Team)</td>
   </tr>
   <tr>
