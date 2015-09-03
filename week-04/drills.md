@@ -95,7 +95,7 @@ To counter rainbow tables, websites began using a technique called **salting** w
 
 *We can still do our part!  To make it extremely difficult for computers to guess your password, consider using 4 random words strung together.*  
 
-##Day - 03: Bubble Sort
+##Day - 3: Bubble Sort
 
 Pre-work: [First, some Hungarian ("Csángó") folk dance](https://www.youtube.com/watch?v=lyZQPjUT5B4)
 
@@ -214,3 +214,53 @@ function bubbleSort(array) {
 
 ```
 
+##Day - 4  Merge sort!
+
+###Why Merge Sort?
+Merge sort is the first powerful sorting algorithm that you will encounter in the wilds of the real world (baked into Safari and Firefox.)  It uses an extremely efficient application of the 'Divide and Conquer' concept to lists of elements.  We worked on Bubble Sort yesterday, now let us up our game and work on Merge Sort!
+
+Merge Sort works on the basic principal of dividing your list into sub-lists (recursively) until your sub-lists are of length one or zero.  Once your sub-lists are at that size, you merge with a neighboring sub-list.  When you merge them, you merge them in ascending or descending order, depending on your implementation.  
+
+![Merge Sort visualization](https://webdocs.cs.ualberta.ca/~holte/T26/Lecture6Fig6.gif)
+
+There are TWO functions that work together to accomplish a Merge Sort:
+
+-  A mergeSort function that takes an array, splits the array in two, and calls a merge function.  The mergeSort function **is recursive**.  Try to remember the prescribed function structuring we recommended. 
+
+```javascript
+
+function mergeSort( array ) {
+
+	// divide the array in two
+	
+	call the merge function ( recursively call mergeSorts) 
+}
+
+```
+
+-  A merge function that takes two arrays as parameters, looks at the the first elements of the two lists, and assembles a resulting list based on the two lists 'zipped' together by pushing the lowest to highest valued elements. The merge function **is not recursive**.
+
+
+```javascript
+
+function merge( leftArray, rightArray ) {
+
+	while we still have two lists:
+			
+		create a new list and insert the smallest to largest numbers from either list
+			
+	insert any remaining numbers
+
+	return our resulting list.
+}
+
+```
+
+###Make your own Mergesort implementation!
+Create a mergeSort that will sort a list of student names from this class!
+
+	[ 'Tika','Keala','Neil','Sharon', 'Francis', 'Nathan',
+	  'James', 'Olivia', 'JustinR', 'Peter', 'Jamie', 'Kristian', 'Stephen',
+	  'Melissa', 'JustinA', 'Tom', 'Daniel', 'Ian', 'Heather', 'Marcel',
+	  'Humberto', 'Eric', 'Darragh', 'Sakina', 'Nick', 'Lisa', 'Sarad',
+	  'Katie',  'Bradley' ]
