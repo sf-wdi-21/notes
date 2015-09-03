@@ -80,6 +80,16 @@ If you want to push yourself and learn something new, optionally consider doing 
 ## ACCESS TO INSTRUCTORS
 We will a schedule for 1:1s throughout the week. We will also do mini lessons on certain topics if we notice that several people are running into the same issues.
 
+## Tips
+
+Checkout the [how to](https://github.com/sf-wdi-21/notes/tree/master/how-tos) directory for more great tips on things we didn't get the chance to cover in class, such as:
+
+* Deloying to Heroku
+* Hitting APIs from the backend
+* Hiding secret keys
+* Backend templating w/ EJS
+* AND MORE!
+
 
 ##FINAL DELIVERABLES
 
