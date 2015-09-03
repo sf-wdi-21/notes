@@ -461,7 +461,7 @@ CONGRATS! You've just hand-rolled a login system!
 
 1. Add a `GET /signup` route and view to create a new user
 2. When a user signs up also log them in and redirect them to the `/profile` page.
-3. Create a route `GET /logout` that uses the `req.logout` middleware to destroy the session. Add a link on your site that logs out the user.
+3. Create a route `GET /logout` that uses the `req.logout` middleware to destroy the session. Add a link on your site that logs out the user. (bonus for using a delete request, which is shown in the branch `step_10`).
 4. The `req.currentUser` middleware finds the user who is currently logged in. Use `req.currentUser` to **authorize** parts of your site.
     * Logged-in users should NOT be able to see the /signup or /login pages.
     * Users should only be able to see /profile when logged in.
