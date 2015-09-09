@@ -1,69 +1,73 @@
 ## Getting set up on Heroku with Node + Mongoose
 
 ### Before you do anything
-0. Your app is under version control with `git`.  If you're not sure whether your project is under version control yet, you definitely haven't been commiting often enough! But run `git status` to check if your project directory is a repo and `git init` to make it into one if necessary.
-1. Make sure you have an account with heroku: https://www.heroku.com/
+1) Stop and commit. Make sure your app is under version control with `git`.  If you're not sure whether your project is under version control yet, you definitely haven't been commiting often enough! But run `git status` to check if your project directory is a repo and `git init` to make it into one if necessary. __Stop and commit your changes.__
 
-2. Make sure you have installed the heroku toolbelt - [https://toolbelt.heroku.com/](https://toolbelt.heroku.com/)
+2) Sign up for an account with heroku: https://www.heroku.com/
 
-3. We need to add a new remote to your project repository that points to heroku's servers. **(NOTE YOUR PROJECT MUST BE A GIT REPO TO CONTINUE.)**.
+3) Install the heroku toolbelt - [https://toolbelt.heroku.com/](https://toolbelt.heroku.com/)
 
-	```bash
-	heroku create
-	```
+**(NOTE YOUR PROJECT MUST BE A GIT REPO TO CONTINUE.)**.
 
+### Heroku Setup
 
-### To start:
+4) Add a new remote to your project that points to Heroku's servers:
 
+```bash
+heroku create
+```
 
-
-* Create a `Procfile` 
-	- In terminal, run `touch Procfile`. Must be named with a capital P.
-	- make sure it is named "Procfile" (with no extension) 
-	- make sure your Procfile is in the same folder as your main server file (usually `index.js`)
-	- in terminal type `echo "web: npm start" >> Procfile`
-
-
-* In your `index.js` file, where you get your server started, change up the `port` argument in your `app.listen` function so that it looks for a `proccess.env.PORT` environment variable first.  Example:
+5) In your `index.js` file, modify `app.listen` to use `process.env.PORT` (this will be set, dynaimcally, by Heroku):
 
 ```javascript
 app.listen(process.env.PORT || 3000)
 ```
 
-### Heroku MongoLab
-
-In bash we want to add the following to get a Mongo database added to our Heroku project.
+6) Tell heroku to use the mongolab addon. In your terminal, run:
 
 ```bash
  heroku addons:create mongolab
 ```
-At this point, the command line may ask you to enter a credit card number. Heroku charges for some services, or if you go over some data limits. With the tools we're using and the size of our projects' data, everything should be free.  If you had to enter in a credit card, run the `heroku addons:create mongolab` command again.
 
+7) At this point, the command line may ask you to enter a credit card number. Heroku charges for some services, or if you go over some data limits. With the tools we're using and the size of our projects' data, everything should be free.  If you had to enter in a credit card, run the `heroku addons:create mongolab` command again. __You may need to wait a few minutes for mogolab to become active.__
 
-
-Then we want to go to our `models/index.js` file and add the following to the `mongoose.connect` method.
+8) Update your database connection to point to Heroku's database. Open `models/index.js` and add the following to the `mongoose.connect` method:
 
 ```javascript
 mongoose.connect( process.env.MONGOLAB_URI ||
-			   process.env.MONGOHQ_URL || 
-			   "YOUR OWN LOCAL URL HERE")
+                  process.env.MONGOHQ_URL || 
+                  "YOUR OWN LOCAL URL HERE" )
 ```
 
-And we are ready to integrate mongolab.
+Congrats! Your application knows what port to run on, and what database to connect to - you're almost all set up to work in "production" on Heroku's servers!
 
+### Confirm your Dependencies
 
-## Dependencies and Bower Integration
+9) Double check your `package.json` to make sure that all your depenedencies are present. If something is missing install it.
 
-Check your `package.json` to make sure that all your depenedencies are present. If something is missing install it. For example, run the following if you're using Bower.io but don't have it listed in `dependencies`:
+Here are some common dependencies:  
+``` javascript
+{
+  "dependencies": {
+    "body-parser": "^1.13.3",
+    "bower": "^1.5.2",
+    "express": "^4.13.3",
+    "express-session": "^1.11.3",
+    "method-override": "^2.3.5",
+    "mongoose": "^4.1.5",
+    "nodemon": "^1.4.1"
+  }
+}
+```
+
+For example, if you're using Bower.io but don't have it listed in your package.json `dependencies`, run the following:
 
 ```bash
 npm install --save bower
 ```
 
-
-You should now add a `start` script for your application in your `package.json`.
-
-`package.json`
+### Add a start script
+10) Add a `start` script for your application in your `package.json`:
 
 ```javascript
 ...
@@ -76,14 +80,24 @@ You should now add a `start` script for your application in your `package.json`.
 
 This is assuming your main application file is called `index.js`. If your main file is called something else, adjust the script to use your file name.
 
-## Deploying
+### Add a Procfile
+11) Create a `Procfile` so that Heroku knows how to run your application:
+    - Make sure you are in your main project directory (the same directory as `index.js`). Then run:
+    ``` bash
+    touch Procfile
+    echo "web: npm start" >> Procfile
+    ```
 
-Now that you're potentially all setup then you just need to `git add` and `commit`.
+## Deploy!
 
+12) Stop and commit. We've made a lot of changes!
+``` bash
+    git add . -A
+    git commit -m "ready for heroku deploy attempt #1"
+```
 
-```bash
-git add . -A
-git commit -m "deploy attempt number"
+13) Now we can deploy:
+``` bash
 git push heroku master
 ```
 
@@ -92,3 +106,13 @@ If you missed a step just ask for help. Otherwise you should be able to visit yo
 ```bash
 heroku open
 ```
+
+## Debugging
+
+Here are some helpful commands for debugging your application on Heroku:
+
+#### `heroku logs`
+This command lists your most recent application server logs. Helpful for figuring out why your application may be crashing and burning.
+
+#### `heroku run bash`
+This command allows you to run terminal _on Heroku's servers_. This is a handy way for us to poke around and run commands on our application (like seeding the database, the checking that everything was installed correctly).
