@@ -17,7 +17,7 @@
 heroku create
 ```
 
-5) In your `index.js` file, modify `app.listen` to use `process.env.PORT` (this will be set, dynaimcally, by Heroku):
+5) In your `index.js` file, modify `app.listen` to use `process.env.PORT` (this will be set, dynamically, by Heroku):
 
 ```javascript
 app.listen(process.env.PORT || 3000)
