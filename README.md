@@ -25,7 +25,7 @@
   <tr>
     <td>Drills</td>
     <td><a href="week-04/drills.md">Binary Search </a>(Justin)</td>
-    <td><a href="week-04/drills.md#day-2---keeping-things-a-secret">Secret Keys </a>(Illias & Justin)</td>
+    <td><a href="week-04/drills.md#day-2---keeping-things-a-secret">Secret Keys </a>(Ilias & Justin)</td>
     <td><a href="week-04/drills.md#day---03-bubble-sort">Bubble Sort!</a>(Justin)</td>
     <td><a href="week-04/drills.md#day---4--merge-sort">Merge Sort</a></td>
     <td>Review (Team)</td>
