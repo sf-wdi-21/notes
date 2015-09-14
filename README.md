@@ -347,7 +347,7 @@
   </tr>
   <tr>
     <td>HW</td>
-    <td>Ruby Language (Justin)</td>
+    <td>Ruby Language Review Reading: <a href="https://github.com/sf-wdi-21/notes/blob/master/week-06/readings/ruby-data-types.md">Datatypes</a> & <a href="https://github.com/sf-wdi-21/notes/blob/master/week-06/readings/arrays-hashes-blocks.md">Arrays/Hashes/Blocks</a> (Ilias)</td>
     <td>OOP Reading (Justin)</td>
     <td>Rails Guide (Ilias)</td>
     <td>Rails Guide (Ilias)</td>
