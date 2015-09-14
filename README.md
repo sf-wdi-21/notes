@@ -347,7 +347,7 @@
   </tr>
   <tr>
     <td>HW</td>
-    <td>Review Readings: <a href="https://github.com/sf-wdi-21/notes/blob/master/week-06/readings/ruby-data-types.md">Ruby Datatypes</a> and <a href="https://github.com/sf-wdi-21/notes/blob/master/week-06/readings/arrays-hashes-blocks.md">Ruby Arrays, Hashes & Blocks</a>, Exercise: <a href="https://github.com/sf-wdi-21/notes/tree/master/week-06/day-01-review-and-ruby/valid-ip-exercise">Valid IP?</a> (Ilias)</td>
+    <td>Review Readings: <a href="https://github.com/sf-wdi-21/notes/blob/master/week-06/readings/ruby-data-types.md">Ruby Datatypes</a>, <a href="https://github.com/sf-wdi-21/notes/blob/master/week-06/readings/arrays-hashes-blocks.md">Ruby Arrays, Hashes & Blocks</a> / Exercise: <a href="https://github.com/sf-wdi-21/notes/tree/master/week-06/day-01-review-and-ruby/valid-ip-exercise">Valid IP?</a> (Ilias)</td>
     <td>OOP Reading (Justin)</td>
     <td>Rails Guide (Ilias)</td>
     <td>Rails Guide (Ilias)</td>
