@@ -1,6 +1,6 @@
 #Installation party!
 
-0.  Update Brew<br>
+0.  Update Brew - to make sure we're all on the same page<br>
 	`brew update`
 
 0.  Install Postgress<br>
@@ -23,3 +23,6 @@
 	
 4. Install gem bundler<br>
 	`gem install bundler`
+
+5. Install pry<br>
+	`gem install pry`
