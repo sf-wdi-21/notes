@@ -51,9 +51,8 @@ Let's recall some of our JS Data Types
 * Strings
   * `.to_i` and `.to_f` `*INTEGER`
 * Symbols 
-* Ranges
 * Booleans
-* Arrays
+* Arrays / Ranges
   * `[x..y]`, `[x...y]`, `index`
 * Hashes
   * `{ :key => value }`
