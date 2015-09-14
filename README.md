@@ -323,7 +323,7 @@
   </tr>
   <tr>
     <td>Drills</td>
-    <td>Peer Review (Nathan)</td>
+    <td><a href="week-06/day-01-review-and-ruby/dawn-review-and-install-fest">Peer Review</a> (Nathan)</td>
     <td>Regex Drills (Justin)</td>
     <td>Ruby Binary Search (Ilias)</td>
     <td>Ruby Bubble Sort (Nathan)</td>
