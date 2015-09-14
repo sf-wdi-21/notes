@@ -4,7 +4,7 @@
 	`brew update`
 
 0.  Install Postgress<br>
-	`brew install postgres`
+	[Install this](https://github.com/PostgresApp/PostgresApp/releases/download/9.4.4.1/Postgres-9.4.4.1.zip)
 
 0.  Install Rails<br>
 	`gem install rails`
