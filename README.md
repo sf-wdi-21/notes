@@ -347,7 +347,7 @@
   </tr>
   <tr>
     <td>HW</td>
-    <td><a href="week-06/readings/ruby-data-types.md">Datatypes</a>, <a href="week-06/readings/arrays-hashes-blocks.md">Objects & Iterators</a>, <a href="week-06/day-01-review-and-ruby/valid-ip-exercise">Valid IP Lab</a></td>
+    <td><a href="week-06/readings/ruby-data-types.md">Datatypes</a>, <a href="week-06/readings/arrays-hashes-blocks.md">Objects & Iterators</a>, <a href="https://github.com/sf-wdi-21/ValidIP">Valid IP Lab</a></td>
     <td>OOP Reading (Justin)</td>
     <td>Rails Guide (Ilias)</td>
     <td>Rails Guide (Ilias)</td>
