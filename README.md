@@ -3,13 +3,362 @@
 [HW Submission Form](http://goo.gl/forms/91O3VeI8V4)
 
 <!-- ##Week 12 -->
+<!-- <table>
+  <tr>
+    <th></th>
+    <th>Monday</th>
+    <th>Tuesday</th>
+    <th>Wednesday</th>
+    <th>Thursday</th>
+    <th>Friday</th>
+  </tr>
+  <tr>
+    <td>Drills</td>
+    <td>Drill (tbd)</td>
+    <td>Drill (tbd)</td>
+    <td>Drill (tbd)</td>
+    <td>Drill (tbd)</td>
+    <td>Review (Team)</td>
+  </tr>
+  <tr>
+    <td>Module1</td>
+    <td>Topic (tbd)</td>
+    <td>Topic (tbd)</td>
+    <td>Topic (tbd)</td>
+    <td>Topic (tbd)</td>
+    <td>Review (Team)</td>
+  </tr>
+  <tr>
+    <td>Module2</td>
+    <td>Topic (tbd)</td>
+    <td>Topic (tbd)</td>
+    <td>Topic (tbd)</td>
+    <td>Topic (tbd)</td>
+    <td>Weekend Lab (Team)</td>
+  </tr>
+  <tr>
+    <td>HW</td>
+    <td>Reading (tbd)</td>
+    <td>Reading (tbd)</td>
+    <td>Reading (tbd)</td>
+    <td>Reading (tbd)</td>
+    <td>LEAVE BLANK</td>
+  </tr>
+</table> -->
+
 <!-- ##Week 11 -->
+<!-- <table>
+  <tr>
+    <th></th>
+    <th>Monday</th>
+    <th>Tuesday</th>
+    <th>Wednesday</th>
+    <th>Thursday</th>
+    <th>Friday</th>
+  </tr>
+  <tr>
+    <td>Drills</td>
+    <td>Drill (tbd)</td>
+    <td>Drill (tbd)</td>
+    <td>Drill (tbd)</td>
+    <td>Drill (tbd)</td>
+    <td>Review (Team)</td>
+  </tr>
+  <tr>
+    <td>Module1</td>
+    <td>Topic (tbd)</td>
+    <td>Topic (tbd)</td>
+    <td>Topic (tbd)</td>
+    <td>Topic (tbd)</td>
+    <td>Review (Team)</td>
+  </tr>
+  <tr>
+    <td>Module2</td>
+    <td>Topic (tbd)</td>
+    <td>Topic (tbd)</td>
+    <td>Topic (tbd)</td>
+    <td>Topic (tbd)</td>
+    <td>Weekend Lab (Team)</td>
+  </tr>
+  <tr>
+    <td>HW</td>
+    <td>Reading (tbd)</td>
+    <td>Reading (tbd)</td>
+    <td>Reading (tbd)</td>
+    <td>Reading (tbd)</td>
+    <td>LEAVE BLANK</td>
+  </tr>
+</table> -->
+
 <!-- ##Week 10 -->
+<!-- <table>
+  <tr>
+    <th></th>
+    <th>Monday</th>
+    <th>Tuesday</th>
+    <th>Wednesday</th>
+    <th>Thursday</th>
+    <th>Friday</th>
+  </tr>
+  <tr>
+    <td>Drills</td>
+    <td>Drill (tbd)</td>
+    <td>Drill (tbd)</td>
+    <td>Drill (tbd)</td>
+    <td>Drill (tbd)</td>
+    <td>Review (Team)</td>
+  </tr>
+  <tr>
+    <td>Module1</td>
+    <td>Topic (tbd)</td>
+    <td>Topic (tbd)</td>
+    <td>Topic (tbd)</td>
+    <td>Topic (tbd)</td>
+    <td>Review (Team)</td>
+  </tr>
+  <tr>
+    <td>Module2</td>
+    <td>Topic (tbd)</td>
+    <td>Topic (tbd)</td>
+    <td>Topic (tbd)</td>
+    <td>Topic (tbd)</td>
+    <td>Weekend Lab (Team)</td>
+  </tr>
+  <tr>
+    <td>HW</td>
+    <td>Reading (tbd)</td>
+    <td>Reading (tbd)</td>
+    <td>Reading (tbd)</td>
+    <td>Reading (tbd)</td>
+    <td>LEAVE BLANK</td>
+  </tr>
+</table> -->
+
 <!-- ##Week 9 -->
+<!-- <table>
+  <tr>
+    <th></th>
+    <th>Monday</th>
+    <th>Tuesday</th>
+    <th>Wednesday</th>
+    <th>Thursday</th>
+    <th>Friday</th>
+  </tr>
+  <tr>
+    <td>Drills</td>
+    <td>Drill (tbd)</td>
+    <td>Drill (tbd)</td>
+    <td>Drill (tbd)</td>
+    <td>Drill (tbd)</td>
+    <td>Review (Team)</td>
+  </tr>
+  <tr>
+    <td>Module1</td>
+    <td>Topic (tbd)</td>
+    <td>Topic (tbd)</td>
+    <td>Topic (tbd)</td>
+    <td>Topic (tbd)</td>
+    <td>Review (Team)</td>
+  </tr>
+  <tr>
+    <td>Module2</td>
+    <td>Topic (tbd)</td>
+    <td>Topic (tbd)</td>
+    <td>Topic (tbd)</td>
+    <td>Topic (tbd)</td>
+    <td>Weekend Lab (Team)</td>
+  </tr>
+  <tr>
+    <td>HW</td>
+    <td>Reading (tbd)</td>
+    <td>Reading (tbd)</td>
+    <td>Reading (tbd)</td>
+    <td>Reading (tbd)</td>
+    <td>LEAVE BLANK</td>
+  </tr>
+</table> -->
+
 <!-- ##Week 8 -->
+<!-- <table>
+  <tr>
+    <th></th>
+    <th>Monday</th>
+    <th>Tuesday</th>
+    <th>Wednesday</th>
+    <th>Thursday</th>
+    <th>Friday</th>
+  </tr>
+  <tr>
+    <td>Drills</td>
+    <td>Drill (tbd)</td>
+    <td>Drill (tbd)</td>
+    <td>Drill (tbd)</td>
+    <td>Drill (tbd)</td>
+    <td>Review (Team)</td>
+  </tr>
+  <tr>
+    <td>Module1</td>
+    <td>Topic (tbd)</td>
+    <td>Topic (tbd)</td>
+    <td>Topic (tbd)</td>
+    <td>Topic (tbd)</td>
+    <td>Review (Team)</td>
+  </tr>
+  <tr>
+    <td>Module2</td>
+    <td>Topic (tbd)</td>
+    <td>Topic (tbd)</td>
+    <td>Topic (tbd)</td>
+    <td>Topic (tbd)</td>
+    <td>Weekend Lab (Team)</td>
+  </tr>
+  <tr>
+    <td>HW</td>
+    <td>Reading (tbd)</td>
+    <td>Reading (tbd)</td>
+    <td>Reading (tbd)</td>
+    <td>Reading (tbd)</td>
+    <td>LEAVE BLANK</td>
+  </tr>
+</table> -->
+
 <!-- ##Week 7 -->
+<!-- <table>
+  <tr>
+    <th></th>
+    <th>Monday</th>
+    <th>Tuesday</th>
+    <th>Wednesday</th>
+    <th>Thursday</th>
+    <th>Friday</th>
+  </tr>
+  <tr>
+    <td>Drills</td>
+    <td>Drill (tbd)</td>
+    <td>Drill (tbd)</td>
+    <td>Drill (tbd)</td>
+    <td>Drill (tbd)</td>
+    <td>Review (Team)</td>
+  </tr>
+  <tr>
+    <td>Module1</td>
+    <td>Topic (tbd)</td>
+    <td>Topic (tbd)</td>
+    <td>Topic (tbd)</td>
+    <td>Topic (tbd)</td>
+    <td>Review (Team)</td>
+  </tr>
+  <tr>
+    <td>Module2</td>
+    <td>Topic (tbd)</td>
+    <td>Topic (tbd)</td>
+    <td>Topic (tbd)</td>
+    <td>Topic (tbd)</td>
+    <td>Weekend Lab (Team)</td>
+  </tr>
+  <tr>
+    <td>HW</td>
+    <td>Reading (tbd)</td>
+    <td>Reading (tbd)</td>
+    <td>Reading (tbd)</td>
+    <td>Reading (tbd)</td>
+    <td>LEAVE BLANK</td>
+  </tr>
+</table> -->
+
 <!-- ##Week 6 -->
-<!-- ##Week 5 -->
+<!-- <table>
+  <tr>
+    <th></th>
+    <th>Monday</th>
+    <th>Tuesday</th>
+    <th>Wednesday</th>
+    <th>Thursday</th>
+    <th>Friday</th>
+  </tr>
+  <tr>
+    <td>Drills</td>
+    <td>Drill (tbd)</td>
+    <td>Drill (tbd)</td>
+    <td>Drill (tbd)</td>
+    <td>Drill (tbd)</td>
+    <td>Review (Team)</td>
+  </tr>
+  <tr>
+    <td>Module1</td>
+    <td>Topic (tbd)</td>
+    <td>Topic (tbd)</td>
+    <td>Topic (tbd)</td>
+    <td>Topic (tbd)</td>
+    <td>Review (Team)</td>
+  </tr>
+  <tr>
+    <td>Module2</td>
+    <td>Topic (tbd)</td>
+    <td>Topic (tbd)</td>
+    <td>Topic (tbd)</td>
+    <td>Topic (tbd)</td>
+    <td>Weekend Lab (Team)</td>
+  </tr>
+  <tr>
+    <td>HW</td>
+    <td>Reading (tbd)</td>
+    <td>Reading (tbd)</td>
+    <td>Reading (tbd)</td>
+    <td>Reading (tbd)</td>
+    <td>LEAVE BLANK</td>
+  </tr>
+</table> -->
+
+##Week 6 -- Ruby
+
+<table>
+  <tr>
+    <th></th>
+    <th>Monday</th>
+    <th>Tuesday</th>
+    <th>Wednesday</th>
+    <th>Thursday</th>
+    <th>Friday</th>
+  </tr>
+  <tr>
+    <td>Drills</td>
+    <td>Peer Review (Nathan)</td>
+    <td>Regex Drills (Justin)</td>
+    <td>Ruby Binary Search (Ilias)</td>
+    <td>Ruby Bubble Sort (Nathan)</td>
+    <td>Rails Drills (Ilias)</td>
+  </tr>
+  <tr>
+    <td>Module1</td>
+    <td>Peer Review + Environment Setup (Justin)</td>
+    <td>Ruby Method Drills (Nathan)</td>
+    <td>OOP (Ilias / Justin)</td>
+    <td>Intro Rails Framework (Ilias)</td>
+    <td>Review (Team)</td>
+  </tr>
+  <tr>
+    <td>Module2</td>
+    <td>Intro Ruby (Justin)</td>
+    <td>Username Generator Lab (Nathan)</td>
+    <td>OOP Lab (Justin / Ilias)</td>
+    <td>Intro Active Record (Nathan)</td>
+    <td>Bog App (Ilias)</td>
+  </tr>
+  <tr>
+    <td>HW</td>
+    <td>Ruby Language (Justin)</td>
+    <td>OOP Reading (Justin)</td>
+    <td>Rails Guide (Ilias)</td>
+    <td>Rails Guide (Ilias)</td>
+    <td><!-- LEAVE BLANK --></td>
+  </tr>
+</table>
+
+##Week 5 -- Project 1
+
+----
+----
 
 ##Week 4 -- Users
 
