@@ -128,6 +128,8 @@ Let's recall some of our JS Data Types
     ```
     * captures scope
 
+[Further Reading on Blocks](http://mixandgo.com/blog/mastering-ruby-blocks-in-less-than-5-minutes)
+
 #Intro to Ruby
 
 #### Define a method
