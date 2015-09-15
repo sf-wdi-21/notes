@@ -341,7 +341,7 @@
     <td>Module2</td>
     <td><a href= "week-06/day-01-review-and-ruby/dusk-intro-to-ruby">Intro Ruby</a> (Justin)</td>
     <td><a href="https://github.com/sf-wdi-21/username_generator">Username Generator Lab</a> (Nathan)</td>
-    <td>OOP Lab (Justin / Ilias)</td>
+    <td><a href="https://github.com/sf-wdi-21/car-racing-lab">OOP Lab</a> (Justin / Ilias)</td>
     <td>Intro Active Record (Nathan)</td>
     <td>Bog App (Ilias)</td>
   </tr>
