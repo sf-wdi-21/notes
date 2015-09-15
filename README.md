@@ -348,7 +348,7 @@
   <tr>
     <td>HW</td>
     <td><a href="week-06/readings/ruby-data-types.md">Datatypes</a> and <a href="week-06/readings/arrays-hashes-blocks.md">more</a>, <a href="https://github.com/sf-wdi-21/ValidIP">IP Lab</a></td>
-    <td>OOP Reading (Justin)</td>
+    <td><a href="week-06/readings/intro-to-classes.md">OOP Reading</a> (Justin)</td>
     <td>Rails Guide (Ilias)</td>
     <td>Rails Guide (Ilias)</td>
     <td><!-- LEAVE BLANK --></td>
