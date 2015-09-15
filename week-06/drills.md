@@ -76,8 +76,9 @@ You're encouraged to #GTS for these challenges, but instead of looking for pre-w
 
 * <a href="https://github.com/sf-wdi-21/regex-craigslist-app" target="_blank">Fun web-scraping app involving puppies!</a>
 
-##Day 3 - Ruby Binary Search 
+##Day 3 - Ruby Merge
 
+Repo <a href="https://github.com/sf-wdi-21/rubyMerge">here</a> — pass the tests!
 
 ##Day 4 - Ruby Bubble Sort
 
