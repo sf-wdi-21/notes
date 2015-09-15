@@ -7,7 +7,7 @@ Regular expressions (**regex** or **regexps**) are patterns which describe the c
 
 Many programming languages have regexp capabilities built-in, and Ruby is one of them. Today we'll use regexps to match string patterns in Ruby.
 
-## Defining and Matching
+### Defining and Matching
 
 Regexps are bounded by forward-slashes (`/`). **For example:**
 
@@ -25,7 +25,7 @@ To test if a string matches the pattern of a regexp, we use `.match`. **For exam
 /san/.match("San Francisco") #=> nil
 ```
 
-## Basic Regexp Patterns
+### Basic Regexp Patterns
 
 For a more complete list of basic regex patterns, see <a href="http://rubular.com" target="_blank">Rubular's Regex quick reference</a>.
 
@@ -41,11 +41,11 @@ For a more complete list of basic regex patterns, see <a href="http://rubular.co
 /(a|b)/ # => a or b
 ```
 
-## Challenges
+### Challenges
 
 Use <a href="http://rubular.com" target="_blank">Rubular</a> for all challenges *except* Base Challenge #1.
 
-### Base Challenges
+#### Base Challenges
 1. In the terminal, type `pry` (you're now in the ruby console!). Type `/hello world/.class`. What does it return? Note: To exit `pry` in the terminal, simply type `exit`.
 
 2. Write a regexp to match instances of "regex" in the text below. Copy and paste the text (including the HTML tags!) into Rubular as the test string.
@@ -60,7 +60,7 @@ Use <a href="http://rubular.com" target="_blank">Rubular</a> for all challenges 
 
 4. Edit the regexp you just wrote to make sure it's case-insensitive (i.e. it should match "Regular Expression" as well as "regular expression"). **Hint:** Look up `/i`.
 
-### Stretch Challenges
+#### Stretch Challenges
 
 You're encouraged to #GTS for these challenges, but instead of looking for pre-written regex patterns that solve the challenges (you will have no trouble finding them!), logically break down the string patterns, search for the individual pieces, and put them together.
 
@@ -72,9 +72,9 @@ You're encouraged to #GTS for these challenges, but instead of looking for pre-w
 
 3. Write a regexp to validate an email address. You can assume the format `test123@example.com`.
 
-### Extra Bonus Stretch Challenge
+#### Extra Bonus Stretch Challenge
 
-* <a href="https://github.com/sf-wdi-21/regex_craigslist_app" target="_blank">Fun web-scraping app involving puppies!</a>
+* <a href="https://github.com/sf-wdi-21/regex-craigslist-app" target="_blank">Fun web-scraping app involving puppies!</a>
 
 ##Day 3 - Ruby Binary Search 
 
