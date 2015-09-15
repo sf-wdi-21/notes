@@ -333,7 +333,7 @@
     <td>Module1</td>
     <td><a href="week-06/day-01-review-and-ruby/dawn-review-and-install-fest/installfest.md">Environment Setup </a> (Justin)</td>
     <td><a href="https://github.com/sf-wdi-21/ruby_method_drills">Ruby Method Drills</a> (Nathan)</td>
-    <td>OOP (Ilias / Justin)</td>
+    <td><a href="https://github.com/sf-wdi-21/notes/tree/master/week-06/day-03-ruby-oop/dawn-ruby-oop">Ruby OOP</a> (Ilias / Justin)</td>
     <td>Intro Rails Framework (Ilias)</td>
     <td>Review (Team)</td>
   </tr>
