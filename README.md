@@ -323,7 +323,7 @@
   </tr>
   <tr>
     <td>Drills</td>
-    <td><a href="week-06/day-01-review-and-ruby/dawn-review-and-install-fest">Peer Review</a> (Nathan)</td>
+    <td><a href="week-06/day-01-review-and-ruby/dawn-review-and-install-fest">Peer Review</a> (All Morning)</td>
     <td><a href="/week-06/drills.md">Regex Drills</a> (Justin)</td>
     <td>Ruby Binary Search (Ilias)</td>
     <td>Ruby Bubble Sort (Nathan)</td>
@@ -331,23 +331,23 @@
   </tr>
   <tr>
     <td>Module1</td>
-    <td>Peer Review + <a href="week-06/day-01-review-and-ruby/dawn-review-and-install-fest/installfest.md">Environment Setup </a> (Justin)</td>
-    <td>Ruby Method Drills (Nathan)</td>
+    <td><a href="week-06/day-01-review-and-ruby/dawn-review-and-install-fest/installfest.md">Environment Setup </a> (Justin)</td>
+    <td><a href="https://github.com/sf-wdi-21/ruby_method_drills">Ruby Method Drills</a> (Nathan)</td>
     <td>OOP (Ilias / Justin)</td>
     <td>Intro Rails Framework (Ilias)</td>
     <td>Review (Team)</td>
   </tr>
   <tr>
     <td>Module2</td>
-    <td><a href= "week-06/day-01-review-and-ruby/dusk-intro-to-ruby">Intro to Ruby </a>(Justin)</td>
-    <td>Username Generator Lab (Nathan)</td>
+    <td><a href= "week-06/day-01-review-and-ruby/dusk-intro-to-ruby">Intro Ruby</a> (Justin)</td>
+    <td><a href="https://github.com/sf-wdi-21/username_generator">Username Generator Lab</a> (Nathan)</td>
     <td>OOP Lab (Justin / Ilias)</td>
     <td>Intro Active Record (Nathan)</td>
     <td>Bog App (Ilias)</td>
   </tr>
   <tr>
     <td>HW</td>
-    <td><a href="week-06/readings/ruby-data-types.md">Datatypes</a>, <a href="week-06/readings/arrays-hashes-blocks.md">Objects & Iterators</a>, <a href="https://github.com/sf-wdi-21/ValidIP">Valid IP Lab</a></td>
+    <td><a href="week-06/readings/ruby-data-types.md">Datatypes</a> and <a href="week-06/readings/arrays-hashes-blocks.md">more</a>, <a href="https://github.com/sf-wdi-21/ValidIP">IP Lab</a></td>
     <td>OOP Reading (Justin)</td>
     <td>Rails Guide (Ilias)</td>
     <td>Rails Guide (Ilias)</td>
