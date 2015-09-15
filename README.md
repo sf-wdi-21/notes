@@ -324,7 +324,7 @@
   <tr>
     <td>Drills</td>
     <td><a href="week-06/day-01-review-and-ruby/dawn-review-and-install-fest">Peer Review</a> (Nathan)</td>
-    <td>Regex Drills (Justin)</td>
+    <td><a href="/week-06/drills.md">Regex Drills</a> (Justin)</td>
     <td>Ruby Binary Search (Ilias)</td>
     <td>Ruby Bubble Sort (Nathan)</td>
     <td>Rails Drills (Ilias)</td>
