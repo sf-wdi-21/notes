@@ -325,7 +325,7 @@
     <td>Drills</td>
     <td><a href="week-06/day-01-review-and-ruby/dawn-review-and-install-fest">Peer Review</a> (All Morning)</td>
     <td><a href="/week-06/drills.md">Regex Drills</a> (Justin)</td>
-    <td>Ruby Binary Search (Ilias)</td>
+    <td><a href="https://github.com/sf-wdi-21/rubyMerge">Ruby Merge</a> (Ilias)</td>
     <td>Ruby Bubble Sort (Nathan)</td>
     <td>Rails Drills (Ilias)</td>
   </tr>
