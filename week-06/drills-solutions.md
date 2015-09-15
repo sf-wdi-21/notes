@@ -30,3 +30,7 @@
 /[a-zA-Z0-9]+@[a-z]+.[a-z]+{2,}\z/
 
 ```
+
+###Day 03 - Ruby Merge
+
+Solution <a href="https://github.com/sf-wdi-21/rubyMerge/tree/solution">here</a>
