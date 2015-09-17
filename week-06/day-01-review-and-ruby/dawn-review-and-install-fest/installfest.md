@@ -6,6 +6,12 @@
 0.  Install Postgress - a fantastic database<br>
 	[Install this](https://github.com/PostgresApp/PostgresApp/releases/download/9.4.4.1/Postgres-9.4.4.1.zip)
 
+0. Configure Postgres<br>
+    ```
+    sudo ARCHFLAGS="-arch x86_64" gem install pg -- --with-pg-config=/Applications/Postgres.app/Contents/Versions/9.4/bin/pg_config
+    ```
+    Sanity Check: You should be able to run: `pg_config` and see the config path above.
+
 0.  Install Rails - core development framework.<br>
 	`gem install rails`
 
