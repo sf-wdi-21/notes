@@ -12,8 +12,11 @@ How are routes designed in a RESTful manner to handle CRUD actions?
 
 * [Routing basics](http://guides.rubyonrails.org/routing.html#the-purpose-of-the-rails-router) — *1*
 * [RESTful CRUD routes](http://guides.rubyonrails.org/routing.html#crud-verbs-and-actions) — *2.2*
-* [Namespacing](http://guides.rubyonrails.org/routing.html#controller-namespaces-and-routing) — *2.6*
-* [Designing nested routes](http://guides.rubyonrails.org/routing.html#nested-resources) (We will cover relationships next week) — *2.7*
+
+### Active Record
+* [Active Record Basics](http://guides.rubyonrails.org/active_record_basics.html)
+* [Active Record Querying](http://guides.rubyonrails.org/active_record_querying.html)
+* [Rails for Zombies](http://railsforzombies.org/levels/1)
 
 ###Layouts and Rendering
 
@@ -33,12 +36,8 @@ What are the conventions for using and building forms in rails?
 * [Search](http://guides.rubyonrails.org/form_helpers.html#a-generic-search-form) form — *1.1*
 * [Input field](http://guides.rubyonrails.org/form_helpers.html#other-helpers-of-interest) helper tags — *1.4*
 * [Model object](http://guides.rubyonrails.org/form_helpers.html#dealing-with-model-objects) form — *2*
-<<<<<<< HEAD
 
 ###Database Migrations
 
 How do I structure my database correctly?
-
 * [Creating migrations](http://guides.rubyonrails.org/active_record_migrations.html) - *1*
-=======
->>>>>>> 7b376a2f05c84c651a308241b96ee0ef2c7159fc

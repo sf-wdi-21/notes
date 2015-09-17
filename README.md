@@ -327,7 +327,7 @@
     <td><a href="/week-06/drills.md">Regex Drills</a> (Justin)</td>
     <td><a href="https://github.com/sf-wdi-21/rubyMerge">Ruby Merge</a> (Ilias)</td>
     <td><a href="https://github.com/sf-wdi-21/bubble_sort_ruby">Ruby Bubble Sort</a> (Nathan)</td>
-    <td><a href="https://github.com/sf-wdi-21/notes/blob/master/week-06/day-05-rails-review/dawn-rock-n-rails/readme.md">Rock 'n Rails</a> (Ilias)</td>
+    <td>Rails Drills (Ilias)</td>
   </tr>
   <tr>
     <td>Module1</td>
@@ -350,7 +350,7 @@
     <td><a href="week-06/readings/ruby-data-types.md">Datatypes</a> and <a href="week-06/readings/arrays-hashes-blocks.md">more</a>, <a href="https://github.com/sf-wdi-21/ValidIP">IP Lab</a></td>
     <td><a href="week-06/readings/intro-to-classes.md">OOP Reading</a> (Justin)</td>
     <td><a href="https://github.com/sf-wdi-21/notes/blob/master/week-06/readings/intro-rails.md">Rails Intro</a> (Ilias)</td>
-    <td><a href="https://github.com/sf-wdi-21/notes/blob/master/week-06/readings/rails-guides.md">Rails Guide</a> (Ilias)</td>
+    <td><a href="https://github.com/sf-wdi-21/notes/blob/master/week-06/readings/rails-guides.md">Rails Guides</a> & <a href="http://railsforzombies.org/levels/1">Rails for Zombies</a></td>
     <td><!-- LEAVE BLANK --></td>
   </tr>
 </table>
