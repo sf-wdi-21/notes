@@ -38,4 +38,4 @@ What are the conventions for using and building forms in rails?
 
 How do I structure my database correctly?
 
-* [Creating migrations](http://guides.rubyonrails.org/active_record_migrations.html#migration-overview) - *1*
+* [Creating migrations](http://guides.rubyonrails.org/active_record_migrations.html) - *1*
