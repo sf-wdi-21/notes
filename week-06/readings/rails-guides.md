@@ -33,3 +33,9 @@ What are the conventions for using and building forms in rails?
 * [Search](http://guides.rubyonrails.org/form_helpers.html#a-generic-search-form) form — *1.1*
 * [Input field](http://guides.rubyonrails.org/form_helpers.html#other-helpers-of-interest) helper tags — *1.4*
 * [Model object](http://guides.rubyonrails.org/form_helpers.html#dealing-with-model-objects) form — *2*
+
+###Database Migrations
+
+How do I structure my database correctly?
+
+* [Creating migrations](http://edgeguides.rubyonrails.org/active_record_migrations.html#migration-overview) - *1*
