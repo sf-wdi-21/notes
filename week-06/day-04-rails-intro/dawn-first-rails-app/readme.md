@@ -4,7 +4,7 @@
 By the end of this lecture you should be able to...
 
 - Articulate the Rails philosophy & the MVC pattern
-- Start a rails project with no database and create routes to static templates.
+- Start a rails project with no database and create routes to dynamic templates.
 - Distinguish between Express and Rails
 
 ##Philosophy(5m)
