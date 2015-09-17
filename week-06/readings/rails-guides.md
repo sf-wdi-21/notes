@@ -19,10 +19,10 @@ How are routes designed in a RESTful manner to handle CRUD actions?
 
 What are the different ways Rails can respond to a client's request?
 
-* The [render](http://guides.rubyonrails.org/layouts_and_rendering.html#using-render) method — *2.2*
-* Default [status code](http://guides.rubyonrails.org/layouts_and_rendering.html#the-status-option) options — *2.2.13.4*
-* Controller [redirects](http://guides.rubyonrails.org/layouts_and_rendering.html#using-redirect-to) — *2.3*
-* Refactoring html with [partials](http://guides.rubyonrails.org/layouts_and_rendering.html#using-partials) — *3.4*
+* [Render](http://guides.rubyonrails.org/layouts_and_rendering.html#using-render) method — *2.2*
+* [Status code](http://guides.rubyonrails.org/layouts_and_rendering.html#the-status-option) options — *2.2.13.4*
+* [Redirects](http://guides.rubyonrails.org/layouts_and_rendering.html#using-redirect-to) — *2.3*
+* [Partials](http://guides.rubyonrails.org/layouts_and_rendering.html#using-partials) — *3.4*
 
 
 ###Rails Forms
