@@ -1,6 +1,6 @@
 ##Rails Guides Reading
 
-The Rails Guides are the best resource for discovering more about Rails. Spend some time reading over them tonight.
+The [Rails Guides](http://guides.rubyonrails.org/) are the best resource for discovering more about Rails. Spend some time reading over them tonight.
 
 > **Just read the section that is linked to** (i.e. section x.x); read beyond it, only if you have covered **all** the topics below.
 
