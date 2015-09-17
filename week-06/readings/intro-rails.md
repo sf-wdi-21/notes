@@ -49,10 +49,11 @@ Controllers provide the “glue” between models and views. In Rails, controlle
 
 ```
 /app
-../controller
-../helpers
-../models
-../views
+.../assets
+.../controller
+.../helpers
+.../models
+.../views
 /components
 /config
 /db
@@ -67,6 +68,8 @@ Controllers provide the “glue” between models and views. In Rails, controlle
 ```
 
 **app:** This organizes your application components. It's got subdirectories that hold the view (views and helpers), controller (controllers), and the backend business logic (models).
+
+**app/assets:** Contains javascript files, stylesheets, and images that will be served to the client.
 
 **app/controllers:** The controllers subdirectory is where Rails looks to find controller classes. A controller handles a web request from the user.
 
@@ -90,7 +93,7 @@ Controllers provide the “glue” between models and views. In Rails, controlle
 
 **log:** Error logs go here. Rails creates scripts that help you manage various error logs. You'll find separate logs for the server (server.log) and each Rails environment (development.log, test.log, and production.log).
 
-**public:** Like the public directory for a web server, this directory has web files that don't change, such a s JavaScript files (public/javascripts), graphics (public/images), stylesheets (public/stylesheets), and HTML files (public).
+**public:** The only folder seen by the world as-is. Contains static files and compiled assets.
 
 **script:** This directory holds scripts to launch and manage the various tools that you'll use with Rails. For example, there are scripts to generate code (generate) and launch the web server (server).
 
