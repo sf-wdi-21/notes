@@ -12,7 +12,7 @@ For this morning exercise we're going to be synthesizing all our Rails knowledge
 
 3) See a form to create a new record on `record#new`
 
-4) Submit the new record form to `record#create` & be redirected back to record index.
+4) Submit the new record form to `record#create` to create a new record and then be redirected back to record index.
 
 ###Models
 
@@ -48,9 +48,9 @@ config/routes.rb
 
 ```ruby
 get "/records" => "records#index"
-get "/records/:id" => "records#show"
 get "/records/new" => "records#new"
-post "/records" => "records#create" 
+post "/records" => "records#create"
+get "/records/:id" => "records#show"
 ```
 
 * Generate a record model with the attributes `title` `artist` `year` `cover_art` and `song_count`
@@ -65,7 +65,7 @@ rails g model record title:string artist:string year:integer cover_art:string so
 rake db:create
 ```
 
-* Run the migration that was generated to createa a record table in the database.
+* Run the migration that was generated to create a new table in the database.
 
 ```bash
 rake db:migrate
@@ -136,4 +136,132 @@ views/records/index.html.erb
 * Start the server with rails s & head to `localhost:3000/records`
 
 **See a single record on `record#show`**
+
+* For each record in the `record#index` view let's create an anchor tag that will link to `records/:id`
+
+views/records/index.html.erb
+
+```html
+<h1>Rock 'n Rails!</h1>
+<% @records.each do |record| %>
+  <p>Title: <%= record.title %></p>
+  <p>Artist: <%= record.artist %></p>
+  <img src="<%= record.cover_art %>">
+  <!-- anchor tag that links to a show page -->
+  <br>
+  <a href="/records/<%= record.id %>">Show page</a>
+<% end %>
+``` 
+
+* The `records#show` controller#action now needs to get the id from the parameters and use it to find the matching record in the database and pass it to the view.
+
+records_controller.rb
+
+```ruby
+  def show
+    @record = Record.find(params[:id])
+  end
+```
+
+* In your `records#show` view, `views/records/show.html.erb` display the record that is being passed in.
+
+```html
+<img src="<%= @record.cover_art %>">
+<h1><%= @record.title %></h1>
+<h2>by <%= @record.artist %></h2>
+<p>Year: <%= @record.year %></p>
+<p>Song Count: <%= @record.song_count %></p>
+```
+
+**See a form to create a new record on `record#new`**
+
+* Let's create a link on *every* page that will get us to a form that creates a new record, which lives on `/records/new`. We can edit the `application.html.erb` file which lives in `views/layouts/` to accomplish this. Inside the file add an anchor tag just about the `yield` statement in the `<body>`.
+
+```html
+<body>
+
+<!--Every page will have this link to create a new record-->
+<a href="/records/new">Make a New Record</a><br>
+
+<%= yield %>
+
+</body>
+```
+
+* Now we have to edit the view in `/records/new.html.erb` and give it a form to create a new record. Let's make all fields required.
+
+```html
+<%= form_for @record do |f| %>
+  <span>Title: </span>
+  <%= f.text_field :title, required: true %><br>
+  <span>Artist: </span>
+  <%= f.text_field :artist, required: true %><br>
+  <span>Year: </span>
+  <%= f.number_field :year, required: true %><br>
+  <span>Cover art: </span>
+  <%= f.url_field :cover_art, required: true %><br>
+  <span>Song count: </span>
+  <%= f.number_field :song_count, required: true %><br>
+  <%= f.submit %>
+<% end %>
+```
+
+* This form will not work yet. That's because we reference `@record` in the form but it's not defined. Let's define `@record` in our controller and pass it into our view. All we need it to be equal to is a new instance of a the `Record` model.
+
+records_controller.rb
+
+```ruby
+  def new
+    @record = Record.new
+  end
+```
+
+**Submit the new record form to `record#create` to create a new record and then be redirected back to record index.**
+
+* Now that our forms works, it will automatically `POST` to `/records` which hits our action#controller `records#create`. Nothing is happening in that controller as of yet so we need to actually create a new record there. In order to do that we must pull out the data submitted from our form from the `params` object and create a new record with it.
+
+records_controller.rb
+
+```ruby
+  def create
+    Record.create(
+      # this is known as strong parameters, and is done for security purposes
+      params.require(:record).permit(:title, :artist, :year, :cover_art, :song_count)
+    )
+  end
+```
+
+* You may wonder what all the business is with `.require(:record).permit(...)` is. This is known as [**strong parameters**](http://edgeguides.rubyonrails.org/action_controller_overview.html#strong-parameters) and tells our applications these are the fields we will accept. Its good security practice to help prevent users accidentally updating sensitive model attributes.
+
+* Additionally we can refactor this code to make it look better. We can **encapsulate** our strong parameter logic into a method called `record_params`. Let's make that a private method, since only the controller itself will ever use it. At the bottom of `RecordController` we can write:
+
+records_controller.rb
+
+```ruby
+# public methods up here
+
+  private
+
+  def record_params
+    params.require(:record).permit(:title, :artist, :year, :cover_art, :song_count)
+  end
+  
+end # end of class
+```
+
+* Now our `create` method can take advantage of the `record_params` method, which simply will output an object of key value pairs our `Record` model can use to create a new record. Also let's tell it to redirect to the index page once it's created the record.
+
+records_controller.rb
+
+```ruby
+  def create
+    Record.create(record_params)
+    redirect_to('/records')
+  end
+```
+
+Congrats! We've complete all the user stories! Reference a version of this app with the user stories complete [here](https://github.com/sf-wdi-21/rock-n-rails).
+
+ 
+
 
