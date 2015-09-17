@@ -1,6 +1,6 @@
 ##Rails Guides Reading
 
-The Rails Guides are the best resource for discovering more about Rails. Spend some time reading over them tonight.
+The [Rails Guides](http://guides.rubyonrails.org/) are the best resource for discovering more about Rails. Spend some time reading over them tonight.
 
 > **Just read the section that is linked to** (i.e. section x.x); read beyond it, only if you have covered **all** the topics below.
 
@@ -19,10 +19,10 @@ How are routes designed in a RESTful manner to handle CRUD actions?
 
 What are the different ways Rails can respond to a client's request?
 
-* The [render](http://guides.rubyonrails.org/layouts_and_rendering.html#using-render) method — *2.2*
-* Default [status code](http://guides.rubyonrails.org/layouts_and_rendering.html#the-status-option) options — *2.2.13.4*
-* Controller [redirects](http://guides.rubyonrails.org/layouts_and_rendering.html#using-redirect-to) — *2.3*
-* Refactoring html with [partials](http://guides.rubyonrails.org/layouts_and_rendering.html#using-partials) — *3.4*
+* [Render](http://guides.rubyonrails.org/layouts_and_rendering.html#using-render) method — *2.2*
+* [Status code](http://guides.rubyonrails.org/layouts_and_rendering.html#the-status-option) options — *2.2.13.4*
+* [Redirects](http://guides.rubyonrails.org/layouts_and_rendering.html#using-redirect-to) — *2.3*
+* [Partials](http://guides.rubyonrails.org/layouts_and_rendering.html#using-partials) — *3.4*
 
 
 ###Rails Forms
@@ -33,9 +33,12 @@ What are the conventions for using and building forms in rails?
 * [Search](http://guides.rubyonrails.org/form_helpers.html#a-generic-search-form) form — *1.1*
 * [Input field](http://guides.rubyonrails.org/form_helpers.html#other-helpers-of-interest) helper tags — *1.4*
 * [Model object](http://guides.rubyonrails.org/form_helpers.html#dealing-with-model-objects) form — *2*
+<<<<<<< HEAD
 
 ###Database Migrations
 
 How do I structure my database correctly?
 
 * [Creating migrations](http://guides.rubyonrails.org/active_record_migrations.html) - *1*
+=======
+>>>>>>> 7b376a2f05c84c651a308241b96ee0ef2c7159fc
