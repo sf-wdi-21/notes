@@ -327,7 +327,7 @@
     <td><a href="/week-06/drills.md">Regex Drills</a> (Justin)</td>
     <td><a href="https://github.com/sf-wdi-21/rubyMerge">Ruby Merge</a> (Ilias)</td>
     <td><a href="https://github.com/sf-wdi-21/bubble_sort_ruby">Ruby Bubble Sort</a> (Nathan)</td>
-    <td><a href="https://github.com/sf-wdi-21/notes/blob/master/week-06/day-05-rails-review/dawn-rock-n-rails/readme.md">Rails Drills</a> (Ilias)</td>
+    <td><a href="https://github.com/sf-wdi-21/notes/blob/master/week-06/day-05-rails-review/dawn-rock-n-rails/readme.md">Rock 'n Rails</a> (Ilias)</td>
   </tr>
   <tr>
     <td>Module1</td>
