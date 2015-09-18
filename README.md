@@ -343,7 +343,7 @@
     <td><a href="https://github.com/sf-wdi-21/username_generator">Username Generator Lab</a> (Nathan)</td>
     <td><a href="https://github.com/sf-wdi-21/car-racing-lab">OOP Lab</a> (Justin / Ilias)</td>
     <td><a href="https://github.com/sf-wdi-21/hacktive_record">Intro Active Record</a> (Nathan)</td>
-    <td><a href="https://github.com/sf-wdi-21/bog-app">Bog App</a> (Ilias)</td>
+    <td><a href="https://github.com/sf-wdi-21/bog-app">Bog App</a> (Justin / Ilias)</td>
   </tr>
   <tr>
     <td>HW</td>
