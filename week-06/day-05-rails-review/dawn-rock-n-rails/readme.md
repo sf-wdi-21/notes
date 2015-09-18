@@ -78,7 +78,7 @@ rake db:migrate
 
 ```bash
 rails console
-> Record #=> Record(id: integer, title: string, year: integer, cover_art:string, song_count:integer, created_at: datetime, updated_at: datetime)
+> Record.all #=> []
 > Record.create({title: "Test Record"})
 ```
 
