@@ -7,6 +7,8 @@
 	[Install this](https://github.com/PostgresApp/PostgresApp/releases/download/9.4.4.1/Postgres-9.4.4.1.zip)
 
 0. Configure Postgres<br>
+    You will likely need to do some combination of the following.
+    Start by verifying that you do indeed have Version 9.4.
     ```
     sudo ARCHFLAGS="-arch x86_64" gem install pg -- --with-pg-config=/Applications/Postgres.app/Contents/Versions/9.4/bin/pg_config
     ```
