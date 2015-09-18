@@ -47,7 +47,7 @@ rails g controller records index show new create
 
 * Delete the generated routes and write RESTful routes that map to our records controller.
 
-See `config/routes.rb`.
+`config/routes.rb`.
 
 ```ruby
 get "/records" => "records#index"
@@ -84,7 +84,7 @@ rails console
 
 * In `db/seeds.rb` create some records!
 
-db/seeds.rb
+`db/seeds.rb`.
 
 ```ruby
 # Wipe the database
@@ -125,7 +125,7 @@ rake db:seed
 
 * Now that we have records in the database, let's render them to the view: `views/records/index.html.erb`
 
-records_controller.rb
+`records_controller.rb`.
 
 ```ruby
 def index
@@ -133,7 +133,7 @@ def index
 end
 ```
 
-views/records/index.html.erb
+`views/records/index.html.erb`.
 
 ```html
 <h1>Rock 'n Rails!</h1>
@@ -150,7 +150,7 @@ views/records/index.html.erb
 
 * For each record in the `record#index` view let's create an anchor tag that will link to `records/:id`
 
-views/records/index.html.erb
+`views/records/index.html.erb`.
 
 ```html
 <h1>Rock 'n Rails!</h1>
@@ -219,7 +219,7 @@ records_controller.rb
 
 * This form will not work yet. That's because we reference `@record` in the form but it's not defined. Let's define `@record` in our controller and pass it into our view. All we need it to be equal to is a new instance of a the `Record` model.
 
-records_controller.rb
+`app/controllers/records_controller.rb`
 
 ```ruby
   def new
@@ -231,7 +231,7 @@ records_controller.rb
 
 * Now that our forms works, it will automatically `POST` to `/records` which hits our action#controller `records#create`. Nothing is happening in that controller as of yet so we need to actually create a new record there. In order to do that we must pull out the data submitted from our form from the `params` object and create a new record with it.
 
-records_controller.rb
+`app/controllers/records_controller.rb`.
 
 ```ruby
   def create
@@ -246,7 +246,7 @@ records_controller.rb
 
 * Additionally we can refactor this code to make it look better. We can **encapsulate** our strong parameter logic into a method called `record_params`. Let's make that a private method, since only the controller itself will ever use it. At the bottom of `RecordController` we can write:
 
-records_controller.rb
+`app/controllers/records_controller.rb`.
 
 ```ruby
 # public methods up here
@@ -262,7 +262,7 @@ end # end of class
 
 * Now our `create` method can take advantage of the `record_params` method, which simply will output an object of key value pairs our `Record` model can use to create a new record. Also let's tell it to redirect to the index page once it's created the record.
 
-records_controller.rb
+`app/controllers/records_controller.rb`.
 
 ```ruby
   def create
