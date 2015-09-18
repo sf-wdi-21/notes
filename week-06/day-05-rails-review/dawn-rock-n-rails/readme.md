@@ -31,7 +31,10 @@ A `Record` should have the following attributes:
 * Generate a new rails application with postgres as your default database:
 
 ```bash
-rails new RockNRails -d postgresql
+rails new RockNRails -T -d postgresql
+cd RockNRails
+bundle
+# git init & git commit!
 ```
 
 * Make sure that the postgres application is open! Otherwise the Rails server will not be able to connect to a database.
@@ -44,7 +47,7 @@ rails g controller records index show new create
 
 * Delete the generated routes and write RESTful routes that map to our records controller.
 
-config/routes.rb
+See `config/routes.rb`.
 
 ```ruby
 get "/records" => "records#index"
@@ -69,6 +72,14 @@ rake db:create
 
 ```bash
 rake db:migrate
+```
+
+* Play with your new `Record` model in the rails console:
+
+```bash
+rails console
+> Record #=> Record(id: integer, title: string, year: integer, cover_art:string, song_count:integer, created_at: datetime, updated_at: datetime)
+> Record.create({title: "Test Record"})
 ```
 
 * In `db/seeds.rb` create some records!
