@@ -31,7 +31,7 @@ A `Record` should have the following attributes:
 * Generate a new rails application with postgres as your default database:
 
 ```bash
-rails new RockNRails -T -d postgresql
+rails new RockNRails -T -B -d postgresql
 cd RockNRails
 bundle
 # git init & git commit!
