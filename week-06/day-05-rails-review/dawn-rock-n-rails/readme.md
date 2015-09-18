@@ -95,7 +95,7 @@ Record.create([
     title: "On Avery Island",
     artist: "Neutral Milk Hotel",
     year: 1996,
-    cover_art: "https://en.wikipedia.org/wiki/File:On_avery_island_album_cover.jpg#/media/File:On_avery_island_album_cover.jpg",
+    cover_art: "https://upload.wikimedia.org/wikipedia/en/7/73/On_avery_island_album_cover.jpg",
     song_count: 12
   },
   {
