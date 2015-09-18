@@ -351,7 +351,7 @@
     <td><a href="week-06/readings/intro-to-classes.md">OOP Reading</a> (Justin)</td>
     <td><a href="https://github.com/sf-wdi-21/notes/blob/master/week-06/readings/intro-rails.md">Rails Intro</a> (Ilias)</td>
     <td><a href="https://github.com/sf-wdi-21/notes/blob/master/week-06/readings/rails-guides.md">Rails Guides</a> & <a href="http://railsforzombies.org/levels/1">Rails for Zombies</a></td>
-    <td><!-- LEAVE BLANK --></td>
+    <td><a href="how-tos/the_rails_checklist.md">Rails Checklist</a></td>
   </tr>
 </table>
 
