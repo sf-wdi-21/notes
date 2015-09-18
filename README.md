@@ -327,7 +327,7 @@
     <td><a href="/week-06/drills.md">Regex Drills</a> (Justin)</td>
     <td><a href="https://github.com/sf-wdi-21/rubyMerge">Ruby Merge</a> (Ilias)</td>
     <td><a href="https://github.com/sf-wdi-21/bubble_sort_ruby">Ruby Bubble Sort</a> (Nathan)</td>
-    <td><a href="https://github.com/sf-wdi-21/notes/blob/master/week-06/day-05-rails-review/dawn-rock-n-rails/readme.md">Rock 'n Rails</a> (Ilias)</td>
+    <td>AR Review (Nathan)</td>
   </tr>
   <tr>
     <td>Module1</td>
@@ -335,7 +335,7 @@
     <td><a href="https://github.com/sf-wdi-21/ruby_method_drills">Ruby Method Drills</a> (Nathan)</td>
     <td><a href="https://github.com/sf-wdi-21/notes/tree/master/week-06/day-03-ruby-oop/dawn-ruby-oop">Ruby OOP</a> (Ilias / Justin)</td>
     <td><a href="https://github.com/sf-wdi-21/notes/blob/master/week-06/day-04-rails-intro/dawn-first-rails-app/readme.md">Intro Rails Framework</a> (Ilias)</td>
-    <td>Review (Team)</td>
+    <td><a href="https://github.com/sf-wdi-21/notes/blob/master/week-06/day-05-rails-review/dawn-rock-n-rails/readme.md">Rock 'n Rails</a> (Ilias)</td>
   </tr>
   <tr>
     <td>Module2</td>
