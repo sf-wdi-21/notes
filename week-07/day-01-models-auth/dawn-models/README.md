@@ -18,11 +18,11 @@ A relational database is one designed to efficiently query and structure relatio
 
 Rails is organized using an organizing principle known as MVC or Model View Controller.
 
-* Model - Ruby Classes that inherit from the `ActiveRecord::Base` ORM and can talk to the SQL Database.
+* __Model__ - Ruby Classes that inherit from the `ActiveRecord::Base` ORM and can talk to the SQL Database.
     *  Models should be "fat".
-* View - HTML files, partials, and HTML templates (erb files). The view layer is considered the "presentation" layer and is secondary-to/distinct-from the data/model used to render it.
+* __View__ - HTML files, partials, and HTML templates (erb files). The view layer is considered the "presentation" layer and is secondary-to/distinct-from the data/model used to render it.
     * Views should never talk directly to the database (seperation of concerns).
-* Controller - The glue between the model and the view. Controllers coordinate between routes, models, and views, so that the the correct data is queried to render the page requested by the client.
+* __Controller__ - The glue between the model and the view. Controllers coordinate between routes, models, and views, so that the the correct data is queried to render the page requested by the client.
     * Controllers should be "skinny".
 
 **Model**
@@ -66,66 +66,65 @@ Open `Postgres.app` and verify that you can see the **elephant icon** in your to
 
 1. Create a new database:  
 ``` bash
-rake db:create
+    rake db:create
 ```
 
-2. Create tables in the database:
+2. Create tables in the database:  
 ``` bash
-rake db:migrate
+    rake db:migrate
 ```
 
-3. Seed the database (optional):
+3. Seed the database (optional):  
 ``` bash
-rake db:seed
+    rake db:seed
 ```
 
 #### Modifying your Database
 Rollback the last migration:
 ``` bash
-rake db:rollback
+    rake db:rollback
 ```
 
 Destroy the database:
 ``` bash
-rake db:drop
+    rake db:drop
 ```
 
 #### Playing with your Data
 The rails console is the best place to go if you want to play with your data, test database queries, or perform a sanity check.
 
 ``` bash
-rails console
-# or
-rails c
+    rails console
+    # or
+    rails c
 
-irb > User.all
+    irb > User.all
 ```
 
 
 ## Migrations in Rails
-1. Generate a new Rails project.
+1. **Generate a new Rails project**.
 
-    `rails new models_example`
+``` bash
+    rails new models_example
+    cd models_example/
+```
 
-2. Move into your app directory:
+2. Open Postgress.app and check for the elephant icon in your toolbar.
 
-    `cd models_example/`
-
-3. Open Postgress.app and check for the elephant icon in your toolbar.
-
-4. Create the database.
+3. Create the database.
 
     `rake db:create`
 
-5. Generate a User Model and Migration
+4. Generate a User Model and Migration
 
     `rails generate model User first_name:string last_name:string`
 
-6. Run migrations (create the `Users` table in the database):
+5. Run migrations (create the `Users` table in the database):
     
     `rake db:migrate`
 
-7. Stop and play with your data.
+6. Stop and play with your data.
 
     `rails console` or `rails c`
 
@@ -140,7 +139,7 @@ irb > User.all
     irb(main):006:0> exit
     ```
 
-8. Add a new column to your Users table:
+7. Add a new column to your Users table:
 
     `rails generate migration add_age_to_users age:integer`
 
@@ -150,11 +149,11 @@ irb > User.all
 
         `rake db:migrate`
 
-9. Rollback your last change (optional!):
+8. Rollback your last change (optional!):
     
     `rake db:rollback`
 
-10. Destroy your database (dangerous!):
+9. Destroy your database (dangerous!):
     
     `rake db:drop`
 
