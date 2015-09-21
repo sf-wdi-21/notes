@@ -286,7 +286,7 @@
   </tr>
   <tr>
     <td>Module1</td>
-    <td>Migrations &amp; Validations (Nathan)</td>
+    <td><a href="week-07/day-01-models-auth/dawn-models">Migrations &amp; Validations</a> (Nathan)</td>
     <td>SQL (Justin)</td>
     <td>Rails Views (Ilias)</td>
     <td>Intro Rspec (Ilias)</td>
