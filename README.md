@@ -294,7 +294,7 @@
   </tr>
   <tr>
     <td>Module2</td>
-    <td>Auth (Ilias)</td>
+    <td><a href="https://github.com/sf-wdi-21/notes/blob/master/week-07/day-01-models-auth/dusk-auth/readme.md">Auth</a> (Ilias)</td>
     <td>Relationships (Justin)</td>
     <td>Asset Pipeline Lab (Nathan)</td>
     <td>Testing Rails (Nathan / Ilias)</td>
