@@ -268,20 +268,20 @@ end
 
 ## Routes, Controllers, & Views for Signup
 
-###The Happy Path...
+###User stories...
 
-* **Step 1**
-GET to `/signup` hits the `users#new` action and renders `/views/users/new.html.erb`.
+A user should be able to... 
 
-* **Step 2**
-A signup form_for POSTs to `users#create` with form data.
 
-* **Step 3**
-`users#create` creates a new user, logs them in, and redirects to `user#show`.
+* go to `/signup` and have the application execute the `users#new` action to render `/views/users/new.html.erb`.
 
-* **Step 4**
-`users#show` renders `/views/users/show.html.erb`, the user's profile page.
+* see a `form_for` on `users#new` that displays email, password, and password_confirmation data.
 
+* POST the form on `users#new` to `users#create` which creates a new user, logs them in, and redirects to `user#show`.
+
+* go to `/users/:id/` and see their profile page.
+
+Let's get started!
 
 ## Routes
 
@@ -357,7 +357,7 @@ end
 
 ####Step 3
 
-* Create a user in `users#create` and then redirect to `user#show`
+* Create a user in `users#create` and then redirect to `user#show` (later we will have them also be logged-in in this step)
 	* Bonus: create a condition that checks if the user was saved correctly. Hint: first build the user in memory with `.new` then check `if @user.save` proceed as normal `else` render the signup page again.
 
 ####Step 4
@@ -381,7 +381,7 @@ class SessionsController < ApplicationController
   def create
     #pass in array that user_params returns as arguments using a splat
     if User.confirm(params[:email], params[:password])
-      #this creates the session, logging in the user
+      # this creates the session, logging in the user
       session[:user_id] = user.id
       #redirect to the show page
       redirect_to user_path(user.id)
@@ -399,6 +399,8 @@ end
 
 ```
 After we authenticate someone we set `session[:user_id] = user.id`. This allows the `user.id` to be stored in a cookie for lookup later. Of course, then we have to go find they the user in our DB every time using the `user_id` in the session. With all of this in mind we separate out a lot of the logic related to `sessions` into a list of very helpful methods in `SessionsHelper`.
+
+Now that we know how to login a user with `session[:user_id] = user.id` let's also make sure to do that when a user is signed up (it is good UX for a signup to automatically perform a login).
 
 Tip: Try running `rake notes` to see all the items that have been marked as `TODO` in the comments.
 
