@@ -87,6 +87,28 @@ end
 
 * `bundle` and then run the command `rails g rspec:install` to initialize rspec as your testing suite.
 	* Now a `spec` directory has been created for you
+
+## Model Setup
+
+Let's leave our controllers be for the time being and setup our models. Our tests depend on a `User` model existing.
+NOTE: The default attribute type is string, if we don't specify.
+
+```bash
+rails g model user email password_digest
+```
+
+`email` is the natural username for our user, and the `password_digest` is a fancy term for a hashed password.
+
+*If you ever make a mistake during a generation, you can reverse it with `rails destroy <resourceType> <resourceName>`, in this case it could simply be `rails d model user`.*
+
+Let's run the generated migrations for us.
+
+```bash
+rake db:migrate
+```
+
+Now we can focus on improving our `User` model by passing them!
+
 * Inside `spec` overwrite the file `/models/user_spec.rb` with the below tests.
 
 ```ruby
@@ -188,33 +210,11 @@ describe User, type: :model do
 end
 ```
 
-## Model Setup
-
-Let's leave our controllers be for the time being and setup our models. Our tests depend on a `User` model existing.
-NOTE: The default attribute type is string, if we don't specify.
-
-```bash
-rails g model user email password_digest
-```
-
-`email` is the natural username for our user, and the `password_digest` is a fancy term for a hashed password.
-
-*If you ever make a mistake during a generation, you can reverse it with `rails destroy <resourceType> <resourceName>`, in this case it could simply be `rails d model user`.*
-
-Let's run the generated migrations for us.
-
-```bash
-rake db:migrate
-```
-
-And finally the tests!
+Run them with:
 
 ```bash
 rspec
 ```
-
-Now we can focus on improving our `User` model by passing them!
-
 
 ## Authentication (TDD Style)
 
