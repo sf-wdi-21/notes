@@ -278,8 +278,8 @@
   </tr>
   <tr>
     <td>Drills</td>
-    <td>CSV Challenge (Nathan)</td>
-    <td>CSV Challenge (Nathan)</td>
+    <td><a href="https://github.com/sf-wdi-21/csv_challenge">CSV Challenge</a> (Nathan)</td>
+    <td><a href="https://github.com/sf-wdi-21/csv_challenge">CSV Challenge</a> (Nathan)</td>
     <td>SQL Drills (Justin)</td>
     <td>SQL Drills (Justin)</td>
     <td>Review (Team)</td>
