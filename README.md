@@ -266,8 +266,8 @@
   </tr>
 </table> -->
 
-<!-- ##Week 6 -->
-<!-- <table>
+##Week 7 - Rails
+<table>
   <tr>
     <th></th>
     <th>Monday</th>
@@ -278,39 +278,39 @@
   </tr>
   <tr>
     <td>Drills</td>
-    <td>Drill (tbd)</td>
-    <td>Drill (tbd)</td>
-    <td>Drill (tbd)</td>
-    <td>Drill (tbd)</td>
+    <td>CSV Challenge (Nathan)</td>
+    <td>CSV Challenge (Nathan)</td>
+    <td>SQL Drills (Justin)</td>
+    <td>SQL Drills (Justin)</td>
     <td>Review (Team)</td>
   </tr>
   <tr>
     <td>Module1</td>
-    <td>Topic (tbd)</td>
-    <td>Topic (tbd)</td>
-    <td>Topic (tbd)</td>
-    <td>Topic (tbd)</td>
+    <td>Migrations &amp; Validations (Nathan)</td>
+    <td>SQL (Justin)</td>
+    <td>Rails Views (Ilias)</td>
+    <td>Intro Rspec (Ilias)</td>
     <td>Review (Team)</td>
   </tr>
   <tr>
     <td>Module2</td>
-    <td>Topic (tbd)</td>
-    <td>Topic (tbd)</td>
-    <td>Topic (tbd)</td>
-    <td>Topic (tbd)</td>
+    <td>Auth (Ilias)</td>
+    <td>Relationships (Justin)</td>
+    <td>Asset Pipeline Lab (Nathan)</td>
+    <td>Testing Rails (Nathan / Ilias)</td>
     <td>Weekend Lab (Team)</td>
   </tr>
   <tr>
     <td>HW</td>
-    <td>Reading (tbd)</td>
-    <td>Reading (tbd)</td>
-    <td>Reading (tbd)</td>
-    <td>Reading (tbd)</td>
-    <td>LEAVE BLANK</td>
+    <td>Rails Guides (Justin)</td>
+    <td>Rails Guides (Ilias)</td>
+    <td>Rails Guides (Ilias)</td>
+    <td>Rails Guides (Ilias)</td>
+    <td><!-- LEAVE BLANK --></td>
   </tr>
-</table> -->
+</table>
 
-##Week 6 -- Ruby
+##Week 6 - Ruby
 
 <table>
   <tr>
@@ -355,12 +355,12 @@
   </tr>
 </table>
 
-##Week 5 -- Project 1
+##Week 5 - Project 1
 
 ----
 ----
 
-##Week 4 -- Users
+##Week 4 - Users
 
 <table>
   <tr>
@@ -406,7 +406,7 @@
 </table>
 
 
-##Week 3 -- REST & CRUD
+##Week 3 - REST & CRUD
 <table>
   <tr>
     <th></th>
@@ -452,7 +452,7 @@
 
 
 
-##Week 2 -- Working with Objects
+##Week 2 - Working with Objects
 <table>
   <tr>
     <th></th>
@@ -498,7 +498,7 @@
 </table>
 
 
-##Week 1 -- Controlling the DOM
+##Week 1 - Controlling the DOM
 <table>
   <tr>
     <th></th>
