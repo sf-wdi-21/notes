@@ -319,7 +319,7 @@ Run `rake routes` to see all the application's routes.
 
 * Skeleton out the `UsersController` with: `rails g controller users new create show`
 
-* Add a private method that creates strong parameters by whitelisting specific attributes of the user
+* Add a private method that creates strong parameters for specific attributes of the user
 
 * You should end up with...
 
@@ -500,46 +500,62 @@ class SessionsController < ApplicationController
 end
 ```
 
-application_helper.rb
+Install the [twitter-bootstrap-rails](https://github.com/seyhunak/twitter-bootstrap-rails) gem and require it by running `rails generate bootstrap:install static`
+
+We can then render these message and style them with a class that matches their name on all pages.
+
+application.html.erb
+
+```html+erb
+<!-- include this just above the yield -->
+<%= bootstrap_flash %>
+
+<%= yield %>
+
+```
+
+Now you need to pass in flash messages to your views! For example my user controller could look like this.
+
+user_controller.rb
 
 ```ruby
-module ApplicationHelper
+class UsersController < ApplicationController
+  before_action :require_login, only: :index
 
-  def flash_messages(opts = {})
-    flash.each do |msg_type, message|
-      concat content_tag(:div, message, class: "alert #{bootstrap_class_for(msg_type)} fade in") do 
-              concat content_tag(:button, 'x', class: "close", data: { dismiss: 'alert' })
-              concat message 
-            end
+  # to illustrate a before_action
+  def index
+    @users = User.all
+  end
+
+  def new
+    @user = User.new
+  end
+
+  def create
+    @user = User.new(user_params)
+    if @user.save
+      #login user
+      session[:user_id] = @user.id
+      #redirect to user#show w/ success message
+      redirect_to @user, flash: { success: "Successfully signed up!" }
+    else
+      #there was an error, go back to signup page & display message
+      redirect_to sign_up_path, flash: { error: @user.errors.full_messages.to_sentence }
     end
-    nil
   end
-  
-  # this method assumes you are using bootstrap in your project
-  def bootstrap_class_for flash_type
-    { success: "alert-success", error: "alert-danger", alert: "alert-warning", notice: "alert-info" }[flash_type] || flash_type.to_s
+
+  def show
+    @user = current_user
   end
-  
+
+  private
+
+  def user_params
+    params.require(:user).permit(:email, :password, :password_confirmation)
+  end
 end
 ```
 
+##Solution
 
-We can then render these errors and style them with a class that matches their name.
-
-sessions/new.html.erb
-
-```html+erb
-<%= form_for :user, url: "/sessions", method: "post" do |f| %>
-     <%= flash_messages %>
-  <div>
-    <%= f.text_field :email %>
-  </div>
-  <div>
-    <%= f.text_field :password %>
-  </div>
-  <div>
-    <%= f.submit %>
-  </div>
-<% end %>
-
-```
+A sample solution is provided [here](https://github.com/sf-wdi-21/rails-simple-auth)
