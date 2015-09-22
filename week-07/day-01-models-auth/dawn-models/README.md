@@ -60,7 +60,9 @@ It's convenient!
 
 ## The Database Dance
 
-#### Setting up your Database
+Here are some commands and rake tasks you'll be using on regularly:
+
+#### To Setup your Database
 0. Fire up your database server:  
 Open `Postgres.app` and verify that you can see the **elephant icon** in your toolbar.
 
@@ -79,18 +81,23 @@ Open `Postgres.app` and verify that you can see the **elephant icon** in your to
     rake db:seed
 ```
 
-#### Modifying your Database
+#### To Modify Tables in your Database
 Rollback the last migration:
 ``` bash
     rake db:rollback
 ```
 
-Destroy the database:
+See current ("up") and pending ("down") migrations:
+``` bash
+    rake db:migrate:status
+```
+
+Destroy all the tables in the database:
 ``` bash
     rake db:drop
 ```
 
-#### Playing with your Data
+#### To Play with your Data
 The rails console is the best place to go if you want to play with your data, test database queries, or perform a sanity check.
 
 ``` bash
