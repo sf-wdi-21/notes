@@ -303,7 +303,7 @@
   <tr>
     <td>HW</td>
     <td><a href="/week-07/day-02-sql/dawn-intro-sql/README.md">Intro SQL</a> (Justin)</td>
-    <td>Rails Guides (Ilias)</td>
+    <td><a href="https://github.com/sf-wdi-21/notes/blob/master/week-07/readings/partials-asset-pipeline-reading.md">More Partials & Asset Pipeline</a> (Ilias)</td>
     <td>Rails Guides (Ilias)</td>
     <td>Rails Guides (Ilias)</td>
     <td><!-- LEAVE BLANK --></td>
