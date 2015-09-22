@@ -1,4 +1,4 @@
-#Week 6 Morning Drills
+#Week 6 Drills
 
 ##Day 2 - Regular Expressions
  <a href="http://ruby-doc.org/core-2.2.0/Regexp.html" target="_blank">Ruby Regexp</a>
@@ -78,9 +78,10 @@ You're encouraged to #GTS for these challenges, but instead of looking for pre-w
 
 ##Day 3 - Ruby Merge
 
-Repo <a href="https://github.com/sf-wdi-21/rubyMerge">here</a> — pass the tests!
+Repo [here](https://github.com/sf-wdi-21/rubyMerge) — pass the tests!
 
 ##Day 4 - Ruby Bubble Sort
 
+Repo [here](https://github.com/sf-wdi-21/bubble_sort_ruby) — pass the tests!
 
 ##Day 5 - Rails Drills

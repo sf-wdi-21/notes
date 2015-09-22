@@ -1,62 +1,13 @@
-##Week Four Drills
+#Week 4 Drills
 
-###Day 1 - Binary Search
+##Day 1 - Binary Search - [solution](drills_solutions.md)
 
+The binary search algorithm begins by comparing the target value to the value of the middle element of the sorted array. If the target value is equal to the middle element's value, then the position is returned and the search is finished. If the target value is less than the middle element's value, then the search continues on the lower half of the array; or if the target value is greater than the middle element's value, then the search continues on the upper half of the array. This process continues, eliminating half of the elements, and comparing the target value to the value of the middle element of the remaining elements - until the target value is either found (and its associated element position is returned), or until the entire array has been searched (and "not found" is returned). [Source Wikipedia](https://en.wikipedia.org/wiki/Binary_search_algorithm)
 
-Serial Version:
-
-```javascript
-
-function binarySearch(searchArray, searchElement) {
-  var min = 0;
-  var max = searchArray.length - 1;
-  var mid;
-  var currentElement;
-
-  while (min <= max) {
-    mid = (min + max) / 2 | 0;
-    currentElement = searchArray[mid];
-
-    if (currentElement < searchElement) {
-        min = mid + 1;
-    }
-    else if (currentElement > searchElement) {
-        max = mid - 1;
-    }
-    else {
-        return mid;
-    }
-  }
-
-  return -1;
-}
+Searching for a name in a telephone book using binary search - https://study.cs50.net/binary_search (an awesome introduction to binary search).
 
 
-```
-
-Recursive Version:
-
-```javascript
-
-function binarySearchR(searchArray, searchElement, min, max) {
-  if (max < min) { return null; }
- 
-  var mid = Math.floor((min + max) / 2);
- 
-  if (searchArray[mid] > searchElement) {
-    return binarySearchR(searchArray, searchElement, min, mid - 1);
-  }
-  
-  if (searchArray[mid] < searchElement) {
-    return binarySearchR(searchArray, searchElement, mid + 1, max);
-  }
-  return mid;
-}
-
-```
-
-
-### Day 2 - Keeping Things a secret.
+## Day 2 - Keeping Things a secret.
 
 ####Encryption/Decryption
 
@@ -94,7 +45,7 @@ To counter rainbow tables, websites began using a technique called **salting** w
 
 *We can still do our part!  To make it extremely difficult for computers to guess your password, consider using 4 random words strung together.*  
 
-##Day - 3: Bubble Sort
+##Day 3: Bubble Sort - [Solution](drill_solutions.md)
 
 Pre-work: [First, some Hungarian ("Csángó") folk dance](https://www.youtube.com/watch?v=lyZQPjUT5B4)
 
@@ -183,36 +134,7 @@ b = temp;
 
 You may use a conventional for loop.
 
-###One possible solution to bubble sort: 
-
-```javascript
-function bubbleSort(array) {
-  var end = array.length - 1;
-  // create a swapped switch (true/false)
-  var swapped = true;
-  // while our switch is 'true'
-  while(swapped){
-    //console.log(array);
-    // flip the swapped switch to false
-    swapped = false;
-    for(var i = 0; i < end; ++i) {
-      // If an element is greater than its neighbor
-      if (array[i] > array[i+1]) {
-        // swap the element and its neighbor
-        var temp = array[i];
-        array[i] = array[i+1];
-        array[i+1] = temp;
-        // flip the switch to true
-        swapped = true;
-      }
-    }
-    end--;
-  }
-};
-
-```
-
-##Day - 4  Merge sort!
+##Day 4: Merge sort! - [solution](drills_solutions.md)
 
 ###Why Merge Sort?
 Merge sort is the first powerful sorting algorithm that you will encounter in the wilds of the real world (baked into Safari and Firefox.)  It uses an extremely efficient application of the 'Divide and Conquer' concept to lists of elements.  We worked on Bubble Sort yesterday, now let us up our game and work on Merge Sort!
@@ -225,63 +147,7 @@ There are TWO functions that work together to accomplish a Merge Sort:
 
 -  A mergeSort function that takes an array, splits the array in two, and calls a merge function.  The mergeSort function **is recursive**.  Try to remember the prescribed function structuring we recommended. 
 
-```javascript
-
-function mergeSort(arr) {
-  // if the array is length one or zero, return the array
-  if (arr.length < 2) {
-    return arr;
-  }
-  // figure out the middle point
-  var middle = parseInt(arr.length / 2);
-  
-  // create an array of the left half
-  var left = arr.slice(0, middle);
-
-  // create an array of right half
-  var right = arr.slice(middle, arr.length);
-
-  // call merge on a recursively called left half and right half
-  return merge(mergeSort(left), mergeSort(right));
-}
- 
-
-
-```
-
 -  A merge function that takes two arrays as parameters, looks at the the first elements of the two lists, and assembles a resulting list based on the two lists 'zipped' together by pushing the lowest to highest valued elements. The merge function **is not recursive**.
-
-
-```javascript
-
-function merge(left, right) {
-  var result = [];
-
-  // while both arrays have elements in them, zip them together
-  while (left.length && right.length) {
-    // if the left array first element is less than the right array first element, push to result
-    if (left[0] <= right[0]) {
-        result.push(left.shift());\
-    // else push the right array first element to result
-    } else {
-        result.push(right.shift());
-    }
-  }
-
-  // if left is the only array with elements, push them all in
-  while (left.length) {
-      result.push(left.shift());
-  // if right is the only array with elmeents, push them all in
-  }
-  while (right.length) {
-    result.push(right.shift());
-  }
-  // return final result
-  return result;
-}
-
-
-```
 
 ###Make your own Mergesort implementation!
 Create a mergeSort that will sort a list of student names from this class!

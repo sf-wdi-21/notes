@@ -60,7 +60,9 @@ It's convenient!
 
 ## The Database Dance
 
-#### Setting up your Database
+Here are some commands and rake tasks you'll be using on regularly:
+
+#### To Setup your Database
 0. Fire up your database server:  
 Open `Postgres.app` and verify that you can see the **elephant icon** in your toolbar.
 
@@ -79,18 +81,23 @@ Open `Postgres.app` and verify that you can see the **elephant icon** in your to
     rake db:seed
 ```
 
-#### Modifying your Database
+#### To Modify Tables in your Database
 Rollback the last migration:
 ``` bash
     rake db:rollback
 ```
 
-Destroy the database:
+See current ("up") and pending ("down") migrations:
+``` bash
+    rake db:migrate:status
+```
+
+Destroy all the tables in the database:
 ``` bash
     rake db:drop
 ```
 
-#### Playing with your Data
+#### To Play with your Data
 The rails console is the best place to go if you want to play with your data, test database queries, or perform a sanity check.
 
 ``` bash
@@ -173,10 +180,9 @@ The rails console is the best place to go if you want to play with your data, te
 
 | Objective                                                                     |  
 | :-------------------                                                          |  
-| Explore the concept of a database migration |  
-| Create a migration that adds a column to a table |  
-| Create a migration that updates a column name in a table |  
-| Understand how to apply and reverse migrations |  
+| Explore the concept of data validation |  
+| Use model-level validations to ensure data-consistency |  
+| Understand how to respond when validation fails |  
 
 #### Ensuring Data Consistency
 Database tables are pretty strict about what kind of input they'll accept. For instance, a `String` is very different from an `Integer` or a `Timestamp`. But What if we want to make sure that a password has more than 6 characters, or that a username hasn't been taken? For that, we need to create some sort of "check" that verifies that our data can be saved. These checks are known as validations.
@@ -190,14 +196,29 @@ Open the `User` model we just created (`app/models/user.rb`).
 Let's make sure each user _definitely_ has a first name and a last name before they're saved to the databse.
 
 ```ruby
-class User < ActiveRecord::Base
-  validates :first_name, presence: true
-  validates :last_name, presence: true
-end
+    class User < ActiveRecord::Base
+      validates :first_name, presence: true
+      validates :last_name, presence: true
+
+      validates :first_name, uniquness: true
+    end
 ```
 
 * Type `reload!` into the console to update your model validations.
 * Try saving a user with no first or last name and see what error is thrown.
+
+``` ruby
+    # `create` w/ invalid data (name not present)
+    u = User.create
+    # => #<User id: nil, first_name: nil, last_name: nil, created_at: nil, updated_at: nil>
+
+    # `new` + `save` w/ invalid data (name not unique)
+    u = User.new(first_name: "Suzy")
+    u.save
+    # => false
+    u.errors.messages
+    # => {:first_name=>["has already been taken"]}
+```
 
 Here are some common checks:
 
