@@ -138,6 +138,10 @@ To quit/exit the database console, type:
 To save your progress on the in-class examples and the challenges, I suggest creating files that store your SQL commands. To run a `.sql` file, use the following command in your terminal:
 
   `psql -f <file_name>`
+
+To run a sql file against a specific database, use:
+
+  `psql -f <file_name> -d <database_name>`
   
 You can also create (and destroy) tables from within a SQL file. At the top of your SQL file, I suggest you write the following:
 
@@ -145,6 +149,8 @@ You can also create (and destroy) tables from within a SQL file. At the top of y
 DROP DATABASE IF EXISTS database_name;
 CREATE DATABASE database_name;
 ```
+
+Feel free to use the `pqsl` console to try out the following. Once you're comfortable with it, try using a `.sql` file.
 
 #Our First Table
 
