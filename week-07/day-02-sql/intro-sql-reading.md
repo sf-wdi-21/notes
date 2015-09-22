@@ -126,7 +126,7 @@ In your Terminal, you should see a prompt like the following:
 
 To quit/exit the database console, type:
     
-    `\q`
+  `\q`
   
 #Workflow Setup
 
@@ -149,8 +149,8 @@ Now let's try to create our first Table within the new database. Note: please fe
 CREATE TABLE authors (
   id SERIAL primary key,
   firstName VARCHAR(255),
-  year_of_birth INTEGER, -- also known as yob
-  year_of_death INTEGER DEFAULT 'NaN',
+  year_of_birth INTEGER, /* also known as yob */
+  year_of_death NUMERIC DEFAULT 'NaN',
   description TEXT,
   created_at TIMESTAMP NOT NULL DEFAULT now()
 );
