@@ -80,9 +80,12 @@ This will do the same thing as `t.references`, but it has the added benefit of b
 
 ### Wading in Deeper: Using our Associations
 
-Before we can use our associations, we have to set up our database tables. Let's all run:
+First things first, we need to create our models, run our migrations, do all things necessary to [setup our database](https://github.com/sf-wdi-21/notes/tree/master/week-07/day-01-models-auth/dawn-models#the-database-dance).
+
+Let's all run:
 
 ```console
+rake db:create
 rake db:migrate
 ```
 
@@ -303,7 +306,6 @@ To do this exercise, let's [head over to our many-to-many exercise file](associa
 ---
 
 ## Less Common Associations
-
 For your reference. If you'd like to experiment with these, go nuts! (after class please...)
 
   - [has_one](http://guides.rubyonrails.org/association_basics.html#the-has-one-association)
