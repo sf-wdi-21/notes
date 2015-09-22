@@ -1,6 +1,8 @@
 
 #A brief introduction to SQL
 
+![Bobby Tables, at it again!](http://imgs.xkcd.com/comics/exploits_of_a_mom.png)
+
 ##What is a Relational Database (RDB)?
 
 Relational databases were invented in the 1970's as a way to structure data so that it can be queried by a "relational algebra." The basic idea of relational model, though, was to use collections of data, Tables, where each database manages Relations among the data in various tables. Each table is organized like a spreadsheet with a Row (also known as "record") for each data item and with attributes of those items arranged in Columns*.
