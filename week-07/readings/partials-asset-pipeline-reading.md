@@ -216,6 +216,5 @@ The asset pipeline automatically evaluates ERB. This means if you add an erb ext
 
 This writes the path to the particular asset being referenced. In this example, it would make sense to have an image in one of the asset load paths, such as `app/assets/images/image.png`, which would be referenced here. If this image is already available in `public/assets` as a fingerprinted file, then that path is referenced.
 
-
-
+Citation: [Rails Guides](http://guides.rubyonrails.org/)
 
