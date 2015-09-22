@@ -302,7 +302,7 @@
   </tr>
   <tr>
     <td>HW</td>
-    <td><a href="week-07/day-02-sql/intro-sql-reading.md">Intro SQL</a> (Justin)</td>
+    <td><a href="/week-07/day-02-sql/dawn-intro-sql/README.md">Intro SQL</a> (Justin)</td>
     <td>Rails Guides (Ilias)</td>
     <td>Rails Guides (Ilias)</td>
     <td>Rails Guides (Ilias)</td>
