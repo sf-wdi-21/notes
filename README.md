@@ -428,7 +428,7 @@
     <td>Module1</td>
     <td><a href='week-03/day-01-bootstrap-orm/dawn-bootstrap/readme.md'>Bootstrap, Bower</a> (Nathan)</td>
     <td>Intro Express: <a href="week-03/day-02-intro-express/dawn-routing">Routing</a> (Nathan)</td>
-    <td>[Todo Lab](week-03/day-03-crud-express/dawn-to-eatly): CR (Ilias)</td>
+    <td><a href="week-03/day-03-crud-express/dawn-to-eatly">Todo Lab</a>: CR (Ilias)</td>
     <td><a href='week-03/day-04-mongo-crud/dawn-mongo/readme.md'>Mongo CRUD</a> (Justin)</td>
     <td>Review (Team)</td>
   </tr>
@@ -436,7 +436,7 @@
     <td>Module2</td>
     <td><a href='week-03/day-01-bootstrap-orm/dusk-orm-lab/readme.md'>ORM Lab</a> (Justin)</td>
     <td>Intro Express: <a href="week-03/day-02-intro-express/dusk-assets">Static Assets</a> (Nathan)</td>
-    <td>[Todo Lab](week-03/day-03-crud-express/dawn-to-eatly): UD (Ilias)</td>
+    <td><a href="week-03/day-03-crud-express/dawn-to-eatly">Todo Lab</a>: UD (Ilias)</td>
     <td><a href="https://github.com/sf-wdi-21/bite_me_mongo_express">Express Mongo Lab</a> (Nathan)</td>
     <td><a href="week-03/day-05">Catchphrase Project</a></td>
   </tr>
