@@ -287,7 +287,7 @@
   <tr>
     <td>Module1</td>
     <td><a href="week-07/day-01-models-auth/dawn-models">Migrations &amp; Validations</a> (Nathan)</td>
-    <td>SQL (Justin)</td>
+    <td><a href="week-07/day-02-sql/dawn-intro-sql">SQL (Justin)</a></td>
     <td>Rails Views (Ilias)</td>
     <td>Intro Rspec (Ilias)</td>
     <td>Review (Team)</td>
@@ -295,7 +295,7 @@
   <tr>
     <td>Module2</td>
     <td><a href="week-07/day-01-models-auth/dusk-auth/readme.md">Auth</a> (Ilias)</td>
-    <td>Relationships (Justin)</td>
+    <td><a href="week-07/day-02-sql/dusk-sql-relationships">Relationships</a> (Justin)</td>
     <td>Asset Pipeline Lab (Nathan)</td>
     <td>Testing Rails (Nathan / Ilias)</td>
     <td>Weekend Lab (Team)</td>
