@@ -96,7 +96,7 @@ If you would like to load, execute, and save `.sql` files in a safe, nurturing s
 Now let's try to create our first Table within the new database. Note: please feel free to shorten attribute names so they're easier to type.
 
 ```sql
-CREATE TABLE authors (
+CREATE TABLE author (
   id SERIAL primary key,
   firstName VARCHAR(255),
   year_of_birth INTEGER, /* also known as yob */
@@ -115,18 +115,18 @@ CREATE TABLE authors (
 We can ALTER this table after is created.
 
 ```sql
-ALTER TABLE authors ADD COLUMN last_name varchar(255);
+ALTER TABLE author ADD COLUMN last_name varchar(255);
 ```
 An author doesn't need a description column, so let's remove it.
 
 ```sql
-ALTER TABLE authors DROP COLUMN description;
+ALTER TABLE author DROP COLUMN description;
 ```
 
 Oops, Table names should always be plural. We'll fix the author table name.
 
 ```sql
-ALTER TABLE authors RENAME TO authors;
+ALTER TABLE author RENAME TO authors;
 ```
 
 Oops, it looks like our firstName column is camelCased. All column names should be snake_case. We can also rename columns.
