@@ -293,7 +293,6 @@ justin.courses.map(&:name)
 # Outputs: => ["Algebra", "English"]
 ```
 
-Side note: Anyone know why we're passing `&:name` to `.map` here? (Hint, it has something to do with Blocks and Procs)
 
 ---
 
@@ -307,7 +306,7 @@ To do this exercise, let's [head over to our many-to-many exercise file](associa
 
 Getting your models and tables synced up is a bit tricky. Pay close attention to the following workflow, especially the rake tasks.
 
-```
+```r
 # create a new rails app
 rails new my_app -T -d postgresql
 cd my_app
@@ -377,8 +376,8 @@ end
 
 ## Callbacks
 
-- before_
-- after_
+- [before_](http://api.rubyonrails.org/classes/ActiveRecord/Callbacks.html)
+- [after_] (http://api.rubyonrails.org/classes/ActiveRecord/Callbacks.html)
 
 ---
 
