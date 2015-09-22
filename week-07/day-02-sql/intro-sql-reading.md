@@ -1,7 +1,7 @@
 
 #A brief introduction to SQL
 
-##What Are Relational Databases?
+##What is a Relational Database (RDB)?
 
 Relational databases were invented in the 1970's as a way to structure data so that it can be queried by a "relational algebra." The basic idea of relational model, though, was to use collections of data, Tables, where each database manages Relations among the data in various tables. Each table is organized like a spreadsheet with a Row (also known as "record") for each data item and with attributes of those items arranged in Columns*.
 
@@ -123,6 +123,10 @@ Then let's connect to it by name so we can practice our SQL.
 In your Terminal, you should see a prompt like the following:
 
   `practice=#`
+
+To quit/exit the database console, type:
+    
+    `\q`
   
 #Workflow Setup
 
@@ -142,7 +146,7 @@ CREATE DATABASE database_name;
 Now let's try to create our first Table within the new database. Note: please feel free to shorten attribute names so they're easier to type.
 
 ```sql
-CREATE TABLE author (
+CREATE TABLE authors (
   id SERIAL primary key,
   firstName VARCHAR(255),
   year_of_birth INTEGER, -- also known as yob
@@ -161,18 +165,18 @@ CREATE TABLE author (
 We can ALTER this table after is created.
 
 ```sql
-ALTER TABLE author ADD COLUMN last_name varchar(255);
+ALTER TABLE authors ADD COLUMN last_name varchar(255);
 ```
 An author doesn't need a description column, so let's remove it.
 
 ```sql
-ALTER TABLE author DROP COLUMN description;
+ALTER TABLE authors DROP COLUMN description;
 ```
 
 Oops, Table names should always be plural. We'll fix the author table name.
 
 ```sql
-ALTER TABLE author RENAME TO authors;
+ALTER TABLE authors RENAME TO authors;
 ```
 
 Oops, it looks like our firstName column is camelCased. All column names should be snake_case. We can also rename columns.
