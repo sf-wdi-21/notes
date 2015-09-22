@@ -33,4 +33,8 @@
 
 ###Day 03 - Ruby Merge
 
-Solution <a href="https://github.com/sf-wdi-21/rubyMerge/tree/solution">here</a>
+Solution [here](https://github.com/sf-wdi-21/rubyMerge/tree/solution)
+
+###Day 04 - Bubble Sort
+
+Solution [here](https://github.com/sf-wdi-21/bubble_sort_ruby/tree/solution)
