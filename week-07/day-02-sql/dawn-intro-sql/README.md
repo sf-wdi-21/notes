@@ -1,7 +1,8 @@
 
-#A brief introduction to SQL
-
-![Bobby Tables, at it again!](http://imgs.xkcd.com/comics/exploits_of_a_mom.png)
+#An introduction to SQL
+## -or-
+###In which we suffer through databases to appreciate Active Records
+<hr>
 
 ##What is a Relational Database (RDB)?
 
@@ -267,6 +268,9 @@ DELETE FROM products;
 ```
 
 **Challenge**: Insert four items into the products table.
+
+![Bobby Tables, at it again!](http://imgs.xkcd.com/comics/exploits_of_a_mom.png)
+
 
 #ALIAS
 
