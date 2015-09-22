@@ -112,7 +112,7 @@ SQL, Structured Query Language, is a specialized language used to create, manipu
 
 #Database Setup
 
-Let's create our first relational database using the Terminal.
+Let's create our first relational database (RDB) using the Terminal.
 
   `createdb practice`
   
@@ -127,6 +127,11 @@ In your Terminal, you should see a prompt like the following:
 To quit/exit the database console, type:
     
   `\q`
+
+**Console Tips**
+
+* Don't forget to close your SQL Commands with a semi-colon (";")!
+* If you see `practice-#` you're stuck in the middle of inputting a sql command (and likely forgot the trailing semi-colon). Just type `ctrl+c` to start fresh.
   
 #Workflow Setup
 
