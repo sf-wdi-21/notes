@@ -89,6 +89,8 @@ CREATE DATABASE database_name;
 
 Feel free to use the `pqsl` console to try out the following. Once you're comfortable with it, try using a `.sql` file.
 
+If you would like to load, execute, and save `.sql` files a safe sandbox environment, head on ever to this [online SQL interpreter](http://kripken.github.io/sql.js/GUI/). It's handy!
+
 #Our First Table
 
 Now let's try to create our first Table within the new database. Note: please feel free to shorten attribute names so they're easier to type.
