@@ -271,13 +271,13 @@ You can make your queries easier to read using an alias. Aliases in SQL use the 
 ```sql
 SELECT * FROM products
   AS prod  -- alias for the products table
-  WHERE prod.name = 'bookmarks';
+  WHERE prod.name = 'bookmark';
 ```
   
 ```sql  
 SELECT name, price AS cost, quantity  -- alias for the price column only
   FROM products
-  WHERE name = 'bookmarks';
+  WHERE name = 'bookmark';
 ```
 Note also that `--` starts a SQL comment.
 
