@@ -348,9 +348,9 @@
   <tr>
     <td>HW</td>
     <td><a href="week-06/day-01-review-and-ruby/dusk-intro-to-ruby/reading-ruby-data-types.md">Datatypes</a> and <a href="week-06/day-01-review-and-ruby/dusk-intro-to-ruby/reading-arrays-hashes-blocks.md">more</a>, <a href="https://github.com/sf-wdi-21/ValidIP">IP Lab</a></td>
-    <td><a href="week-06/readings/intro-to-classes.md">OOP Reading</a> (Justin)</td>
-    <td><a href="week-06/readings/intro-rails.md">Rails Intro</a> (Ilias)</td>
-    <td><a href="week-06/readings/rails-guides.md">Rails Guides</a> & <a href="http://railsforzombies.org/levels/1">Rails for Zombies</a></td>
+    <td><a href="week-06/day-03-ruby-oop/dawn-ruby-oop/reading-intro-to-classes.md">OOP Reading</a> (Justin)</td>
+    <td><a href="week-06/day-04-rails-intro/dawn-first-rails-app/reading-intro-rails.md">Rails Intro</a> (Ilias)</td>
+    <td><a href="week-06/day-05-rails-review/dawn-rock-n-rails/reading-rails-guides.md">Rails Guides</a> & <a href="http://railsforzombies.org/levels/1">Rails for Zombies</a></td>
     <td><a href="how-tos/the_rails_checklist.md">Rails Checklist</a></td>
   </tr>
 </table>
