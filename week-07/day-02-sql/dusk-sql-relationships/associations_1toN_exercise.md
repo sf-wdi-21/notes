@@ -15,21 +15,5 @@ Once you've finished creating the models:
   1. Create 5 items
   2. Create 2 Orders
   3. Assign 3 items to the order with id = 1, and 2 items to order with id = 2.
-  4. Play around with some of the array methods you know (each, map, select, size) for each order
-
-<br>
-
-#### Exercise Bonus
-
-Try to select only the items in an order that are less than a certain price.
-
-You'll need to start with something like this:
-
-```ruby
-someorder.items.select { ... } # Your code to select goes between the brackets.
-
-# Note this could also be written like this
-someorder.items.select do 
-    # Code to select specific items goes here
-end
-```
+  4. Can you query all the items that belong to a specific order?
+  5. Can you add and remove items from an order? (Make sure it's a permenant change!)
