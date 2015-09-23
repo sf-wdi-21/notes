@@ -66,7 +66,7 @@ You can only test the "seams" of your programs / isolated components (Martin Fow
 * Write tests that help you be more proficient as a developer
 
 
-If you feel ready to watch a demonstration, check out this <a href="https://www.youtube.com/embed/JhR9Ib1Ylb8" > Tutsplus Ruby Rspec Tutorial</a>.  The first 15 minutes are the most important, but feel free to watch it in its entirety.
+If you feel ready to watch a demonstration, check out this <a href="https://www.youtube.com/JhR9Ib1Ylb8" > Tutsplus Ruby Rspec Tutorial</a>.  The first 15 minutes are the most important, but feel free to watch it in its entirety.
 
 
 ### Resources
