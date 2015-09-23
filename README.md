@@ -303,7 +303,7 @@
   <tr>
     <td>HW</td>
     <td><a href="/week-07/day-02-sql/dawn-intro-sql/README.md">Intro SQL</a> (Justin)</td>
-    <td><a href="week-07/day-03-views-assets/dawn-rails-review/views-partials-reading.md">Partials</a> & <a href="week-07/day-04-rails-testing/dawn-asset-pipeline/asset-pipeline-reading.md">Asset Pipeline</a> (Ilias)</td>
+    <td><a href="week-07/day-03-views-assets/dawn-rails-review/views-partials-reading.md">Partials</a> & <a href="week-07/day-04-rails-testing/dawn-asset-piepline/asset-pipeline-reading.md">Asset Pipeline</a> (Ilias)</td>
     <td>Rails Guides (Ilias)</td>
     <td>Rails Guides (Ilias)</td>
     <td><!-- LEAVE BLANK --></td>
