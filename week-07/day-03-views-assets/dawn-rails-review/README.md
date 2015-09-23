@@ -45,14 +45,10 @@ User should be able to...
 
 ##Game Rules
 
-We will split the class into random groups.
+* The class is split into random groups.
+* A student is chosen from the first group, who comes to the front of the class to **drive** the coding the solution (the instructor will type what is said).
+* The student gets a point for the group for a solution that passes the user story.
+* If they do not know the answer they can share a point with another group who will provide them a solution, otherwise there group does not receive a point.
+* A student is chosen from the next group, and so on, continuing to cycle through all the groups until all students have been called on or time has run out. Note that a student cannot be called on more than once.
 
-We will take turns choosing a student from a group.
-
-Once a student is called on they come to the front of the class room and *drive* the coding (the instructor can still type what they say).
-
-Then we move to the next group, continuing to cycle through all the group.
-
-A student cannot be called on more than once.
-
-Maybe there's an [app](https://github.com/iliastsangaris/random-groups) to help us do this?
+*Maybe there's an [app](https://github.com/iliastsangaris/random-groups) to help us do this?*
