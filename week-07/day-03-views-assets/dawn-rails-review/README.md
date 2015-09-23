@@ -8,6 +8,16 @@
 
 ![rails-way](http://i.giphy.com/MsvRClUHCl4S4.gif)
 
+##Game Rules
+
+* The class is split into random groups.
+* A student is chosen from the first group, who comes to the front of the class to **drive** the coding the solution for the current **user story** (the instructor will type what is said).
+* The student gets a point for the group for a solution that passes the user story.
+* If they do not know the answer they can share a point with another group who will provide them a solution, otherwise there group does not receive a point.
+* A student is chosen from the next group, and so on, continuing to cycle through all the groups until all students have been called on or time has run out. Note that a student cannot be called on more than once.
+
+*Maybe there's an [app](https://github.com/iliastsangaris/random-groups) to help us do this?*
+
 
 ##User Stories
 
@@ -42,13 +52,3 @@ User should be able to...
 * use an application that is seeded with other users that have goals using a seed file.
 * go to `/users/:id/goals` and see all of any user's goals
 
-
-##Game Rules
-
-* The class is split into random groups.
-* A student is chosen from the first group, who comes to the front of the class to **drive** the coding the solution (the instructor will type what is said).
-* The student gets a point for the group for a solution that passes the user story.
-* If they do not know the answer they can share a point with another group who will provide them a solution, otherwise there group does not receive a point.
-* A student is chosen from the next group, and so on, continuing to cycle through all the groups until all students have been called on or time has run out. Note that a student cannot be called on more than once.
-
-*Maybe there's an [app](https://github.com/iliastsangaris/random-groups) to help us do this?*
