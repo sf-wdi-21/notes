@@ -41,3 +41,18 @@ User should be able to...
     * due_date
 * use an application that is seeded with other users that have goals using a seed file.
 * go to `/users/:id/goals` and see all of any user's goals
+
+
+##Game Rules
+
+We will split the class into random groups.
+
+We will take turns choosing a student from a group.
+
+Once a student is called on they come to the front of the class room and *drive* the coding (the instructor can still type what they say).
+
+Then we move to the next group, continuing to cycle through all the group.
+
+A student cannot be called on more than once.
+
+Maybe there's an [app](https://github.com/iliastsangaris/random-groups) to help us do this?
