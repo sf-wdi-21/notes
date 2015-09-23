@@ -52,3 +52,8 @@ User should be able to...
 * use an application that is seeded with other users that have goals using a seed file.
 * go to `/users/:id/goals` and see all of any user's goals
 
+
+## End result
+
+Here's what we [built](https://github.com/sf-wdi-21/RailsWayInClassBuild) in class.
+
