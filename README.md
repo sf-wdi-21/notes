@@ -297,7 +297,7 @@
     <td><a href="week-07/day-01-models-auth/dusk-auth/readme.md">Auth</a> (Ilias)</td>
     <td><a href="week-07/day-02-sql/dusk-sql-relationships">Relationships</a> (Justin)</td>
     <td><a href="https://github.com/sf-wdi-21/public_library_app">Library App Lab</a> (Nathan)</td>
-    <td>Rspec TDD Lab (Ilias)</td>
+    <td><a href="https://github.com/sf-wdi-21/notes/blob/master/week-07/day-04-rails-testing/dusk-rspec-tdd/readme.md">Rspec TDD Lab</a> (Ilias)</td>
     <td>Weekend Lab (Team)</td>
   </tr>
   <tr>
