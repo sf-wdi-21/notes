@@ -289,7 +289,7 @@
     <td><a href="week-07/day-01-models-auth/dawn-models">Migrations &amp; Validations</a> (Nathan)</td>
     <td><a href="week-07/day-02-sql/dawn-intro-sql">SQL</a> (Justin)</td>
     <td><a href="week-07/day-03-views-assets/dawn-rails-review/README.md">Rails Way</a> (Ilias)</td>
-    <td><a href="week-07/day-04-rails-testing/dawn-asset-piepline/README.md">Asset Pipeline</a> & <a href="https://github.com/sf-wdi-21/asset_pipeline_poem">Lab</a> (Nathan)</td>
+    <td><a href="week-07/day-04-rails-testing/dawn-asset-piepline/asset-pipeline-reading.md">Asset Pipeline</a> & <a href="https://github.com/sf-wdi-21/asset_pipeline_poem">Lab</a> (Nathan)</td>
     <td>Review (Team)</td>
   </tr>
   <tr>
