@@ -122,12 +122,12 @@ Actually, **It's not a comment!**. It's instructions saying _which files_ need t
 
 It will look for the name of the file (e.g. "jquery") in the following directories:
 
-1. `app/assets/` --> application specific code
-2. `lib/assets/` --> libraries (possibly your own)
-3. `vendor/assets/` --> third party libraries
+1. `app/assets/` -- application specific code
+2. `lib/assets/` -- custom libraries
+3. `vendor/assets/` -- third party libraries
 
 
-#### Precompiling Assets == Production
+#### Precompiling Assets (in production)
 So far we've been working on our applications _in development_. You may have noticied that when you create a rails application it has three databases: `development`, `test`, and `production`.
 
 The assets pipeline is designed for _production_ applications. That's when we care about _speed_!
