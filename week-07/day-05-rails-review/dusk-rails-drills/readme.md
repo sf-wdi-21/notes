@@ -1,4 +1,4 @@
-# Rails Review
+# Rails (mostly) Review
 ## Weekend Mini-Lab
 
 ### Part 1: Time Trials
