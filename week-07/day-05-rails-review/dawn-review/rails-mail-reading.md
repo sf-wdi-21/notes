@@ -10,9 +10,7 @@
 
 ###Brief history
 
-Before we had the web and facebook ...
-
-[Ray Tomlinson](http://en.wikipedia.org/wiki/Ray_Tomlinson)
+The creator of email is [Ray Tomlinson](http://www.npr.org/templates/story/story.php?storyId=120364591).
 
 The mail protocol on the Internet is **Simple Mail Transfer Protocol (SMTP)**. Think of it as http for mail.
 
