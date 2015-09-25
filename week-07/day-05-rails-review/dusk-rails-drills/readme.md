@@ -1,11 +1,9 @@
 # Rails (mostly) Review
-## Weekend Mini-Lab
-
-### Part 1: Time Trials
+## Weekend Mini-Lab: Time Trials
 
 | Objective |
 | :--- |
-| Attempt completing the following functionality within **three** hours with an eventual target time of under **two** hours. Being able to do it once in under **three** hours is not enough. Everyone should do this at least twice to establish some kind of average work time. |
+| Your goal is to build this project from scratch at least twice this weekend.  Attempt completing the following functionality within **three** hours with an eventual target time of under **two** hours. |
 
 **NOTE**: *Please use a timer to time yourself when working on part 1. You'll be doing part 1 at least twice! Please have your two `best` times recorded and ready to share on Monday, and have notes of questions that came up when doing this process.*
 
@@ -14,21 +12,22 @@ Resources:
 * [rails generate](http://guides.rubyonrails.org/command_line.html#rails-generate)
 * [rails destroy](http://guides.rubyonrails.org/command_line.html#rails-destroy)
 * [wdi 21 github group](https://github.com/sf-wdi-21)
-
-##Setup
-
-* Signup for an Alchemy [API key](http://www.alchemyapi.com/api/register.html). [Alchemy](http://www.alchemyapi.com/) is a speech sentiment analyzer and we will be using it to add sentiment tags to the articles our users will create in this application.
 * If you are not clear on how to edit a resource, take a look over this [section](http://guides.rubyonrails.org/getting_started.html#updating-articles) of the rails guides.
-* If you are not familiar with any of these gems then research them:
-    * [Ffaker](https://github.com/ffaker/ffaker) — creates fake seed data
-    * [dotenv](https://github.com/bkeepers/dotenv) — stores ENV variables and obscuring sensitive information from our application
-    * [Typhoeus](https://github.com/typhoeus/typhoeus) — makes API requests for us from our backend
+* [Ffaker Gem](https://github.com/ffaker/ffaker) - for seeding the databse.
 
-Once you feel ready...
+---
+---
+---
 
-**START THE TIMER!**
+**START THE TIMER!** You have 3 hours!
 
-## Part One: Models
+---
+---
+---
+
+## Part 1. Blog Time Trials
+
+### Models
 
 Use the following when constructing a blog. You should not add styling or anything extra during time trials. This is barebones functionality.
 
@@ -43,7 +42,7 @@ Use the following when constructing a blog. You should not add styling or anythi
 * We need one association
   * 1 to Many: `user` and `article`
 
-##Part Two: Controllers
+### Controllers & Views
 
 * We need a `sites` controller with `index`, `about`, and `contact`
 * We need a `users` controller with all seven resources
@@ -51,7 +50,7 @@ Use the following when constructing a blog. You should not add styling or anythi
 * We need a `sessions` controller with at least `new` and `create`.
 * We need `session_helper` methods for `login`, `logged_in?`, `logout`, and `current_user`.
 
-##Part Three: Authentication & Authorization
+### Authentication & Authorization
 
 With all of the above `users` should be able to do the following:
 
@@ -62,11 +61,11 @@ With all of the above `users` should be able to do the following:
 * `users` can only `edit`, `update`, and `destroy` their own articles
 
 
-## Part Four: Partial It Up
+### Partial It Up
 
-Go back through your application and create partials for your nav, all forms and whatever else you deem worthy.
+Go back through your application and create partials for your nav, login/signup forms, and any other areas with significant repetition in your html.
 
-## Part Five: Seeding Your Application
+### Seed Your Application
 
 Add the `ffaker` gem to your Gemfile and use it in your `db/seeds.rb` file to create fake users and associated articles, here's a [cheatsheet](http://ricostacruz.com/cheatsheets/ffaker.html) for it.
 
@@ -100,12 +99,22 @@ end
 
 ```
 
-## Part Six: Alchemy API
+---
+---
+---
+
+**STOP THE TIMER!** Record your time and how far you got! Take a break. When you're ready, do it all over again! If you're still under three hours, you may push onward into part 2!
+
+---
+---
+---
+
+## Part 2: Alchemy API & Tagging
 
 ###Setting up Alchemy
-
-* Setup [`dotenv`](https://github.com/bkeepers/dotenv) to store your `API` keys.
-* Use [`Typhoeus`](https://github.com/typhoeus/typhoeus) to make an api request from your backend
+* Signup for an Alchemy [API key](http://www.alchemyapi.com/api/register.html). [Alchemy](http://www.alchemyapi.com/) is a speech sentiment analyzer and we will be using it to add sentiment tags to the articles our users will create in this application.
+* Setup [`dotenv`](https://github.com/bkeepers/dotenv) to store your `API` keys
+* Use [`Typhoeus`](https://github.com/typhoeus/typhoeus) to make API requests from your backend.
 * Add a method named `get_keywords` to your `article` model. Here's an implementation example:
 
 /models/article.rb
@@ -138,9 +147,7 @@ end
 * Associate your `article` to your `tag` model so that your `article` has many `tags`.
 * Alter your `get_keywords` method to save each keyword as an associated `tag`. If an `article` already has `tags` or has less than 500 characters, it should not make a request to Alchemy's API.
 
-**STOP THE TIMER!**
-
-## Further Research
+## Part 3. Bonuses
 
 Time permitting, you may want to do some additional research.
 
