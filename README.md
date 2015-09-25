@@ -298,7 +298,7 @@
     <td><a href="week-07/day-02-sql/dusk-sql-relationships">Relationships</a> (Justin)</td>
     <td><a href="https://github.com/sf-wdi-21/public_library_app">Library App Lab</a> (Nathan)</td>
     <td><a href="https://github.com/sf-wdi-21/notes/blob/master/week-07/day-04-rails-testing/dusk-rspec-tdd/readme.md">Rspec TDD Lab</a> (Ilias)</td>
-    <td>Weekend Lab (Team)</td>
+    <td><a href="https://github.com/sf-wdi-21/notes/blob/master/week-07/day-05-rails-review/dusk-rails-drills/readme.md">Weekend Lab - Rails Review</a> (Ilias)</td>
   </tr>
   <tr>
     <td>HW</td>
