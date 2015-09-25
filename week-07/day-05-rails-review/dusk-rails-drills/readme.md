@@ -64,7 +64,7 @@ With all of the above `users` should be able to do the following:
 
 ## Part Four: Partial It Up
 
-Go back through your application and create partials for your nav, all forms and whatever else you deem worth.
+Go back through your application and create partials for your nav, all forms and whatever else you deem worthy.
 
 ## Part Five: Seeding Your Application
 
