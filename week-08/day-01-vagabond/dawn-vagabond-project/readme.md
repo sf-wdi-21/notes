@@ -38,9 +38,9 @@ Put effort into your **design**. Use a CSS framework (Bootstrap), partials, and 
 
 1. **Are you all clear about what the client wants?** Identify vague areas. Seek clarification in any cases where you feel less confident about your interpretation of the client' vision.
 
-1. **What will the UX/UI flow be?** Hammer out any areas of ambiguity in the wireframes
+1. **What will the UX/UI flow be?** Hammer out any areas of ambiguity in the wireframes.
 
-1. **Which models do need to be implemented?** Create an ERD for the client to reference.
+1. **Which models need to be implemented?** Create an ERD for the client to reference.
 
 1. **What are the major milestones or components that need to be completed?** How can these be turned into tasks that group members can complete in pairs? Where do these milestones overlap and how those related tasks be managed?
 
@@ -48,7 +48,7 @@ Put effort into your **design**. Use a CSS framework (Bootstrap), partials, and 
 
 ## Presentation
 
-Each group will present their project on **Friday, August 14th** starting at **9:17am**. Your group's presentation should be **5 minutes or less** and cover the following:
+Each group will present their project the morning of **Friday, October 2nd**. Your group's presentation should be **5 minutes or less** and cover the following:
 
 * Quick demo of your app (1 minute)
 * Each group member should answer the following:
