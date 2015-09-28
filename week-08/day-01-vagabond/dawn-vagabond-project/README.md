@@ -20,3 +20,23 @@ Working in teams of 3-4, using pair programming and agile development methodolog
 
 #### Please clone Project Vagabond to begin
 https://github.com/sf-wdi-21/w8_project_vagabond
+
+## Reading
+
+#### Git Branching Model
+http://nvie.com/posts/a-successful-git-branching-model/
+
+![git branching](http://nvie.com/img/git-model@2x.png)
+
+
+#### Agile Development Methodology / Scrum
+https://en.wikipedia.org/wiki/Agile_software_development
+
+https://en.wikipedia.org/wiki/Scrum_(software_development)
+
+![scrum infographic](https://www.maxxor.com/images/Scrum.jpg)
+
+#### Kanban
+https://en.wikipedia.org/wiki/Kanban_(development)
+
+![kanban board](http://leankit.com/kanban/kanban-board/simple-physical-board-w-card-types-e87dbe30.png)
