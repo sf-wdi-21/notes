@@ -15,8 +15,8 @@ Working in teams of 3-4, using pair programming and agile development methodolog
 3. Sarad, Sharon, Nathan, Justin R. - Nathan
 4. Keala, Francis, Katie, Tika - Ilias
 5. Marcel, Olivia, Melissa, Neil - Ilias
-6. Heather, Humberto, Ian, Sakina - Ilias
-7. Justin A., Eric, Nick, Peter - Ilias
+6. Heather, Humberto, Ian, Sakina - Justin
+7. Justin A., Eric, Nick, Peter - Justin
 
 #### Please clone Project Vagabond to begin
 https://github.com/sf-wdi-21/w8_project_vagabond
