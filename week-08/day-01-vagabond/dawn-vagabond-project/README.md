@@ -32,6 +32,8 @@ https://github.com/sf-wdi-21/w8_project_vagabond
 ## Git Branching Model
 http://nvie.com/posts/a-successful-git-branching-model/
 
+https://help.github.com/articles/using-pull-requests/
+
 ![git branching](http://nvie.com/img/git-model@2x.png)
 
 
