@@ -18,7 +18,7 @@ Working in teams of 3-4, using pair programming and agile development methodolog
 6. Heather, Humberto, Ian, Sakina - Justin
 7. Justin A., Eric, Nick, Peter - Justin
 
-#### Please clone Project Vagabond to begin
+#### Please refer to the Project Vagabond Repo for instructions:
 https://github.com/sf-wdi-21/w8_project_vagabond
 
 
