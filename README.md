@@ -134,51 +134,12 @@
   </tr>
 </table> -->
 
-<!-- ##Week 9 -->
-<!-- <table>
-  <tr>
-    <th></th>
-    <th>Monday</th>
-    <th>Tuesday</th>
-    <th>Wednesday</th>
-    <th>Thursday</th>
-    <th>Friday</th>
-  </tr>
-  <tr>
-    <td>Drills</td>
-    <td>Drill (tbd)</td>
-    <td>Drill (tbd)</td>
-    <td>Drill (tbd)</td>
-    <td>Drill (tbd)</td>
-    <td>Review (Team)</td>
-  </tr>
-  <tr>
-    <td>Module1</td>
-    <td>Topic (tbd)</td>
-    <td>Topic (tbd)</td>
-    <td>Topic (tbd)</td>
-    <td>Topic (tbd)</td>
-    <td>Review (Team)</td>
-  </tr>
-  <tr>
-    <td>Module2</td>
-    <td>Topic (tbd)</td>
-    <td>Topic (tbd)</td>
-    <td>Topic (tbd)</td>
-    <td>Topic (tbd)</td>
-    <td>Weekend Lab (Team)</td>
-  </tr>
-  <tr>
-    <td>HW</td>
-    <td>Reading (tbd)</td>
-    <td>Reading (tbd)</td>
-    <td>Reading (tbd)</td>
-    <td>Reading (tbd)</td>
-    <td>LEAVE BLANK</td>
-  </tr>
-</table> -->
+##Week 8 - [Project 2](projects/project_two)
 
-##Week 8 - [Vagabond](https://github.com/sf-wdi-21/notes/tree/master/week-08/day-01-vagabond/dawn-vagabond-project)
+----
+----
+
+##Week 8 - [Vagabond](week-08/day-01-vagabond/dawn-vagabond-project)
 
 ----
 ----
