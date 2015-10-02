@@ -134,7 +134,7 @@
   </tr>
 </table> -->
 
-##Week 8 - [Project 2](projects/project_two)
+##Week 9 - [Project 2](projects/project_two)
 
 ----
 ----
