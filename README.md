@@ -90,8 +90,8 @@
   </tr>
 </table> -->
 
-<!-- ##Week 10 -->
-<!-- <table>
+##Week 10
+<table>
   <tr>
     <th></th>
     <th>Monday</th>
@@ -102,37 +102,37 @@
   </tr>
   <tr>
     <td>Drills</td>
-    <td>Drill (tbd)</td>
-    <td>Drill (tbd)</td>
-    <td>Drill (tbd)</td>
-    <td>Drill (tbd)</td>
-    <td>Review (Team)</td>
+    <td>NO CLASS</td>
+    <td>TRIE (JC)</td>
+    <td>TRIE (JC)</td>
+    <td>TRIE (JC)</td>
+    <td>Review</td>
   </tr>
   <tr>
     <td>Module1</td>
-    <td>Topic (tbd)</td>
-    <td>Topic (tbd)</td>
-    <td>Topic (tbd)</td>
-    <td>Topic (tbd)</td>
-    <td>Review (Team)</td>
+    <td>NO CLASS</td>
+    <td>Angular Intro (Ilias)</td>
+    <td>Angular Routing (Nathan)</td>
+    <td>CRUD Lab (Justin)</td>
+    <td>Review</td>
   </tr>
   <tr>
     <td>Module2</td>
-    <td>Topic (tbd)</td>
-    <td>Topic (tbd)</td>
-    <td>Topic (tbd)</td>
-    <td>Topic (tbd)</td>
-    <td>Weekend Lab (Team)</td>
+    <td>NO CLASS</td>
+    <td>Angular Directives (Justin)</td>
+    <td>Angular $http GET / Resources (Ilias)</td>
+    <td>Lab (contd.) (JC)</td>
+    <td>Weekend Lab (Nathan)</td>
   </tr>
   <tr>
     <td>HW</td>
+    <td>NO CLASS</td>
+    <td>Angular Intro/ Directives (Ilias)</td>
+    <td>Angular Resources (Justin)</td>
     <td>Reading (tbd)</td>
-    <td>Reading (tbd)</td>
-    <td>Reading (tbd)</td>
-    <td>Reading (tbd)</td>
-    <td>LEAVE BLANK</td>
+    <td></td>
   </tr>
-</table> -->
+</table>
 
 ##Week 9 - [Project 2](projects/project_two)
 
