@@ -126,10 +126,10 @@
   </tr>
   <tr>
     <td>HW</td>
-    <td>NO CLASS</td>
-    <td>Angular Intro/ Directives (Ilias)</td>
+    <td><a href="https://docs.angularjs.org/guide/introduction">Angular Primer</a> (Ilias)</td>
+    <td>Angular Directives (Ilias)</td>
     <td>Angular Resources (Justin)</td>
-    <td>Reading (tbd)</td>
+    <td>Reading (Nathan)</td>
     <td></td>
   </tr>
 </table>
