@@ -103,9 +103,9 @@
   <tr>
     <td>Drills</td>
     <td>NO CLASS</td>
-    <td>TRIE (JC)</td>
-    <td>TRIE (JC)</td>
-    <td>TRIE (JC)</td>
+    <td><a href="https://github.com/sf-wdi-21/trie-drills">TRIE</a> (Justin)</td>
+    <td><a href="https://github.com/sf-wdi-21/trie-drills">TRIE</a> (Justin)</td>
+    <td><a href="https://github.com/sf-wdi-21/trie-drills">TRIE</a> (Justin)</td>
     <td>Review</td>
   </tr>
   <tr>
