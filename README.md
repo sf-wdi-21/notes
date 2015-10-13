@@ -119,7 +119,7 @@
   <tr>
     <td>Module2</td>
     <td>NO CLASS</td>
-    <td>Angular Directives (Justin)</td>
+    <td><a href="https://github.com/sf-wdi-21/ng-directives-lecture">Angular Directives </a> (Justin)</td>
     <td>Angular $http GET / Resources (Ilias)</td>
     <td>Lab (contd.) (JC)</td>
     <td>Weekend Lab (Nathan)</td>
