@@ -120,7 +120,7 @@
     <td>Module2</td>
     <td>NO CLASS</td>
     <td><a href="https://github.com/sf-wdi-21/ng-directives-lecture">Angular Directives </a> (Justin)</td>
-    <td>Angular $http GET / Resources (Ilias)</td>
+    <td><a href="https://github.com/sf-wdi-21/notes/blob/master/week-10/day-02-ng-routing-resources/dusk-ng-http/readme.md">ng $http / resources</a> (Ilias)</td>
     <td>Lab (contd.) (JC)</td>
     <td>Weekend Lab (Nathan)</td>
   </tr>
