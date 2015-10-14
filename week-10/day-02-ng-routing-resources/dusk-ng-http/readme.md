@@ -1,4 +1,4 @@
-#Angular $http
+#Angular $http & Resources
 
 | Learning Objectives |
 | :--- |
