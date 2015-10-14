@@ -5,6 +5,7 @@
 | Fetch data with Angular's `$http` object from an API |
 | Create an index & show page for a resource with `ngRoute` |
 | Create & destroy resources with `$http` |
+| Refactor with a service factory |
 
 ##$http 101
 
@@ -36,38 +37,28 @@ Read more about the available shortcut methods in the [$http docs](https://docs.
 
 ####Setup
 
-Fork & clone this [repo](https://github.com/sf-wdi-21/ng-http-resources) to get started.
-
-We will be using a RESTful `wine` API located at `http://daretodiscover.herokuapp.com/wines`.
+We'll be referencing this [repo](https://github.com/sf-wdi-21/ng-http-resources) and using a RESTful `wine` API located at `http://daretodiscover.herokuapp.com/wines` to get started.
 
 In the root of the repo, run the command `python -m SimpleHTTPServer` to serve the folder over http. This is necessary for making AJAX requests without running into CORS issues.
 
-The repo contains branches as solutions for each of the below challenges.
+The repo contains numbered branches as solutions that map to each of the below challenges.
 
-*Note: If you've made changes to your site but they don't show up on your page try hitting `cmd` + `r` twice in a row, quickly to refresh your cache. 
-*
+*Note: If you make changes to the site and they don't show up, try hitting `cmd` + `r` twice in a row, quickly to refresh your cache.*
 
-####Routes
+####Routes, Index, and Show pages
 
-Initialize routes so that they reference the correct templates and controllers.
+* Initialize routes so that they reference the correct templates and controllers.
 
-####Index page
+* Grab the data with `$http` from the API and display it on the page with bootstrap.
 
-Grab the data with `$http` from the API and display it on the page with bootstrap.
-
-####Show page
-
-Combine knowledge of `ngRoute` and `$http` to create a show page that each wine on the index page links to.
-
-*Hints:*
-* Use `$routeParams` to figure out the id of the wine to display.
-* The show view will have a different controller the index view.
+* Combine knowledge of `ngRoute` and `$http` to create a show page that each wine on the index page links to.
+  * Use `$routeParams` to figure out the id of the wine to display.
+  * The show view will have a different controller the index view.
 
 ####Create & Destroy
 
 Make a form to submit a new wine. Add a delete button next to each wine that destroys it.
 
-<!-- Bonus: refactor with a service & $resource -->
+####Refactor with a [Factory](https://docs.angularjs.org/guide/services#creating-services) & [`ngResource`](https://docs.angularjs.org/api/ngResource)
 
-
-
+Use the `$resource` object to build a service factory that interacts with a RESTful wine API.
