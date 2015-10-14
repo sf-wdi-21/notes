@@ -112,7 +112,7 @@
     <td>Module1</td>
     <td>NO CLASS</td>
     <td><a href="https://github.com/sf-wdi-21/notes/blob/master/week-10/day-01-ng-intro-directives/dawn-ng-intro/readme.md">Angular Intro</a> (Ilias)</td>
-    <td>Angular Routing (Nathan)</td>
+    <td><a href="https://github.com/sf-wdi-21/angular_routing_lab">Angular Routing</a> (Nathan)</td>
     <td>CRUD Lab (Justin)</td>
     <td>Review</td>
   </tr>
