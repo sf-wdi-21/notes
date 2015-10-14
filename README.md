@@ -127,7 +127,7 @@
   <tr>
     <td>HW</td>
     <td><a href="https://docs.angularjs.org/guide/introduction">Angular Primer</a> (Ilias)</td>
-    <td>Angular Directives (Ilias)</td>
+    <td><a href="https://github.com/sf-wdi-21/notes/blob/master/week-10/day-02-ng-routing-resources/reading.md">Custom Angular Directives</a> (Ilias)</td>
     <td>Angular Resources (Justin)</td>
     <td>Reading (Nathan)</td>
     <td></td>
