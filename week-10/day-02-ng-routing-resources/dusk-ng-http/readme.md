@@ -53,16 +53,15 @@ Initialize routes so that they reference the correct templates and controllers.
 
 ####Index page
 
-Grab the data with `$http` from the API and display it nicely on the page with bootstrap.
+Grab the data with `$http` from the API and display it on the page with bootstrap.
 
 ####Show page
 
 Combine knowledge of `ngRoute` and `$http` to create a show page that each wine on the index page links to.
 
-Hints:
-* Use `ngRoute` and `ng-view` to set up multiple views in your Angular app.
-* Use `$routeParams` to figure out which wine to display.
-* Your view for a single wine will have a different controller than your view that displays all wines.
+*Hints:*
+* Use `$routeParams` to figure out the id of the wine to display.
+* The show view will have a different controller the index view.
 
 ####Create & Destroy
 
