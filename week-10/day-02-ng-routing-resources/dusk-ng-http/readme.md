@@ -1,11 +1,10 @@
-#Angular $HTTP & Factories
+#Angular $http
 
 | Learning Objectives |
 | :--- |
 | Fetch data with Angular's `$http` object from an API |
 | Create an index & show page for the resource with `ngRoute` |
 | Create & destroy resources with `$http` |
-| Refactor code with a factory & `ngResource` |
 
 ##$http 101
 
