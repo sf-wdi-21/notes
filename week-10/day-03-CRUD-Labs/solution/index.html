@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en" ng-app="pokemonApp">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- bootstrap css -->
+  <link type="text/css" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+  <!-- angular -->
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.4/angular.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.4/angular-resource.min.js"></script>
+
+  <!-- custom script -->
+  <script src="app.js"></script>
+</head>
+<body ng-controller="PokemonsCtrl">
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-md-offset-3">
+        <h2 class="text-center">Pokemon App</h2>
+        <hr>
+
+        <!-- form to create new pokemon -->
+        <h4>Add New Pokemon</h4>
+        <form ng-submit="createPokemon()">
+          <div class="form-group">
+            <input type="text" ng-model="newPokemon.name" class="form-control" placeholder="Name" autofocus>
+          </div>
+          <div class="form-group">
+            <input type="text" ng-model="newPokemon.kind" class="form-control" placeholder="Kind">
+          </div>
+          <div class="form-group">
+            <input type="text" ng-model="newPokemon.photo_url" class="form-control" placeholder="Photo URL">
+          </div>
+          <div class="form-group">
+            <input type="text" ng-model="newPokemon.ndex" class="form-control" placeholder="Ndex">
+          </div>
+          <input type="submit" value="Save Pokemon" class="btn btn-default">
+        </form>
+        <hr>
+
+        <!-- show all pokemons -->
+        <div ng-repeat="pokemon in pokemons">
+          <div class="row">
+            <div class="col-xs-4">
+              <img ng-src="{{pokemon.photo_url}}" class="img-responsive">
+            </div>
+            <div class="col-xs-8">
+
+              <!-- pokemon content -->
+              <div ng-hide="pokemon.editForm">
+                <h5>{{pokemon.name}}</h5>
+                <p><strong>Kind:</strong> {{pokemon.kind}}</p>
+                <p><strong>Ndex:</strong> {{pokemon.ndex}}</p>
+
+                <!-- edit/delete buttons -->
+                <button ng-click="pokemon.editForm = true" class="btn btn-default">Edit</button>
+                <button ng-click="deletePokemon(pokemon)" class="btn btn-default">Delete</button>
+              </div>
+
+              <!-- form to edit pokemon -->
+              <form ng-show="pokemon.editForm" ng-submit="updatePokemon(pokemon)">
+                <div class="form-group">
+                  <input type="text" ng-model="pokemon.name" class="form-control" placeholder="Name">
+                </div>
+                <div class="form-group">
+                  <input type="text" ng-model="pokemon.kind" class="form-control" placeholder="Kind">
+                </div>
+                <div class="form-group">
+                  <input type="text" ng-model="pokemon.photo_url" class="form-control" placeholder="Photo URL">
+                </div>
+                <div class="form-group">
+                  <input type="text" ng-model="pokemon.ndex" class="form-control" placeholder="Ndex">
+                </div>
+                <input type="submit" value="Save pokemon" class="btn btn-default">
+              </form>
+            </div>
+          </div>
+          <hr>
+        </div>
+        <!-- end ng-repeat -->
+      </div>
+    </div>
+  </div>
+
+
+</body>
+</html>
