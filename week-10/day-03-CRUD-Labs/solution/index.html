@@ -1,11 +1,13 @@
 <!doctype html>
-<html lang="en" ng-app="pokemonApp">
+<html lang="en" ng-app="bookApp">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <!-- bootstrap css -->
   <link type="text/css" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+  <title>Book App</title>
 
   <!-- angular -->
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.4/angular.min.js"></script>
@@ -14,67 +16,67 @@
   <!-- custom script -->
   <script src="app.js"></script>
 </head>
-<body ng-controller="PokemonsCtrl">
+<body ng-controller="BooksCtrl">
 
   <div class="container">
     <div class="row">
       <div class="col-md-6 col-md-offset-3">
-        <h2 class="text-center">Pokemon App</h2>
+        <h2 class="text-center">Book App</h2>
         <hr>
-
-        <!-- form to create new pokemon -->
-        <h4>Add New Pokemon</h4>
-        <form ng-submit="createPokemon()">
+        
+        <!-- form to create new book -->
+        <h4>Add New Book</h4>
+        <form ng-submit="createBook()">
           <div class="form-group">
-            <input type="text" ng-model="newPokemon.name" class="form-control" placeholder="Name" autofocus>
+            <input type="text" ng-model="newBook.title" class="form-control" placeholder="Title" autofocus>
           </div>
           <div class="form-group">
-            <input type="text" ng-model="newPokemon.kind" class="form-control" placeholder="Kind">
+            <input type="text" ng-model="newBook.author" class="form-control" placeholder="Author">
           </div>
           <div class="form-group">
-            <input type="text" ng-model="newPokemon.photo_url" class="form-control" placeholder="Photo URL">
+            <input type="text" ng-model="newBook.image" class="form-control" placeholder="Image">
           </div>
           <div class="form-group">
-            <input type="text" ng-model="newPokemon.ndex" class="form-control" placeholder="Ndex">
+            <input type="text" ng-model="newBook.release_date" class="form-control" placeholder="Release Date">
           </div>
-          <input type="submit" value="Save Pokemon" class="btn btn-default">
+          <input type="submit" value="Save Book" class="btn btn-default">
         </form>
         <hr>
 
-        <!-- show all pokemons -->
-        <div ng-repeat="pokemon in pokemons">
+        <!-- show all books -->
+        <div ng-repeat="book in books">
           <div class="row">
             <div class="col-xs-4">
-              <img ng-src="{{pokemon.photo_url}}" class="img-responsive">
+              <img ng-src="{{book.image}}" class="img-responsive">
             </div>
             <div class="col-xs-8">
 
-              <!-- pokemon content -->
-              <div ng-hide="pokemon.editForm">
-                <h5>{{pokemon.name}}</h5>
-                <p><strong>Kind:</strong> {{pokemon.kind}}</p>
-                <p><strong>Ndex:</strong> {{pokemon.ndex}}</p>
-
+              <!-- book content -->
+              <div ng-hide="book.editForm">
+                <h5>{{book.title}}</h5>
+                <p><strong>Year:</strong> {{book.author}}</p>
+                <p><strong>Release Date:</strong> {{book.release_date}}</p>
+                
                 <!-- edit/delete buttons -->
-                <button ng-click="pokemon.editForm = true" class="btn btn-default">Edit</button>
-                <button ng-click="deletePokemon(pokemon)" class="btn btn-default">Delete</button>
+                <button ng-click="book.editForm = true" class="btn btn-default">Edit</button>
+                <button ng-click="deleteBook(book)" class="btn btn-default">Delete</button>
               </div>
-
-              <!-- form to edit pokemon -->
-              <form ng-show="pokemon.editForm" ng-submit="updatePokemon(pokemon)">
+              
+              <!-- form to edit book -->
+              <form ng-show="book.editForm" ng-submit="updateBook(book)">
                 <div class="form-group">
-                  <input type="text" ng-model="pokemon.name" class="form-control" placeholder="Name">
+                  <input type="text" ng-model="book.title" class="form-control" placeholder="Title">
                 </div>
                 <div class="form-group">
-                  <input type="text" ng-model="pokemon.kind" class="form-control" placeholder="Kind">
+                  <input type="text" ng-model="book.author" class="form-control" placeholder="Author">
                 </div>
                 <div class="form-group">
-                  <input type="text" ng-model="pokemon.photo_url" class="form-control" placeholder="Photo URL">
+                  <input type="text" ng-model="book.image" class="form-control" placeholder="Image">
                 </div>
                 <div class="form-group">
-                  <input type="text" ng-model="pokemon.ndex" class="form-control" placeholder="Ndex">
+                  <input type="text" ng-model="book.release_date" class="form-control" placeholder="Release Date">
                 </div>
-                <input type="submit" value="Save pokemon" class="btn btn-default">
+                <input type="submit" value="Save book" class="btn btn-default">
               </form>
             </div>
           </div>
