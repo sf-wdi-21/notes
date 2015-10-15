@@ -129,7 +129,7 @@
     <td><a href="https://docs.angularjs.org/guide/introduction">Angular Primer</a> (Ilias)</td>
     <td><a href="https://github.com/sf-wdi-21/notes/blob/master/week-10/day-02-ng-routing-resources/reading.md">Custom Angular Directives</a> (Ilias)</td>
     <td><a href="https://github.com/sf-wdi-21/notes/blob/master/week-10/day-03-CRUD-Labs/resource-reading.md">Angular Resources</a> (Justin)</td>
-    <td>Reading (Nathan)</td>
+    <td><a href="https://www.airpair.com/angularjs/posts/angularjs-tutorial">Angular Overview</a> (Nathan)</td>
     <td></td>
   </tr>
 </table>
