@@ -1,92 +1,37 @@
-<!doctype html>
-<html lang="en" ng-app="bookApp">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+angular.module('bookApp', ['ngResource'])
 
-  <!-- bootstrap css -->
-  <link type="text/css" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+.controller('BooksCtrl', ['$scope', 'Book', function ($scope, Book) {
+    $scope.book = {};
+    $scope.books = [];
+    $scope.newBook = {};
 
-  <title>Book App</title>
+    $scope.books = Book.query(); // returns all the books
 
-  <!-- angular -->
-  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.4/angular.min.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.4/angular-resource.min.js"></script>
+    $scope.createBook = function(){
+        Book.save($scope.newBook);
+        $scope.newBook = {}; // clear new book object
+    };
 
-  <!-- custom script -->
-  <script src="app.js"></script>
-</head>
-<body ng-controller="BooksCtrl">
+    $scope.updateBook = function(book) {
+        Book.get({ id: book.id }, function() {
+            Book.update({id: book.id}, book);
+            book.editForm = false;
+        }); 
+    };
 
-  <div class="container">
-    <div class="row">
-      <div class="col-md-6 col-md-offset-3">
-        <h2 class="text-center">Book App</h2>
-        <hr>
-        
-        <!-- form to create new book -->
-        <h4>Add New Book</h4>
-        <form ng-submit="createBook()">
-          <div class="form-group">
-            <input type="text" ng-model="newBook.title" class="form-control" placeholder="Title" autofocus>
-          </div>
-          <div class="form-group">
-            <input type="text" ng-model="newBook.author" class="form-control" placeholder="Author">
-          </div>
-          <div class="form-group">
-            <input type="text" ng-model="newBook.image" class="form-control" placeholder="Image">
-          </div>
-          <div class="form-group">
-            <input type="text" ng-model="newBook.release_date" class="form-control" placeholder="Release Date">
-          </div>
-          <input type="submit" value="Save Book" class="btn btn-default">
-        </form>
-        <hr>
+    $scope.deleteBook = function(book) {
+        Book.remove({id:book.id});
+        var bookIndex = $scope.books.indexOf(book);
+        $scope.books.splice(bookIndex, 1);
+    };
+    
+}])
 
-        <!-- show all books -->
-        <div ng-repeat="book in books">
-          <div class="row">
-            <div class="col-xs-4">
-              <img ng-src="{{book.image}}" class="img-responsive">
-            </div>
-            <div class="col-xs-8">
-
-              <!-- book content -->
-              <div ng-hide="book.editForm">
-                <h5>{{book.title}}</h5>
-                <p><strong>Year:</strong> {{book.author}}</p>
-                <p><strong>Release Date:</strong> {{book.release_date}}</p>
-                
-                <!-- edit/delete buttons -->
-                <button ng-click="book.editForm = true" class="btn btn-default">Edit</button>
-                <button ng-click="deleteBook(book)" class="btn btn-default">Delete</button>
-              </div>
-              
-              <!-- form to edit book -->
-              <form ng-show="book.editForm" ng-submit="updateBook(book)">
-                <div class="form-group">
-                  <input type="text" ng-model="book.title" class="form-control" placeholder="Title">
-                </div>
-                <div class="form-group">
-                  <input type="text" ng-model="book.author" class="form-control" placeholder="Author">
-                </div>
-                <div class="form-group">
-                  <input type="text" ng-model="book.image" class="form-control" placeholder="Image">
-                </div>
-                <div class="form-group">
-                  <input type="text" ng-model="book.release_date" class="form-control" placeholder="Release Date">
-                </div>
-                <input type="submit" value="Save book" class="btn btn-default">
-              </form>
-            </div>
-          </div>
-          <hr>
-        </div>
-        <!-- end ng-repeat -->
-      </div>
-    </div>
-  </div>
-
-
-</body>
-</html>
+.service('Book', ['$resource', function ($resource) {
+    return $resource('http://daretodiscover.herokuapp.com/books/:id', { id: '@_id' }, {
+      update: {
+        method: 'PUT'
+      }
+  });
+}]);
+`
