@@ -33,7 +33,7 @@ angular.module('myApp').service('Pokemon', function($resource) {
 
 ```javascript
 angular.module('myApp').controller('ResourceController',function($scope, Pokemon) {
-    $scope.pokemon = Pokemon.get({ id: 200 }, function(data) {
+    $scope.pokemon = Pokemon.get({ ndex: '001' }, function(data) {
       console.log(data);
     }); // get() returns a single pokemon
 
