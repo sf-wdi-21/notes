@@ -113,7 +113,7 @@
     <td>NO CLASS</td>
     <td><a href="https://github.com/sf-wdi-21/notes/blob/master/week-10/day-01-ng-intro-directives/dawn-ng-intro/readme.md">Angular Intro</a> (Ilias)</td>
     <td><a href="https://github.com/sf-wdi-21/angular_routing_lab">Angular Routing</a> (Nathan)</td>
-    <td>CRUD Lab (Justin)</td>
+    <td><a href="https://github.com/sf-wdi-21/notes/tree/master/week-10/day-03-CRUD-Labs">CRUD Lab (Justin)</a></td>
     <td>Review</td>
   </tr>
   <tr>
@@ -121,7 +121,7 @@
     <td>NO CLASS</td>
     <td><a href="https://github.com/sf-wdi-21/ng-directives-lecture">Angular Directives </a> (Justin)</td>
     <td><a href="https://github.com/sf-wdi-21/notes/blob/master/week-10/day-02-ng-routing-resources/dusk-ng-http/readme.md">ng $http / resources</a> (Ilias)</td>
-    <td>Lab (contd.) (JC)</td>
+    <td><a href="https://github.com/sf-wdi-21/notes/tree/master/week-10/day-03-CRUD-Labs">Lab (contd.)</a> (JC)</td>
     <td>Weekend Lab (Nathan)</td>
   </tr>
   <tr>
