@@ -1,35 +1,34 @@
-angular.module('pokemonApp', ['ngResource'])
+angular.module('bookApp', ['ngResource'])
 
-.controller('PokemonsCtrl', ['$scope', 'Pokemon', function ($scope, Pokemon) {
-    $scope.pokemon = {};
-    $scope.pokemons = [];
-    $scope.newPokemon = {};
+.controller('BooksCtrl', ['$scope', 'Book', function ($scope, Book) {
+    $scope.book = {};
+    $scope.books = [];
+    $scope.newBook = {};
 
-    $scope.pokemons = Pokemon.query(); // returns all the pokemons
+    $scope.books = Book.query(); // returns all the books
 
-    $scope.createPokemon = function(){
-        Pokemon.save($scope.newPokemon);
-        $scope.newPokemon = {}; // clear new pokemon object
+    $scope.createBook = function(){
+        Book.save($scope.newBook);
+        $scope.newBook = {}; // clear new book object
     };
 
-    $scope.updatePokemon = function(pokemon) {
-        console.log(pokemon.ndex)
-        Pokemon.get({id: pokemon.ndex }, function() {
-            Pokemon.update({id: pokemon.ndex}, pokemon);
-            pokemon.editForm = false;
-        });
+    $scope.updateBook = function(book) {
+        Book.get({ id: book.id }, function() {
+            Book.update({id: book.id}, book);
+            book.editForm = false;
+        }); 
     };
 
-    $scope.deletePokemon = function(pokemon) {
-        Pokemon.remove({id:pokemon.ndex});
-        var pokemonIndex = $scope.pokemons.indexOf(pokemon);
-        $scope.pokemons.splice(pokemonIndex, 1);
+    $scope.deleteBook = function(book) {
+        Book.remove({id:book.id});
+        var bookIndex = $scope.books.indexOf(book);
+        $scope.books.splice(bookIndex, 1);
     };
-
+    
 }])
 
-.service('Pokemon', ['$resource', function ($resource) {
-    return $resource('https://pokemon-api.herokuapp.com/pokemons/:ndex?api_key=WDI18RULES', { id: '@_id'}, {
+.service('Book', ['$resource', function ($resource) {
+    return $resource('http://daretodiscover.herokuapp.com/books/:id', { id: '@_id' }, {
       update: {
         method: 'PUT'
       }
