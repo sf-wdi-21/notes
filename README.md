@@ -122,7 +122,7 @@
     <td><a href="https://github.com/sf-wdi-21/ng-directives-lecture">Angular Directives </a> (Justin)</td>
     <td><a href="https://github.com/sf-wdi-21/notes/blob/master/week-10/day-02-ng-routing-resources/dusk-ng-http/readme.md">ng $http / resources</a> (Ilias)</td>
     <td><a href="https://github.com/sf-wdi-21/notes/tree/master/week-10/day-03-CRUD-Labs">Lab (contd.)</a> (JC)</td>
-    <td>Weekend Lab (Nathan)</td>
+    <td><a href="week-10/day-04-weekend/">Weekend Angular Prototype</a> (Nathan)</td>
   </tr>
   <tr>
     <td>HW</td>
