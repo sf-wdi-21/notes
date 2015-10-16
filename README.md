@@ -114,7 +114,7 @@
     <td><a href="https://github.com/sf-wdi-21/notes/blob/master/week-10/day-01-ng-intro-directives/dawn-ng-intro/readme.md">Angular Intro</a> (Ilias)</td>
     <td><a href="https://github.com/sf-wdi-21/angular_routing_lab">Angular Routing</a> (Nathan)</td>
     <td><a href="https://github.com/sf-wdi-21/notes/tree/master/week-10/day-03-CRUD-Labs">CRUD Lab (Justin)</a></td>
-    <td>Review</td>
+    <td>Review / <a href="https://github.com/sf-wdi-21/pokemon_battle">Pokemon Battle Lab</a></td>
   </tr>
   <tr>
     <td>Module2</td>
