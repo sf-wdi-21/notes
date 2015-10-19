@@ -46,8 +46,8 @@
   </tr>
 </table> -->
 
-<!-- ##Week 11 -->
-<!-- <table>
+ ##Week 11 -- MEAN
+<table>
   <tr>
     <th></th>
     <th>Monday</th>
@@ -58,39 +58,39 @@
   </tr>
   <tr>
     <td>Drills</td>
-    <td>Drill (tbd)</td>
-    <td>Drill (tbd)</td>
-    <td>Drill (tbd)</td>
-    <td>Drill (tbd)</td>
-    <td>Review (Team)</td>
+    <td>CodeWars & Whiteboarding (team)</td>
+    <td>CodeWars & Whiteboarding (team)</td>
+    <td>CodeWars & Whiteboarding (team)</td>
+    <td>Final Project</td>
+    <td>Final Project</td>
   </tr>
   <tr>
     <td>Module1</td>
-    <td>Topic (tbd)</td>
-    <td>Topic (tbd)</td>
-    <td>Topic (tbd)</td>
-    <td>Topic (tbd)</td>
-    <td>Review (Team)</td>
+    <td><a href="https://github.com/sf-wdi-21/mean_questions.git">Intro MEAN</a> (Nathan)</td>
+    <td>Intro MEAN (Nathan)</td>
+    <td>Lightning Talks</td>
+    <td>Final Project</td>
+    <td>Final Project</td>
   </tr>
   <tr>
     <td>Module2</td>
-    <td>Topic (tbd)</td>
-    <td>Topic (tbd)</td>
-    <td>Topic (tbd)</td>
-    <td>Topic (tbd)</td>
-    <td>Weekend Lab (Team)</td>
+    <td>Lightning Talk Research (Ilias)</td>
+    <td>Lightning Talks</td>
+    <td>Final Project Intro (team)</td>
+    <td>Final Project</td>
+    <td>Final Project</td>
   </tr>
   <tr>
     <td>HW</td>
-    <td>Reading (tbd)</td>
-    <td>Reading (tbd)</td>
-    <td>Reading (tbd)</td>
-    <td>Reading (tbd)</td>
-    <td>LEAVE BLANK</td>
+    <td>OAuth (Nathan)</td>
+    <td>No Reading</td>
+    <td>No Reading</td>
+    <td>No Reading</td>
+    <td><!-- LEAVE BLANK --></td>
   </tr>
-</table> -->
+</table>
 
-##Week 10
+##Week 10 -- Angular
 <table>
   <tr>
     <th></th>
@@ -112,24 +112,24 @@
     <td>Module1</td>
     <td>NO CLASS</td>
     <td><a href="https://github.com/sf-wdi-21/notes/blob/master/week-10/day-01-ng-intro-directives/dawn-ng-intro/readme.md">Angular Intro</a> (Ilias)</td>
-    <td>Angular Routing (Nathan)</td>
-    <td>CRUD Lab (Justin)</td>
-    <td>Review</td>
+    <td><a href="https://github.com/sf-wdi-21/angular_routing_lab">Angular Routing</a> (Nathan)</td>
+    <td><a href="https://github.com/sf-wdi-21/notes/tree/master/week-10/day-03-CRUD-Labs">CRUD Lab (Justin)</a></td>
+    <td>Review / <a href="https://github.com/sf-wdi-21/pokemon_battle">Pokemon Battle Lab</a></td>
   </tr>
   <tr>
     <td>Module2</td>
     <td>NO CLASS</td>
     <td><a href="https://github.com/sf-wdi-21/ng-directives-lecture">Angular Directives </a> (Justin)</td>
-    <td>Angular $http GET / Resources (Ilias)</td>
-    <td>Lab (contd.) (JC)</td>
-    <td>Weekend Lab (Nathan)</td>
+    <td><a href="https://github.com/sf-wdi-21/notes/blob/master/week-10/day-02-ng-routing-resources/dusk-ng-http/readme.md">ng $http / resources</a> (Ilias)</td>
+    <td><a href="https://github.com/sf-wdi-21/notes/tree/master/week-10/day-03-CRUD-Labs">Lab (contd.)</a> (JC)</td>
+    <td><a href="week-10/day-04-weekend/">Weekend Angular Prototype</a> (Nathan)</td>
   </tr>
   <tr>
     <td>HW</td>
     <td><a href="https://docs.angularjs.org/guide/introduction">Angular Primer</a> (Ilias)</td>
     <td><a href="https://github.com/sf-wdi-21/notes/blob/master/week-10/day-02-ng-routing-resources/reading.md">Custom Angular Directives</a> (Ilias)</td>
-    <td>Angular Resources (Justin)</td>
-    <td>Reading (Nathan)</td>
+    <td><a href="https://github.com/sf-wdi-21/notes/blob/master/week-10/day-03-CRUD-Labs/resource-reading.md">Angular Resources</a> (Justin)</td>
+    <td><a href="https://www.airpair.com/angularjs/posts/angularjs-tutorial">Angular Overview</a> (Nathan)</td>
     <td></td>
   </tr>
 </table>
