@@ -46,7 +46,7 @@
   </tr>
 </table> -->
 
- ##Week 11 -- MEAN
+##Week 11 -- MEAN
 <table>
   <tr>
     <th></th>
@@ -82,7 +82,7 @@
   </tr>
   <tr>
     <td>HW</td>
-    <td>OAuth (Nathan)</td>
+    <td><a href="http://tutorials.jenkov.com/oauth2/overview.html">OAuth</a> (Nathan)</td>
     <td>No Reading</td>
     <td>No Reading</td>
     <td>No Reading</td>
