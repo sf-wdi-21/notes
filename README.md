@@ -46,8 +46,8 @@
   </tr>
 </table> -->
 
-<!-- ##Week 11 -->
-<!-- <table>
+ ##Week 11 -- MEAN
+<table>
   <tr>
     <th></th>
     <th>Monday</th>
@@ -58,39 +58,39 @@
   </tr>
   <tr>
     <td>Drills</td>
-    <td>Drill (tbd)</td>
-    <td>Drill (tbd)</td>
-    <td>Drill (tbd)</td>
-    <td>Drill (tbd)</td>
-    <td>Review (Team)</td>
+    <td>CodeWars & Whiteboarding (team)</td>
+    <td>CodeWars & Whiteboarding (team)</td>
+    <td>CodeWars & Whiteboarding (team)</td>
+    <td>Final Project</td>
+    <td>Final Project</td>
   </tr>
   <tr>
     <td>Module1</td>
-    <td>Topic (tbd)</td>
-    <td>Topic (tbd)</td>
-    <td>Topic (tbd)</td>
-    <td>Topic (tbd)</td>
-    <td>Review (Team)</td>
+    <td>Intro MEAN (Nathan)</td>
+    <td>Intro MEAN (Nathan)</td>
+    <td>Lightning Talks</td>
+    <td>Final Project</td>
+    <td>Final Project</td>
   </tr>
   <tr>
     <td>Module2</td>
-    <td>Topic (tbd)</td>
-    <td>Topic (tbd)</td>
-    <td>Topic (tbd)</td>
-    <td>Topic (tbd)</td>
-    <td>Weekend Lab (Team)</td>
+    <td>Lightning Talk Research (Ilias)</td>
+    <td>Lightning Talks</td>
+    <td>Final Project Intro (team)</td>
+    <td>Final Project</td>
+    <td>Final Project</td>
   </tr>
   <tr>
     <td>HW</td>
-    <td>Reading (tbd)</td>
-    <td>Reading (tbd)</td>
-    <td>Reading (tbd)</td>
-    <td>Reading (tbd)</td>
-    <td>LEAVE BLANK</td>
+    <td>OAuth (Nathan)</td>
+    <td>No Reading</td>
+    <td>No Reading</td>
+    <td>No Reading</td>
+    <td><!-- LEAVE BLANK --></td>
   </tr>
-</table> -->
+</table>
 
-##Week 10
+##Week 10 -- Angular
 <table>
   <tr>
     <th></th>
