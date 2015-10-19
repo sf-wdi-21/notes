@@ -26,7 +26,6 @@ Here are some suggestions, you are welcome to add your own:
 - [ ] Vi / Emacs
 - [ ] Travis CI
 
-
 **RUBY/Rails**
 
 - [ ] Jekyll
@@ -77,6 +76,7 @@ Here are some suggestions, you are welcome to add your own:
 - [ ] Ionic
 - [ ] Meteor
 - [ ] Ember
+- [ ] Backbone
 
 **Languages**
 
