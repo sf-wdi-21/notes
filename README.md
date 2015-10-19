@@ -66,7 +66,7 @@
   </tr>
   <tr>
     <td>Module1</td>
-    <td>Intro MEAN (Nathan)</td>
+    <td><a href="https://github.com/sf-wdi-21/mean_questions.git">Intro MEAN</a> (Nathan)</td>
     <td>Intro MEAN (Nathan)</td>
     <td>Lightning Talks</td>
     <td>Final Project</td>
