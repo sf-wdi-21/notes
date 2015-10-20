@@ -66,8 +66,8 @@
   </tr>
   <tr>
     <td>Module1</td>
-    <td><a href="https://github.com/sf-wdi-21/mean_questions.git">Intro MEAN</a> (Nathan)</td>
-    <td>Intro MEAN (Nathan)</td>
+    <td><a href="https://github.com/sf-wdi-21/mean_questions.git">MEAN Lab</a> (Nathan)</td>
+    <td><a href="https://github.com/sf-wdi-21/mean_passport_oauth">OAuth Lab</a> (Nathan)</td>
     <td>Lightning Talks</td>
     <td>Final Project</td>
     <td>Final Project</td>
