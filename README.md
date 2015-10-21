@@ -46,7 +46,7 @@
   </tr>
 </table> -->
 
- ##Week 11 -- MEAN
+##Week 11 -- MEAN
 <table>
   <tr>
     <th></th>
@@ -66,15 +66,15 @@
   </tr>
   <tr>
     <td>Module1</td>
-    <td><a href="https://github.com/sf-wdi-21/mean_questions.git">Intro MEAN</a> (Nathan)</td>
-    <td>Intro MEAN (Nathan)</td>
+    <td><a href="https://github.com/sf-wdi-21/mean_questions.git">MEAN Lab</a> (Nathan)</td>
+    <td><a href="https://github.com/sf-wdi-21/mean_passport_oauth">OAuth Lab</a> (Nathan)</td>
     <td>Lightning Talks</td>
     <td>Final Project</td>
     <td>Final Project</td>
   </tr>
   <tr>
     <td>Module2</td>
-    <td>Lightning Talk Research (Ilias)</td>
+    <td><a href="https://github.com/sf-wdi-21/notes/blob/master/week-11/day-01-mean-lightning/dusk-lightning-talks/lightning-talks.md">Lightning Talk Research</a> (Ilias)</td>
     <td>Lightning Talks</td>
     <td>Final Project Intro (team)</td>
     <td>Final Project</td>
@@ -82,7 +82,7 @@
   </tr>
   <tr>
     <td>HW</td>
-    <td>OAuth (Nathan)</td>
+    <td><a href="http://tutorials.jenkov.com/oauth2/overview.html">OAuth</a> (Nathan)</td>
     <td>No Reading</td>
     <td>No Reading</td>
     <td>No Reading</td>
