@@ -70,9 +70,8 @@ These are for extra credit! Don't focus on these until you've hit the core requi
  -------------- | ------------
  Wednesday — *Week 11*          | Project introduction & Pitches
  Thursday          |  MVP & wireframes (morning) <br> Milestones & User stories (afternoon) <br> Consult PMI
- Friday	        | PMI Consultations & Official Approval Deadline
- Thursday — *Week 12*  | Demo day
- Friday | Graduation
+ Friday	        | Official Approval Deadline
+ Thursday — *Week 12*  | Project Presentations, 10:00am.
 
 
 ---

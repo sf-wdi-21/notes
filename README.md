@@ -76,7 +76,7 @@
     <td>Module2</td>
     <td><a href="https://github.com/sf-wdi-21/notes/blob/master/week-11/day-01-mean-lightning/dusk-lightning-talks/lightning-talks.md">Lightning Talk Research</a> (Ilias)</td>
     <td>Lightning Talks</td>
-    <td>Final Project Intro (team)</td>
+    <td><a href="projects/project_three">Final Project Intro</a> (team)</td>
     <td>Final Project</td>
     <td>Final Project</td>
   </tr>
