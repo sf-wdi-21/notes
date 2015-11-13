@@ -252,7 +252,6 @@ bower install underscore bootstrap
 Stop here for now. In class, we'll be coding up a few mockups using Bootstrap, and you'll need to fork and clone [this repo](https://github.com/sf-wdi-21/bootstrap_mockups) to get started.
 =======
 ####What just happened?
->>>>>>> 631dfcc63a8753ea3d49f516ffd6e53e9a6fe48d
 
 You'll notice you have a new directory in your project folder called `bower_compents`. Inside, you'll find folders for everything you just installed: jQuery, Underscore, and Bootstrap.
 
