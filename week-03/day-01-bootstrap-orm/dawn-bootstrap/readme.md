@@ -248,8 +248,8 @@ bower install underscore bootstrap
 ```
 
 
-<<<<<<< HEAD
-Stop here for now, in class, we'll be coding up a few mockups using Bootstrap when you'll need to fork and clone [this repo](https://github.com/sf-wdi-21/bootstrap_mockups) to get started.
+
+Stop here for now. In class, we'll be coding up a few mockups using Bootstrap, and you'll need to fork and clone [this repo](https://github.com/sf-wdi-21/bootstrap_mockups) to get started.
 =======
 ####What just happened?
 >>>>>>> 631dfcc63a8753ea3d49f516ffd6e53e9a6fe48d
